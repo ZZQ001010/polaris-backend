@@ -1,3 +1,3 @@
-module github.com/polaris-team/polaris-backend/
+module github.com/polaris-team/polaris-backend
 
 go 1.12
