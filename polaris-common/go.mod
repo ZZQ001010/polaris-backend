@@ -1,3 +1,3 @@
-module github.com/polaris-team/polaris-backend/polaris-common
+module gitea.top/polaris-team/polaris-backend/polaris-common
 
 go 1.12
