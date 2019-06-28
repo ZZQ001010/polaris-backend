@@ -7,7 +7,7 @@ import (
 	mail "github.com/allstar/coding-carefree/components/mail"
 	utils "github.com/allstar/coding-carefree/utils"
 
-	utils1 "gitea.top/polaris-team/polaris-backend/polaris-common/pkg/utils"
+	utils1 "github.com/polaris-team/polaris-backend/polaris-common/pkg/utils"
 
 	//"strconv"
 )
