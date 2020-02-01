@@ -1,0 +1,1 @@
+drop table if exists ppm_bas_app_info;

@@ -1,0 +1,1 @@
+update ppm_pri_issue set `status` = 7 where `status` = 15;

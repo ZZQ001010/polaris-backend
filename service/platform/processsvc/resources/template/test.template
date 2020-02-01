@@ -1,0 +1,6 @@
+INSERT INTO `polaris_project_manage_processsvc_unittest`.`ppm_prs_process` (`id`, `org_id`, `lang_code`, `name`, `is_default`, `type`, `sort`, `creator`, `create_time`, `updator`, `update_time`, `version`, `is_delete`) VALUES
+-- ('900', '0', 'Process.Issue.DefaultBug', '默认缺陷流程', '2', '3', '5', '1', '2019-10-18 16:17:05', '1', '2019-10-18 16:17:05', '1', '2'),
+
+-- ('901', '0', 'Process.Issue.DefaultAgileTask', '默认敏捷项目任务流程', '2', '3', '4', '1', '2019-10-18 16:17:05', '1', '2019-10-18 16:17:05', '1', '2'),
+
+('902', '0', 'Process.Issue.DefaultTestTask', '默认测试任务流程', '2', '3', '6', '1', '2019-10-18 16:17:06', '1', '2019-10-18 16:17:06', '1', '2')

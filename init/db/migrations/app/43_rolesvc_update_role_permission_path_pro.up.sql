@@ -1,0 +1,1 @@
+update ppm_rol_permission set `path` = '/Org/{org_id}/Project' where id = 12;

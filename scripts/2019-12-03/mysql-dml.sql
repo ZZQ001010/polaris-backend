@@ -1,0 +1,1 @@
+update ppm_org_user_organization set check_status = 2 where check_status = 1 and status = 1;

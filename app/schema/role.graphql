@@ -1,0 +1,76 @@
+input UpdateUserOrgRoleReq {
+    "用户id"
+    userId:Int64!
+    "修改后的角色id"
+    roleId:Int64!
+    "项目Id"
+    projectId:Int64
+}
+
+"结构体"
+type Role{
+    "主键"
+    id:Int64!
+    "组织id,全局为0"
+    orgId:Int64!
+    "语言编号"
+    langCode:String!
+    "名称"
+    name:String!
+    "描述"
+    remark:String!
+    "是否只读 1只读 2可编辑"
+    isReadonly:Int!
+    "是否可以变更权限,1可以,2不可以"
+    isModifyPermission:Int!
+    "是否默认角色,1是,2否"
+    isDefault:Int!
+    "角色分组"
+    roleGroupId:Int64!
+    "状态,  1可用,2禁用"
+    status:Int!
+    "创建人"
+    creator:Int64!
+    "创建时间"
+    createTime:Time!
+    "更新人"
+    updator:Int64!
+    "更新时间"
+    updateTime:Time!
+}
+
+"创建角色请求结构体"
+input CreateRoleReq{
+    "角色组1组织角色2项目角色"
+    roleGroupType:Int!
+    "名称"
+    name:String!
+    "描述"
+    remark:String
+    "是否只读 1只读 2可编辑"
+    isReadonly:Int
+    "是否可以变更权限,1可以,2不可以"
+    isModifyPermission:Int
+    "是否默认角色,1是,2否"
+    isDefault:Int
+    "状态,  1可用,2禁用"
+    status:Int
+    "项目id"
+    projectId:Int64
+}
+
+"删除角色请求结构体"
+input DelRoleReq{
+    "角色ID"
+    roleIds: [Int64!]!
+    "如果删除项目角色，projectId必填，如果删除组织角色，projectId可以不传或者传0"
+    projectId: Int64
+}
+
+"更新角色请求结构体"
+input UpdateRoleReq{
+    "角色ID"
+    roleId: Int64!
+    "角色名称, 非必填，为空则不更新"
+    name: String
+}

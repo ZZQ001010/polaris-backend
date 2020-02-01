@@ -1,0 +1,1 @@
+directive @hasRole on FIELD_DEFINITION

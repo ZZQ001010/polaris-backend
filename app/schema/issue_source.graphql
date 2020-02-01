@@ -1,0 +1,109 @@
+"获取任务来源列表请求结构体"
+input IssueSourcesReq{
+	"项目对象类型id"
+	projectObjectTypeId: Int64
+}
+
+"问题来源结构体"
+type IssueSource{
+	"主键"
+	id:Int64!
+	"组织id"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"对象类型id"
+	projectObjectTypeId:Int64!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+}
+
+"创建问题来源请求结构体"
+input CreateIssueSourceReq{
+	"组织id"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"对象类型id"
+	projectObjectTypeId:Int64!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"更新问题来源请求结构体"
+input UpdateIssueSourceReq{
+	"主键"
+	id:Int64!
+	"组织id"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"对象类型id"
+	projectObjectTypeId:Int64!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"删除问题来源请求结构体"
+input DeleteIssueSourceReq{
+	"主键"
+	id:Int64!
+	"组织Id 暂时不用传 之后用户校验的时候比较是否包含这个orgId 操作的时候是否有当前orgId的权限"
+	orgId:Int64
+}
+
+"问题来源列表响应结构体"
+type IssueSourceList{
+    total:Int64!
+    list:[IssueSource!]
+}

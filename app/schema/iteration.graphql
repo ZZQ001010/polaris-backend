@@ -1,0 +1,150 @@
+"迭代列表请求结构体"
+input IterationListReq{
+	"项目id"
+	projectId: Int64
+	"名称，模糊搜索"
+	name: String
+	"状态,1:未开始，2：进行中，3：已完成"
+	statusType: Int
+}
+
+"迭代结构体"
+type Iteration{
+	"主键"
+	id:Int64!
+	"组织id,应该是全局的,因此填0"
+	orgId:Int64!
+	"项目id"
+	projectId:Int64!
+	"名称"
+	name:String!
+	"负责人"
+	owner:Int64!
+	"版本"
+	versionId:Int64!
+	"计划开始时间"
+	planStartTime:Time!
+	"计划结束时间"
+	planEndTime:Time!
+	"预估工时"
+	planWorkHour:Int!
+	"故事点"
+	storyPoint:Int!
+	"描述"
+	remark:String
+	"项目状态,从状态表取"
+	status:Int64!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"负责人信息"
+	ownerInfo: HomeIssueOwnerInfo!
+	"状态信息"
+	statusInfo: HomeIssueStatusInfo!
+}
+
+"创建迭代请求结构体"
+input CreateIterationReq{
+	"项目id"
+	projectId:Int64!
+	"名称"
+	name:String!
+	"负责人"
+	owner:Int64!
+	"计划开始时间"
+	planStartTime:Time!
+	"计划结束时间"
+	planEndTime:Time!
+}
+
+"更新迭代请求结构体"
+input UpdateIterationReq{
+	"主键"
+	id:Int64!
+	"名称"
+	name:String
+	"负责人"
+	owner:Int64
+	"计划开始时间"
+	planStartTime:Time
+	"计划结束时间"
+	planEndTime:Time
+	"变动的字段列表"
+	updateFields:[String!]
+}
+
+"删除迭代结构体"
+input DeleteIterationReq{
+	"主键"
+	id:Int64!
+}
+
+"迭代列表响应结构体"
+type IterationList{
+	"总数量"
+    total:Int64!
+	"迭代列表"
+    list:[Iteration!]
+}
+
+"迭代状态类型统计请求结构体"
+input IterationStatusTypeStatReq{
+	"项目id"
+	projectId: Int64
+}
+
+"迭代状态类型统计响应结构体"
+type IterationStatusTypeStatResp{
+	"状态为未开始的数量"
+	notStartTotal:Int64!
+	"状态为进行中的数量"
+	processingTotal: Int64!
+	"状态为已完成的数量"
+	completedTotal: Int64!
+	"总数量"
+	total: Int64!
+}
+
+"迭代和任务关联请求结构体"
+input IterationIssueRealtionReq{
+	"迭代id"
+	iterationId: Int64!
+	"要添加的任务id列表（除特性任务）"
+	addIssueIds: [Int64!]
+	"要移除的任务id列表"
+	delIssueIds: [Int64!]
+}
+
+"更新迭代状态请求结构体"
+input UpdateIterationStatusReq{
+	"迭代id"
+	id:Int64!
+	"要更新的状态id"
+	nextStatusId:Int64!
+}
+
+"迭代信息请求结构体"
+input IterationInfoReq{
+	"迭代id"
+	id: Int64!
+}
+
+"迭代信息响应结构体"
+type IterationInfoResp{
+	"迭代信息"
+	iteration: Iteration!
+	"项目信息"
+	project: HomeIssueProjectInfo!
+	"状态信息"
+	status: HomeIssueStatusInfo!
+	"负责人信息"
+	owner: UserIdInfo!
+	"下一步骤状态列表"
+	nextStatus: [HomeIssueStatusInfo!]
+}
+

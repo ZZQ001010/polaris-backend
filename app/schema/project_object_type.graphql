@@ -1,0 +1,125 @@
+"项目支持的对象类型请求结构体"
+input ProjectSupportObjectTypeListReq{
+	"项目id"
+	projectId: Int64!
+}
+
+"项目支持的对象类型响应结构体"
+type ProjectSupportObjectTypeListResp{
+	"项目支持的对象类型"
+	projectSupportList:[ProjectObjectTypeRestInfo!]
+	"迭代支持的对象类型"
+	iterationSupportList:[ProjectObjectTypeRestInfo!]
+}
+
+"项目对象类型简单信息结构体"
+type ProjectObjectTypeRestInfo{
+	"主键"
+	id:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"类型,1迭代，2问题"
+	objectType:Int!
+}
+
+"项目对象类型结构体"
+type ProjectObjectType{
+	"主键"
+	id:Int64!
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"编号前缀"
+	preCode:String!
+	"名称"
+	name:String!
+	"类型,1迭代，2问题"
+	objectType:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"icon路径"
+	icon:String!
+	"排序"
+	sort:Int!
+	"描述"
+	remark:String!
+	"是否只读,1是 2否"
+	isReadonly:Int!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"创建项目对象类型请求结构体"
+input CreateProjectObjectTypeReq{
+	"项目id,用来校验权限"
+	projectId:Int64!
+	"名称"
+	name:String!
+	"类型,1迭代，2问题"
+	objectType:Int!
+	"前一个对象类型的id 没有给0"
+	beforeId:Int64!
+}
+
+"更新项目对象类型请求结构体"
+input UpdateProjectObjectTypeReq{
+	"主键"
+	id:Int64!
+	"项目iid,用来校验权限"
+	projectId:Int64!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"后一系列对象类型的id"
+	afterId:Int64
+	"往前挪的一些列对象类型的id"
+	beforeId:Int64
+}
+
+"删除项目对象类型请求结构体"
+input DeleteProjectObjectTypeReq{
+	"主键"
+	id:Int64!
+	"项目iid,用来校验权限"
+	projectId:Int64!
+}
+
+"项目对象类型列表响应结构体"
+type ProjectObjectTypeList{
+	"总数量"
+	total: Int64!
+	"列表"
+    list:[ProjectObjectType!]
+}
+
+"项目对象类型列表响应结构体"
+type ProjectObjectTypeWithProjectList{
+	"列表"
+	list:[ProjectObjectType!]
+}
+
+
+input projectObjectTypesReq{
+	"类型,1迭代，2问题"
+	objectType:Int!
+	"任务栏id集合"
+	Ids:[Int64!]
+}

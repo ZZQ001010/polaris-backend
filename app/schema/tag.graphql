@@ -1,0 +1,72 @@
+"结构体"
+type Tag{
+    "id"
+    id:Int64!
+    "组织id"
+    orgId:Int64!
+    "项目id"
+    projectId:Int64!
+    "名称"
+    name:String!
+    "名称拼音"
+    namePinyin:String!
+    "背景色"
+    bgStyle:String!
+    "字体色"
+    fontStyle:String!
+    "使用任务数"
+    usedNum:Int64!
+    "创建人id"
+    creator:Int64!
+    "创建时间"
+    createTime:Time!
+}
+
+"创建请求结构体"
+input CreateTagReq{
+    "项目id"
+    projectId:Int64!
+    "名称"
+    name:String!
+    "背景颜色"
+    bgStyle:String!
+    "字体颜色"
+    fontStyle:String
+}
+
+"更新请求结构体"
+input UpdateTagReq{
+    id:Int64!
+    "名称"
+    name:String
+    "背景颜色"
+    bgStyle:String
+}
+
+"删除请求结构体"
+input DeleteTagReq{
+    "项目id"
+    projectId:Int64!
+    "标签id集合"
+    ids:[Int64!]
+}
+
+"列表响应结构体"
+type TagList{
+    total:Int64!
+    list:[Tag!]
+}
+
+"查询请求"
+input TagListReq{
+    "名称"
+    name:String
+    "名称拼音"
+    namePinyin:String
+    "项目id"
+    projectId:Int64!
+}
+
+type StypeList{
+    list:[String!]
+}

@@ -1,0 +1,5 @@
+Server:
+  Port: 10005
+Application:
+  Name: commonsvc
+  Version:

@@ -1,0 +1,148 @@
+Logs:
+  # 默认日志配置
+  Default:
+    # 日志路径
+    LogPath: ./run.log
+    # 日志级别
+    Level: info
+    # 控制台是否输出
+    IsConsoleOut: true
+    # 单个日志文件大小
+    FileSize: 1024
+    # 保留日志文件数
+    MaxBackups: 20
+    # 标签
+    Tag: run
+  # 输入输出日志
+  RR:
+    # 日志路径
+    LogPath: ./rr.log
+    # 日志级别
+    Level: info
+    # 控制台是否输出
+    IsConsoleOut: false
+    # 单个日志文件大小
+    MaxSize: 1024
+    # 保留日志文件数
+    FileNum: 20
+    # 标签
+    Tag: rr
+  # 消息队列日志
+  MQ:
+    LogPath: ./mq.log
+    Level: info
+    IsConsoleOut: true
+    # 单个日志文件大小
+    FileSize: 1024
+    # 保留日志文件数
+    FileNum: 20
+    # 标签
+    Tag: mq
+
+# 消息队列配置
+MQ:
+  # 模式，Kafka和DB
+  Mode: DB
+  # Topic配置
+  Topics:
+    IssueTrends:
+      Topic: topic_issue_trends
+      GroupId: topic_issue_trends_group
+    ProjectTrends:
+      Topic: topic_project_trends
+      GroupId: topic_project_trends_group
+    DailyProjectReportProject:
+      Topic: topic_project_report_project
+      GroupId: topic_project_report_group
+    DailyProjectReportMsg:
+      Topic: topic_project_report_msg
+      GroupId: topic_project_report_msg_group
+    IssueRemind:
+      Topic: topic_issue_remind
+      GroupId: topic_issue_remind_group
+    ImportIssue:
+      Topic: topic_import_issue
+      GroupId: topic_import_issue_group
+    OrgMemberChange:
+      Topic: topic_org_member_change
+      GroupId: topic_org_member_change_group
+    FeiShuCallBack:
+      Topic: topic_feishu_callback
+      GroupId: topic_feishu_callback_group
+# 参数配置
+Parameters:
+  # 分隔符
+  CodeConnector: '#'
+  # id生成阈值
+  IdBufferThreshold: 0.6
+  # 最大分页数量
+  MaxPageSize: 100
+  # 服务访问前缀
+  PreUrl:
+    # id 服务
+    idsvc: http://127.0.0.1:10002
+    # 消息服务
+    msgsvc: http://127.0.0.1:10003
+    # 应用授权服务
+    appsvc: http://127.0.0.1:10001
+    # 公共服务
+    commonsvc: http://127.0.0.1:10005
+    # app对外入口服务
+    app: http://127.0.0.1:12000
+    # 组织相关服务
+    orgsvc: http://127.0.0.1:12001
+    # 项目服务
+    projectsvc: http://127.0.0.1:12002
+    # 流程服务
+    processsvc: http://127.0.0.1:12003
+    # 资源服务
+    resourcesvc: http://127.0.0.1:12004
+    # 通知服务
+    noticesvc: http://127.0.0.1:12005
+    # 角色服务
+    rolesvc: http://127.0.0.1:12006
+    # 回调服务
+    callsvc: http://127.0.0.1:12007
+    # 动态服务
+    trendssvc: http://127.0.0.1:12008
+    # 官网服务
+    websitesvc: http://127.0.0.1:12011
+    # 测试服务
+    compatsvc: http://192.168.1.154:8000
+
+# 文件上传配置
+OSS:
+  RootPath: /data/resources/polaris
+  LocalDomain: http://127.0.0.1:12010
+  Policies:
+    ProjectCover:
+      Expire: 300000
+      Dir: org_{{.orgId}}/project_{{.projectId}}/cover/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760
+    IssueResource:
+      Expire: 300000
+      Dir: org_{{.orgId}}/project_{{.projectId}}/issue_{{.issueId}}/resource/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760
+      CallbackUrl: http://polarisfs-local.vaiwan.com/api/callsvc/callback/oss/policy
+    IssueInputFile:
+      Expire: 300000
+      Dir: org_{{.orgId}}/project_{{.projectId}}/input_issues/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760
+    ProjectResource:
+      Expire: 300000
+      Dir: org_{{.orgId}}/project_{{.projectId}}/resource/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760
+      CallbackUrl: http://polarisfs-local.vaiwan.com/api/callsvc/callback/oss/policy
+    CompatTest:
+      Expire: 300000
+      Dir: org_{{.orgId}}/compat_test/apk/{{.year}}/{{.month}}/{{.day}}
+      # 512M
+      MaxFileSize: 536870912
+    UserAvatar:
+      Expire: 300000
+      Dir: org_{{.orgId}}/project_{{.projectId}}/folder_resource/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760
+    Feedback:
+      Expire: 300000
+      Dir: org_{{.orgId}}/feedback_resource/{{.year}}/{{.month}}/{{.day}}
+      MaxFileSize: 10485760

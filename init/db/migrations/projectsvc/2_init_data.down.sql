@@ -1,0 +1,6 @@
+
+truncate table ppm_prs_project_type;
+
+truncate table ppm_prs_project_object_type;
+
+truncate table ppm_prs_project_type_project_object_type;

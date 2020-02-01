@@ -1,0 +1,1 @@
+ALTER TABLE `ppm_pri_issue` DROP COLUMN `owner_change_time`;

@@ -1,0 +1,3 @@
+
+INSERT INTO ppm_tre_trends( `id`, `org_id`, `uuid`, `module1`, `module2_id`, `module2`, `module3_id`, `module3`, `oper_code`, `oper_obj_id`, `oper_obj_type`, `oper_obj_property`, `relation_obj_id`, `relation_obj_type`, `relation_type`, `new_value`, `old_value`, `ext`, `creator`, `create_time`, `is_delete` )
+        VALUES ( 1, 1, '156b9addb527bb91a7c95cd0e6f526f9', 'Sys', 0, '', 0, '', 'Init', 1, 'Sys', '', 0, '', '', '', '', '', 1, now(), 2);

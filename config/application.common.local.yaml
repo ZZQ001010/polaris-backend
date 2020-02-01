@@ -1,0 +1,57 @@
+# 服务信息
+Server:
+  # 端口
+  Port: 8181
+
+# 应用配置
+Application:
+  # 运行模式，1：Saas集群，2：单机部署，3：私有化集群部署，4：私有化单库部署
+  RunMode: 4
+  # 缓存模式，Redis和HashMap，Inside代表使用应用缓存（hashmap）
+  CacheMode: Inside
+
+# Mysql
+Mysql:
+  # Host
+  Host: 127.0.0.1
+  # Port
+  Port: 3306
+  # User
+  Usr: root
+  # Pwd
+  Pwd: root
+  # 数据库
+  Database: polaris_project_manage_local
+
+# 邮件配置
+Mail:
+  # 别名：北极星
+  Alias: 北极星
+  # User
+  Usr: xxx
+  # Pwd
+  Pwd: xxx
+  # Host
+  Host: xxx
+  # Port
+  Port: xxx
+
+# 文件配置
+OSS:
+  # 文件访问地址
+  LocalDomain: http://127.0.0.1:12010
+
+# MQTT, https://github.com/emitter-io/emitter
+MQTT:
+  # 地址全名，或者wss://host:port
+  Address: tcp://host:port
+  # 重复配置是因为要返给前端
+  Host: host
+  # 端口
+  Port: port
+  # Secret key
+  SecretKey: xxx
+  # 是否启用，启用改成true
+  Enable: false
+  # 连接池size
+  ConnectPoolSize: 20

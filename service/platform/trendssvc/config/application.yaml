@@ -1,0 +1,5 @@
+Server:
+  Port: 12008
+Application:
+  Name: trendssvc
+  Version:

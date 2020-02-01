@@ -1,0 +1,15 @@
+"官网注册联系人请求结构体"
+input RegisterWebSiteContactReq{
+    "性别：1 女，2 男"
+    sex: Int
+    "姓名"
+    name: String
+    "联系信息，可填手机号或者是邮箱（目前仅支持手机号）"
+    contactInfo: String!
+    "问题描述"
+    remark: String
+    "问题图片url"
+    resourceUrls: [String!]
+    "来源"
+    source: String
+}

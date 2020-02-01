@@ -1,0 +1,125 @@
+"个人信息"
+type PersonalInfo{
+    "主键"
+    id:Int64!
+    "工号"
+    emplId: String
+    "组织id"
+    orgId:Int64!
+    "组织名称"
+    orgName: String!
+    "组织code"
+    orgCode: String!
+    "名称"
+    name:String!
+    "登录名"
+    loginName:String!
+    "登录名编辑次数"
+    loginNameEditCount:Int!
+    "邮箱"
+    email:String!
+    "电话"
+    mobile:String!
+    "生日"
+    birthday:Time!
+    "性别"
+    sex:Int!
+    "剩余使用时长"
+    rimanente:Int!
+    "付费等级"
+    level:Int!
+    "付费等级名"
+    levelName:String!
+    "头像"
+    avatar:String!
+    "来源"
+    sourceChannel:String!
+    "语言"
+    language:String!
+    "座右铭"
+    motto:String!
+    "上次登录ip"
+    lastLoginIp:String!
+    "上次登录时间"
+    lastLoginTime:Time!
+    "登录失败次数"
+    loginFailCount:Int!
+    "创建时间"
+    createTime:Time!
+    "更新时间"
+    updateTime:Time!
+    "密码是否设置过(1已设置0未设置)"
+    passwordSet:Int!
+}
+
+"用户id信息"
+type UserIdInfo{
+    "用户id"
+    userId: Int64!
+    "用户名称"
+    name: String!
+    "用户头像"
+    avatar: String!
+    "工号：企业下唯一"
+    emplId: String!
+    "unionId： 开发者账号下唯一(暂时废弃，返回空)"
+    unionId: String!
+    "是否已被删除，为true则代表被组织移除"
+    isDeleted: Boolean!
+    "是否已被禁用, 为true则代表被组织禁用"
+    isDisabled: Boolean!
+}
+
+"更改用户个人信息"
+input UpdateUserInfoReq{
+    "姓名"
+    name:String
+    "性别"
+    sex:Int
+    "用户头像"
+    avatar:String
+    "生日"
+    birthday:Time
+    "变动的字段列表"
+    updateFields:[String!]!
+}
+
+input OrgProjectMemberReq{
+    "项目id"
+    projectId: Int64!
+}
+
+type OrgProjectMemberResp  {
+    owner  :OrgProjectMemberInfoResp!
+    participants :[OrgProjectMemberInfoResp]!
+    follower :[OrgProjectMemberInfoResp]!
+    allMembers:[OrgProjectMemberInfoResp]!
+
+}
+type OrgProjectMemberInfoResp{
+    "用户id"
+    userId:Int64!
+    "外部用户id"
+    outUserId:String!
+    "组织id"
+    orgId:Int64!
+    "外部组织id"
+    outOrgId:String!
+    "姓名"
+    name:String!
+    "姓名拼音（可能为空）"
+    namePy:String
+    "用户头像"
+    avatar:String!
+    "是否有外部信息"
+    hasOutInfo:Boolean!
+    "是否有组织外部信息"
+    hasOrgOutInfo:Boolean!
+    "组织用户是否删除"
+    orgUserIsDelete :Int!
+    "组织用户状态"
+    orgUserStatus:Int!
+    "组织用户check状态"
+    orgUserCheckStatus:Int!
+}
+

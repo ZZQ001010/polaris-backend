@@ -1,0 +1,25 @@
+INSERT INTO ppm_prs_issue_object_type(`id`, `org_id`, `lang_code`, `name`, `sort`, `project_object_type_id`, `remark`, `status`, `creator`, `create_time`, `updator`, `update_time`, `version`, `is_delete`) VALUES
+({{.IssueObjectType1}}, {{.OrgId}}, 'Issue.ObjectType.Features', '新功能', '1', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType2}}, {{.OrgId}}, 'Issue.ObjectType.OptimizationDemand', '优化需求', '2', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType3}}, {{.OrgId}}, 'Issue.ObjectType.Other', '其它', '3', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+
+({{.IssueObjectType4}}, {{.OrgId}}, 'Issue.ObjectType.Features', '新功能', '1', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType5}}, {{.OrgId}}, 'Issue.ObjectType.OptimizationDemand', '优化需求', '2', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType6}}, {{.OrgId}}, 'Issue.ObjectType.Other', '其它', '3', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+
+({{.IssueObjectType7}}, {{.OrgId}}, 'Issue.ObjectType.FunctionalProblems', '功能问题', '1', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType8}}, {{.OrgId}}, 'Issue.ObjectType.PerformanceIssues', '性能问题', '2', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType9}}, {{.OrgId}}, 'Issue.ObjectType.InterfaceProblem', '接口问题', '3', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType10}}, {{.OrgId}}, 'Issue.ObjectType.SecurityIssues', '安全问题', '4', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType11}}, {{.OrgId}}, 'Issue.ObjectType.UIInterfaceProblem', 'UI界面问题', '5', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType12}}, {{.OrgId}}, 'Issue.ObjectType.EaseOfUse', '易用性问题', '6', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType13}}, {{.OrgId}}, 'Issue.ObjectType.CompatibilityProblem', '兼容性问题', '7', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType14}}, {{.OrgId}}, 'Issue.ObjectType.DataProblems', '数据问题', '8', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType15}}, {{.OrgId}}, 'Issue.ObjectType.LogicalQuestion', '逻辑问题', '9', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType16}}, {{.OrgId}}, 'Issue.ObjectType.Demand', '需求问题', '10', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType17}}, {{.OrgId}}, 'Issue.ObjectType.DataRequestProblem', '数据请求问题', '11', {{.ProjectObjectBugId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+
+
+({{.IssueObjectType18}}, {{.OrgId}}, 'Issue.ObjectType.Features', '新功能', '1', {{.ProjectObjectTaskId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType19}}, {{.OrgId}}, 'Issue.ObjectType.OptimizationDemand', '优化需求', '2', {{.ProjectObjectTaskId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2'),
+({{.IssueObjectType20}}, {{.OrgId}}, 'Issue.ObjectType.Other', '其它', '3', {{.ProjectObjectTaskId}}, '', '1', '0', '2019-09-10 18:45:39', '0', '2019-09-10 18:45:39', '1', '2')

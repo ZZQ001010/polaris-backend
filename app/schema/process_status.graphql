@@ -1,0 +1,123 @@
+"流程状态结构体"
+type ProcessStatus{
+	"主键"
+	id:Int64!
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"状态类型,1未开始,2进行中,3已完成"
+	type:Int!
+	"状态类别,1项目状态,2迭代状态,3问题状态,"
+	category:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"创建流程状态请求结构体"
+input CreateProcessStatusReq{
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"状态类型,1未开始,2进行中,3已完成"
+	type:Int!
+	"状态类别,1项目状态,2迭代状态,3问题状态,"
+	category:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"更新流程状态请求结构体"
+input UpdateProcessStatusReq{
+	"主键"
+	id:Int64!
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"状态类型,1未开始,2进行中,3已完成"
+	type:Int!
+	"状态类别,1项目状态,2迭代状态,3问题状态,"
+	category:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"删除流程状态请求结构体"
+input DeleteProcessStatusReq{
+	"主键"
+	id:Int64!
+}
+
+"流程状态列表响应结构体"
+type ProcessStatusList{
+	total:Int64!
+	list:[ProcessStatus!]
+}

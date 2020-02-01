@@ -1,0 +1,5 @@
+Server:
+  Port: 12004
+Application:
+  Name: resourcesvc
+  Version:

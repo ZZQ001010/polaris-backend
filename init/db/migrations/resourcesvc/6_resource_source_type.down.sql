@@ -1,0 +1,1 @@
+ALTER TABLE `ppm_res_resource` DROP COLUMN `source_type`;

@@ -1,0 +1,22 @@
+CREATE TABLE `ppm_wst_contact` (
+    `id` bigint(20) NOT NULL ,
+    `code` varchar(32) COLLATE utf8mb4_bin NOT NULL DEFAULT '' ,
+    `name` varchar(128) COLLATE utf8mb4_bin NOT NULL DEFAULT '' ,
+    `sex` tinyint(2) NOT NULL DEFAULT '0' COMMENT '',
+    `email` varchar(128) NOT NULL DEFAULT '' COMMENT '',
+    `mobile_region` varchar(8) COLLATE utf8mb4_bin NOT NULL DEFAULT '+86' ,
+    `mobile` varchar(32) COLLATE utf8mb4_bin NOT NULL DEFAULT '' ,
+    `remark` varchar(512) COLLATE utf8mb4_bin NOT NULL DEFAULT '' ,
+    `intention` tinyint(4) NOT NULL DEFAULT '0' ,
+    `status` tinyint(4) NOT NULL DEFAULT '1' ,
+    `creator` bigint(20) NOT NULL DEFAULT '0' ,
+    `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+    `updator` bigint(20) NOT NULL DEFAULT '0' ,
+    `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
+    `version` int(11) NOT NULL DEFAULT '1' ,
+    `is_delete` tinyint(4) NOT NULL DEFAULT '2' ,
+    PRIMARY KEY (`id`),
+    KEY `index_ppm_wst_contact_name` (`name`),
+    KEY `index_ppm_wst_contact_create_time` (`create_time`),
+    KEY `index_ppm_wst_contact_mobile` (`mobile`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;

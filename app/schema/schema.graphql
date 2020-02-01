@@ -1,0 +1,350 @@
+type Query {
+    ############### business
+    "获取系统基本信息"
+    getBaseConfig: BasicConfigResp!
+    "获取的当前用户的信息"
+    personalInfo: PersonalInfo!
+
+    "获取用户配置信息"
+    userConfigInfo: UserConfig!
+    "获取首页的任务列表(默认不获取已归档的任务)"
+    homeIssues(page: Int!, size: Int!, input: HomeIssueInfoReq): HomeIssueInfoResp!
+    "获取任务信息"
+    issueInfo(issueId: Int64!): IssueInfo!
+    "获取任务的简单信息（任务详情子任务信息）"
+    issueRestInfos(page: Int!, size: Int!, input: IssueRestInfoReq): IssueRestInfoResp!
+    "关联任务列表"
+    relatedIssueList(input:RelatedIssueListReq!):IssueRestInfoResp!
+    "获取分享列表  type:(分享类型1日报2周报3月报)"
+    issueReport(reportType: Int64!): IssueReportResp!
+    "分享页获取分享内容"
+    issueReportDetail(shareId: String!): IssueReportResp!
+
+    "个人负责的未完成的任务和项目数统计(不统计已归档的项目)"
+    issueAndProjectCountStat: IssueAndProjectCountStatResp!
+
+    "任务状态类型数量统计(不统计已归档的项目)"
+    issueStatusTypeStat(input: IssueStatusTypeStatReq): IssueStatusTypeStatResp!
+    "任务类型统计(不统计已归档的项目)"
+    issueStatusTypeStatDetail(input: IssueStatusTypeStatReq):IssueStatusTypeStatDetailResp!
+    "个人每日工作完成图统计(不统计已归档的项目)"
+    issueDailyPersonalWorkCompletionStat(input: IssueDailyPersonalWorkCompletionStatReq): IssueDailyPersonalWorkCompletionStatResp!
+
+    "任务分配rank排行(Top5)(不统计已归档的项目)"
+    issueAssignRank(input: IssueAssignRankReq!):[IssueAssignRankInfo!]
+
+    "获取任务资源"
+    issueResources(page: Int, size: Int, input: GetIssueResourcesReq):ResourceList!
+
+    "获取动态列表"
+    trendList(input:TrendReq):TrendsList!
+    "项目数据统计"
+    projectStatistics(id:Int64!):ProjectStatisticsResp!
+
+    "获取当前项目中对应任务类型所包含的状态列表"
+    projectIssueRelatedStatus(input: ProjectIssueRelatedStatusReq!):[HomeIssueStatusInfo!]!
+
+    "获取不同类型的状态下的迭代数量"
+    iterationStatusTypeStat(input: IterationStatusTypeStatReq):IterationStatusTypeStatResp!
+    "获取迭代信息"
+    iterationInfo(input: IterationInfoReq!): IterationInfoResp!
+
+    "通过外部用户id列表获取内部用户id列表"
+    userIds(input: [String!]!): [UserIdInfo!]!
+    "通过外部用户id获取内部用户id"
+    userId(input: String!): UserIdInfo!
+
+    "获取OSS sign url"
+    getOssSignUrl(input: OssApplySignUrlReq!): OssApplySignUrlResp!
+    "获取OSS policy认证信息"
+    getOssPostPolicy(input: OssPostPolicyReq!): OssPostPolicyResp!
+    "获取邀请码"
+    getInviteCode(input: GetInviteCodeReq): GetInviteCodeResp!
+    "获取邀请信息"
+    getInviteInfo(input: GetInviteInfoReq!): GetInviteInfoResp!
+    "获取MQTT通道key"
+    getMQTTChannelKey(input: GetMQTTChannelKeyReq!): GetMQTTChannelKeyResp!
+
+    "获取项目和迭代支持的对象列表"
+    projectSupportObjectTypes(input: ProjectSupportObjectTypeListReq!): ProjectSupportObjectTypeListResp!
+
+    ## power by codegen
+    "获取优先级列表"
+    prioritys(page: Int, size: Int, params: PriorityListReq):PriorityList!
+    "获取流程状态列表"
+    processStatuss(page: Int, size: Int):ProcessStatusList!
+    "获取项目列表"
+    projects(page: Int!, size: Int!, params: Map!, order:[String], input: ProjectsReq):ProjectList!
+    "获取项目信息"
+    projectInfo(input: ProjectInfoReq!): ProjectInfo!
+
+    "获取迭代列表"
+    iterations(page: Int, size: Int, params: IterationListReq):IterationList!
+    "获取迭代燃尽图统计"
+    iterationStats(page: Int, size: Int, params: IterationStatReq!):IterationStatList!
+    "获取项目明细列表"
+    projectDetail(projectId:Int64!):ProjectDetail!
+    "获取项目对象类型"
+    projectObjectTypes(page: Int, size: Int, params: projectObjectTypesReq):ProjectObjectTypeList!
+    "获取项目中任务的燃尽图"
+    projectDayStats(page: Int, size: Int, params: ProjectDayStatReq):ProjectDayStatList!
+    "获取问题类型列表"
+    issueObjectTypes(page: Int, size: Int, params: IssueObjectTypesReq):IssueObjectTypeList!
+    "获取问题来源列表"
+    issueSources(page: Int, size: Int, params: IssueSourcesReq):IssueSourceList!
+
+    ## power by codegen
+    "获取一个项目下的所有项目对象类型"
+    projectObjectTypesWithProject(projectId:Int64!):ProjectObjectTypeWithProjectList!
+    "获取部门列表"
+    departments(page: Int, size: Int, params: DepartmentListReq):DepartmentList!
+    "获取部门成员列表"
+    departmentMembers(params: DepartmentMemberListReq!):[DepartmentMemberInfo!]!
+    "获取项目类型"
+    projectTypes:[ProjectType!]
+    "用户组织列表(不需要验证当前用户组织状态)"
+    userOrganizationList:UserOrganizationListResp!
+
+    "标签列表"
+    tagList(page: Int, size: Int, params: TagListReq!):TagList!
+    "热度标签(全部标签)"
+    hotTagList(projectId:Int64!):TagList!
+    "标签颜色列表"
+    tagDefaultStyle:StypeList!
+    "通知列表"
+    noticeList(page: Int, size: Int, params: NoticeListReq):NoticeList!
+    "获取未读通知条数"
+    unreadNoticeCount:NoticeCountResp!
+    "地区联动列表"
+    areaLinkageList(input:AreaLinkageListReq!):AreaLinkageListResp!
+    "行业列表"
+    industryList:IndustryListResp!
+    "组织信息"
+    organizationInfo(input:OrganizationInfoReq!):OrganizationInfoResp!
+
+
+    "导出项目任务excel模板"
+    exportIssueTemplate(projectId:Int64!):ExportIssueTemplateResp!
+    "组织成员列表"
+    orgUserList(page: Int, size: Int, input: OrgUserListReq!):UserOrganizationList!
+    "操作权限项列表"
+    permissionOperationList(roleId: Int64!, projectId: Int64):[PermissionOperationListResp!]!
+    "组织角色列表"
+    orgRoleList:[Role!]!
+    "导出项目任务数据"
+    exportData(projectId:Int64!):ExportIssueTemplateResp!
+    "项目成员列表"
+    projectUserList(page: Int, size: Int, input: ProjectUserListReq!):ProjectUserListResp!
+    "项目角色列表"
+    projectRoleList(projectId:Int64!):[Role!]!
+    "项目组织成员"
+    orgProjectMember(input:OrgProjectMemberReq!):OrgProjectMemberResp!
+
+    "查询项目文件资源"
+    projectResource(page: Int, size: Int,params:ProjectResourceReq!):ResourceList!
+    "查询项目文件夹"
+    projectFolder(page: Int, size: Int,params:ProjectFolderReq!):FolderList!
+
+    "查询项目下所有附件"
+    projectAttachment(page: Int, size: Int,params: ProjectAttachmentReq!):AttachmentList!
+
+    getPersonalPermissionInfo(projectId: Int64, issueId: Int64):GetPersonalPermissionInfoResp!
+}
+
+type Mutation {
+    "发送短信登录验证码"
+    sendSmsLoginCode(input: SendSmsLoginCodeReq!): Void!
+    "发送各种验证码(目前支持手机号以及邮箱)"
+    sendAuthCode(input: SendAuthCodeReq!): Void!
+    "通过手机号和邮箱找回密码"
+    retrievePassword(input: RetrievePasswordReq!): Void!
+    "重设密码"
+    resetPassword(input: ResetPasswordReq!): Void!
+    "设置密码"
+    setPassword(input: SetPasswordReq!): Void!
+    "解绑登录方式"
+    unbindLoginName(input: UnbindLoginNameReq!): Void!
+    "绑定登录方式"
+    bindLoginName(input: BindLoginNameReq!): Void!
+    "检测邮箱、手机号、账户是否存在"
+    checkLoginName(input: CheckLoginNameReq!): Void!
+
+    "用户登录"
+    userLogin(input: UserLoginReq!): UserLoginResp!
+    "用户注册"
+    userRegister(input: UserRegisterReq!): UserRegisterResp!
+    "用户退出"
+    userQuit:Void!
+    "官网注册联系人"
+    registerWebSiteContact(input: RegisterWebSiteContactReq!): Void!
+
+    "退出项目"
+    quitProject(projectId:Int64!):QuitResult!
+    "关注项目"
+    starProject(projectId:Int64!):OperateProjectResp!
+    "取消关注项目"
+    unstarProject(projectId:Int64!):OperateProjectResp!
+    "修改项目状态"
+    updateProjectStatus(input: UpdateProjectStatusReq!): Void!
+    "归档项目"
+    archiveProject(projectId:Int64!):Void!
+    "项目取消归档"
+    cancelArchivedProject(projectId:Int64!):Void!
+
+    "更新用户配置"
+    updateUserConfig(input: UpdateUserConfigReq!): UpdateUserConfigResp!
+    "更新用户默认项目配置"
+    updateUserDefaultProjectConfig(input: UpdateUserDefaultProjectConfigReq!): UpdateUserConfigResp!
+    "更新用户pc的通知配置"
+    updateUserPcConfig(input: UpdateUserPcConfigReq!): UpdateUserConfigResp!
+
+    "转换项目code"
+    convertCode(input: ConvertCodeReq!): ConvertCodeResp!
+
+    "迭代和任务关联"
+    updateIterationIssueRelate(input: IterationIssueRealtionReq!): Void!
+    "更新迭代状态"
+    updateIterationStatus(input: UpdateIterationStatusReq!): Void!
+    ## power by codegen
+
+    "创建组织(不需要验证当前用户组织状态)"
+    createOrg(input: CreateOrgReq!):Void!
+
+    "创建任务"
+    createIssue(input: CreateIssueReq!):Issue!
+    "添加任务评论"
+    createIssueComment(input: CreateIssueCommentReq!): Void!
+    "添加任务资源"
+    createIssueResource(input: CreateIssueResourceReq!): Void!
+    "删除任务资源"
+    deleteIssueResource(input: DeleteIssueResourceReq!): Void!
+    "更新关联任务"
+    updateIssueAndIssueRelate(input: UpdateIssueAndIssueRelateReq!): Void!
+
+    "更新任务"
+    updateIssue(input: UpdateIssueReq!):UpdateIssueResp!
+    "更新任务状态"
+    updateIssueStatus(input: UpdateIssueStatusReq!):Issue!
+    "更新任务sort"
+    updateIssueSort(input: UpdateIssueSortReq!): Void!
+    "更新任务泳道"
+    updateIssueProjectObjectType(input:UpdateIssueProjectObjectTypeReq!):Void!
+    "更新任务标签"
+    updateIssueTags(input: UpdateIssueTagsReq!): Void!
+    "删除任务"
+    deleteIssue(input: DeleteIssueReq!):Issue!
+
+    "创建项目"
+    createProject(input: CreateProjectReq!):Project!
+    "更新项目"
+    updateProject(input: UpdateProjectReq!):Project!
+
+    "创建流程状态"
+    createProcessStatus(input: CreateProcessStatusReq!):Void!
+    "更新流程状态"
+    updateProcessStatus(input: UpdateProcessStatusReq!):Void!
+    "删除流程状态"
+    deleteProcessStatus(input: DeleteProcessStatusReq!):Void!
+
+    "创建优先级"
+    createPriority(input: CreatePriorityReq!):Void!
+    "更新优先级"
+    updatePriority(input: UpdatePriorityReq!):Void!
+    "删除优先级"
+    deletePriority(input: DeletePriorityReq!):Void!
+
+    "创建迭代"
+    createIteration(input: CreateIterationReq!):Void!
+    "更新迭代"
+    updateIteration(input: UpdateIterationReq!):Void!
+    "删除迭代"
+    deleteIteration(input: DeleteIterationReq!):Void!
+
+    "创建项目明细"
+    createProjectDetail(input: CreateProjectDetailReq!):Void!
+    "更新项目明细"
+    updateProjectDetail(input: UpdateProjectDetailReq!):Void!
+    "删除项目明细"
+    deleteProjectDetail(input: DeleteProjectDetailReq!):Void!
+    "导入项目任务"
+    importIssues(input:ImportIssuesReq!):Void!
+    "创建标签"
+    createTag(input:CreateTagReq!):Void!
+    "删除标签"
+    deleteTag(input:DeleteTagReq!):Void!
+    "更新标签"
+    updateTag(input:UpdateTagReq!):Void!
+
+    createProjectObjectType(input: CreateProjectObjectTypeReq!):Void!
+    updateProjectObjectType(input: UpdateProjectObjectTypeReq!):Void!
+    deleteProjectObjectType(input: DeleteProjectObjectTypeReq!):Void!
+
+    createIssueObjectType(input: CreateIssueObjectTypeReq!):Void!
+    updateIssueObjectType(input: UpdateIssueObjectTypeReq!):Void!
+    deleteIssueObjectType(input: DeleteIssueObjectTypeReq!):Void!
+
+    createIssueSource(input: CreateIssueSourceReq!):Void!
+    updateIssueSource(input: UpdateIssueSourceReq!):Void!
+    deleteIssueSource(input: DeleteIssueSourceReq!):Void!
+
+
+    "切换用户组织(不需要验证当前用户组织状态)"
+    switchUserOrganization(input:SwitchUserOrganizationReq!):Void!
+    "更新组织设置"
+    updateOrganizationSetting(input:UpdateOrganizationSettingsReq!):Void!
+
+    "修改用户组织角色"
+    updateUserOrgRole(input:UpdateUserOrgRoleReq!):Void!
+    "修改组织成员状态"
+    updateOrgMemberStatus(input:UpdateOrgMemberStatusReq!): Void!
+    "修改组织成员审核状态"
+    updateOrgMemberCheckStatus(input:UpdateOrgMemberCheckStatusReq!): Void!
+    "创建角色"
+    createRole(input:CreateRoleReq!):Void!
+    "更新角色权限"
+    updateRolePermissionOperation(input:UpdateRolePermissionOperationReq!):Void!
+    "删除角色"
+    delRole(input: DelRoleReq!): Void!
+    "更新角色"
+    updateRole(input: UpdateRoleReq!): Void!
+    "移除组织成员"
+    removeOrgMember(input: RemoveOrgMemberReq!): Void !
+    "更新用户个人信息"
+    updateUserInfo(input:UpdateUserInfoReq!):Void!
+    "移出项目"
+    removeProjectMember(input: RemoveProjectMemberReq!):Void!
+    "添加项目成员"
+    addProjectMember(input: RemoveProjectMemberReq!):Void!
+
+
+
+    "添加项目文件"
+    createProjectResource(input: CreateProjectResourceReq!): Void!
+    "更新项目文件目录"
+    updateProjectResourceFolder(input: UpdateProjectResourceFolderReq!): UpdateProjectResourceFolderResp!
+    "更新项目文件名"
+    updateProjectResourceName(input: UpdateProjectResourceNameReq!): Void!
+    "删除项目文件"
+    deleteProjectResource(input: DeleteProjectResourceReq!): DeleteProjectResourceResp!
+
+
+    "创建文件夹"
+    createProjectFolder(input: CreateProjectFolderReq!):Void!
+    "删除文件夹"
+    deleteProjectFolder(input: DeleteProjectFolderReq!):DeleteProjectFolderResp!
+    "更新文件夹"
+    updateProjectFolder(input: UpdateProjectFolderReq!):UpdateProjectFolderResp!
+
+    "删除附件"
+    deleteProjectAttachment(input: DeleteProjectAttachmentReq!):DeleteProjectAttachmentResp!
+
+}
+
+
+
+
+
+
+
+
+

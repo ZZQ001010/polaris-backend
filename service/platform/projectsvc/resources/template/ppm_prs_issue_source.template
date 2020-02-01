@@ -1,0 +1,22 @@
+INSERT INTO ppm_prs_issue_source(`id`, `org_id`, `lang_code`, `name`, `sort`, `project_object_type_id`, `remark`, `status`, `creator`, `create_time`, `updator`, `update_time`, `version`, `is_delete`) VALUES
+({{.IssueSource1}}, {{.OrgId}}, 'Issue.Source.User', '用户', '1', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource2}}, {{.OrgId}}, 'Issue.Source.Customer', '客户', '2', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource3}}, {{.OrgId}}, 'Issue.Source.CustomerService', '客服', '3', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource4}}, {{.OrgId}}, 'Issue.Source.Operational', '运营', '4', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource5}}, {{.OrgId}}, 'Issue.Source.Market', '市场', '5', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource6}}, {{.OrgId}}, 'Issue.Source.Technology', '技术', '6', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource7}}, {{.OrgId}}, 'Issue.Source.ProductManager', '产品经理', '7', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource8}}, {{.OrgId}}, 'Issue.Source.Developer', '开发人员', '8', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource9}}, {{.OrgId}}, 'Issue.Source.Tester', '测试人员', '9', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource10}}, {{.OrgId}}, 'Issue.Source.Bug', 'Bug', '10', {{.ProjectObjectFeatureId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+
+({{.IssueSource11}}, {{.OrgId}}, 'Issue.Source.User', '用户', '1', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource12}}, {{.OrgId}}, 'Issue.Source.Customer', '客户', '2', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource13}}, {{.OrgId}}, 'Issue.Source.CustomerService', '客服', '3', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource14}}, {{.OrgId}}, 'Issue.Source.Operational', '运营', '4', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource15}}, {{.OrgId}}, 'Issue.Source.Market', '市场', '5', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource16}}, {{.OrgId}}, 'Issue.Source.Technology', '技术', '6', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource17}}, {{.OrgId}}, 'Issue.Source.ProductManager', '产品经理', '7', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource18}}, {{.OrgId}}, 'Issue.Source.Developer', '开发人员', '8', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource19}}, {{.OrgId}}, 'Issue.Source.Tester', '测试人员', '9', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2'),
+({{.IssueSource20}}, {{.OrgId}}, 'Issue.Source.Bug', 'Bug', '10', {{.ProjectObjectDemandId}}, '', '1', '0', '2019-08-29 16:59:23', '0', '2019-08-29 17:00:29', '1', '2')

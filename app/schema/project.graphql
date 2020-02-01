@@ -1,0 +1,351 @@
+type Project{
+	"主键"
+	id:Int64!
+	"组织id,应该是全局的,因此填0"
+	orgId:Int64!
+	"编号"
+	code:String!
+	"名称"
+	name:String!
+	"前缀编号"
+	preCode:String!
+	"项目负责人"
+	owner:Int64!
+	"项目类型"
+	projectTypeId:Int64!
+	"项目优先级"
+	priorityId:Int64!
+	"计划开始时间"
+	planStartTime:Time
+	"计划结束时间"
+	planEndTime:Time
+	"项目公开性,1公开,2私有"
+	publicStatus:Int!
+	"项目标识"
+	resourceId:Int64!
+	"是否归档,1归档,2未归档"
+	isFiling:Int!
+	"描述"
+	remark:String!
+	"项目状态,从状态表取"
+	status:Int64!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+	"创建人信息"
+	creatorInfo:UserIdInfo
+	"负责人信息"
+	ownerInfo:UserIdInfo
+	"成员信息"
+	memberInfo:[UserIdInfo]
+	"关注人信息"
+	followerInfo:[UserIdInfo]
+    "封面地址"
+    resourcePath:String!
+	"封面缩略图"
+	resourceCompressedPath:String!
+    "所有任务数量"
+    allIssues:Int64!
+    "已完成任务数量"
+    finishIssues:Int64!
+    "逾期任务数量"
+    overdueIssues:Int64!
+	"流程状态"
+	allStatus: [HomeIssueStatusInfo!]
+	"项目类型名称"
+	projectTypeName: String!
+	"项目类型LangCode，ProjectType.NormalTask  普通任务项目, ProjectType.Agile  敏捷研发项目"
+	projectTypeLangCode: String!
+	"是否同步到飞书日历(1是2否,默认否)"
+	isSyncOutCalendar:Int!
+}
+
+"项目信息请求结构体"
+input ProjectInfoReq{
+	"项目id"
+	projectId: Int64!
+}
+
+"项目信息结构体"
+type ProjectInfo{
+	"主键"
+	id:Int64!
+	"组织id,应该是全局的,因此填0"
+	orgId:Int64!
+	"编号"
+	code:String!
+	"名称"
+	name:String!
+	"前缀编号"
+	preCode:String!
+	"项目负责人"
+	owner:Int64!
+	"项目类型"
+	projectTypeId:Int64!
+	"项目优先级"
+	priorityId:Int64!
+	"计划开始时间"
+	planStartTime:Time
+	"计划结束时间"
+	planEndTime:Time
+	"项目公开性,1公开,2私有"
+	publicStatus:Int!
+	"项目标识"
+	resourceId:Int64!
+	"是否归档,1归档,2未归档"
+	isFiling:Int!
+	"描述"
+	remark:String!
+	"项目状态,从状态表取"
+	status:Int64!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"创建人信息"
+	creatorInfo:UserIdInfo
+	"负责人信息"
+	ownerInfo:UserIdInfo
+	"成员信息"
+	memberInfo:[UserIdInfo]
+	"关注人信息"
+	followerInfo:[UserIdInfo]
+	"封面地址"
+	resourcePath:String!
+	"所有状态"
+	allStatus:[HomeIssueStatusInfo!]
+}
+
+type RelationType{
+    "用户id"
+    userId:Int64
+    "类型id"
+    relationType:Int
+    "项目id"
+    projectId:Int64
+    "外部组织用户id"
+    outOrgUserId:String
+    "外部用户id"
+    outUserId:String
+    "姓名"
+    name:String
+    "头像"
+    avatar:String
+}
+
+input CreateProjectReq{
+    "编号"
+	code:String
+	"名称"
+	name:String!
+	"前缀编号"
+	preCode:String
+	"负责人id"
+	owner:Int64!
+	"项目类型"
+	projectTypeId:Int64
+	"优先级"
+	priorityId:Int64
+	"计划开始时间"
+	planStartTime:Time
+	"计划结束时间"
+	planEndTime:Time
+	"项目公开性,1公开,2私有"
+	publicStatus:Int!
+	"资源id"
+	resourceId:Int64
+	"是否归档,1归档,2未归档"
+	isFiling:Int
+	"描述"
+	remark:String
+	"项目状态"
+	status:Int64
+	"创建时间"
+	createTime:Time
+	"更新人"
+	updator:Int64
+	"更新时间"
+	updateTime:Time
+	"资源路径"
+	resourcePath:String!
+	"资源类型1本地2oss3钉盘"
+	resourceType:Int!
+	"用户成员id"
+	memberIds:[Int64!]
+	"关注人id"
+	followerIds:[Int64!]
+	"是否同步到飞书日历(1是2否,默认否)"
+	isSyncOutCalendar:Int
+}
+
+input UpdateProjectReq{
+    "项目id"
+    id:Int64!
+    "编号"
+    code:String
+    "名称"
+    name:String
+    "前缀编号"
+    preCode:String
+    "负责人id"
+    owner:Int64
+    "优先级"
+    priorityId:Int64
+    "计划开始时间"
+    planStartTime:Time
+    "计划结束时间"
+    planEndTime:Time
+    "项目公开性,1公开,2私有"
+    publicStatus:Int
+    "资源id"
+    resourceId:Int64
+    "描述"
+    remark:String
+    "项目状态"
+    status:Int64
+    "资源路径"
+    resourcePath:String
+    "资源类型1本地2oss3钉盘"
+    resourceType:Int
+    "用户成员id"
+    memberIds:[Int64!]
+	"关注人id"
+	followerIds:[Int64!]
+	"是否同步到飞书日历(1是2否,默认否)"
+	isSyncOutCalendar:Int
+    "变动的字段列表"
+    updateFields:[String!]!
+}
+
+input DeleteProjectReq{
+    "项目id"
+	id:Int64!
+}
+
+type ProjectList{
+    "项目数量"
+    total:Int64!
+    "项目列表"
+    list:[Project!]
+}
+
+type QuitResult{
+    "是否退出"
+    isQuitted:Any!
+}
+
+input ConvertCodeReq{
+    "项目名"
+	name: String!
+}
+
+type ConvertCodeResp{
+    "项目code"
+	code: String!
+}
+
+type OperateProjectResp{
+    "是否成功"
+    isSuccess:Any!
+}
+
+type ProjectStatisticsResp{
+    "迭代数量"
+	iterationTotal:Int64!
+	"任务数量"
+	taskTotal:Int64!
+	"成员数量"
+	memberTotal:Int64!
+}
+
+"项目任务关联的状态请求结构体"
+input ProjectIssueRelatedStatusReq{
+	"项目id"
+	projectId: Int64!
+	"项目对象类型id"
+	projectObjectTypeId: Int64!
+}
+
+input UpdateProjectStatusReq{
+	"项目id"
+	projectId: Int64!
+	"下一个状态"
+	nextStatusId: Int64!
+}
+
+input ProjectsReq{
+	"主键"
+	id:Int64
+	"名称"
+	name:String
+	"项目负责人"
+	owner:Int64
+	"项目类型"
+	projectTypeId:Int64
+	"项目优先级"
+	priorityId:Int64
+	"计划开始时间"
+	planStartTime:Time
+	"计划结束时间"
+	planEndTime:Time
+	"是否归档,1归档,2未归档,3全部（不传默认查未归档）"
+	isFiling:Int
+	"项目状态,从状态表取"
+	status:Int64
+	"项目状态，通用（1未开始2进行中3已完成4未完成）"
+	statusType:Int
+	"创建人集合"
+	creatorIds:[Int64!]
+	"负责人集合"
+	ownerIds:[Int64!]
+	"关联类型(0所有1我发起的2我负责的3我参与的4我负责的和我参与的)"
+	relateType:Int64
+	"参与人"
+	participants:[Int64!]
+	"关注人"
+	followers:[Int64!]
+}
+
+input ProjectUserListReq{
+	"项目id"
+	projectId:Int64!
+}
+
+type ProjectUserListResp{
+	total:Int64!
+	list:[projectUser!]
+}
+
+type projectUser{
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"用户信息"
+	userInfo:PersonalInfo
+	"创建人信息（添加人）"
+	creatorInfo:PersonalInfo
+	"用户角色"
+	userRole:UserRoleInfo
+}
+
+"移出项目成员"
+input RemoveProjectMemberReq{
+	"项目id"
+	projectId:Int64!
+	"要移除的项目成员列表"
+	memberIds: [Int64!]!
+}

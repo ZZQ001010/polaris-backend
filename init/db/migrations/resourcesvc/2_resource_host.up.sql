@@ -1,0 +1,1 @@
+ALTER TABLE `ppm_res_resource` ADD COLUMN `host` varchar(128) NOT NULL DEFAULT '' AFTER `bucket`;

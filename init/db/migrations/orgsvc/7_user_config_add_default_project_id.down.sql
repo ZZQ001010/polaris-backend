@@ -1,0 +1,1 @@
+ALTER TABLE `ppm_org_user_config` DROP COLUMN `default_project_id`;

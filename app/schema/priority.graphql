@@ -1,0 +1,131 @@
+"优先级列表"
+input PriorityListReq {
+	"类型,1项目优先级,2:需求/任务等优先级"
+	type:Int
+}
+
+"优先级结构体"
+type Priority{
+	"主键"
+	id:Int64!
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"类型,1项目优先级,2:需求/任务等优先级"
+	type:Int!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"是否默认,1是,2否"
+	isDefault:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"创建优先级请求结构体"
+input CreatePriorityReq{
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"类型,1项目优先级,2:需求/任务等优先级"
+	type:Int!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"是否默认,1是,2否"
+	isDefault:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"更新优先级请求结构体"
+input UpdatePriorityReq{
+	"主键"
+	id:Int64!
+	"组织id,全局的填0"
+	orgId:Int64!
+	"语言编号"
+	langCode:String!
+	"名称"
+	name:String!
+	"类型,1项目优先级,2:需求/任务等优先级"
+	type:Int!
+	"排序"
+	sort:Int!
+	"背景颜色"
+	bgStyle:String!
+	"字体颜色"
+	fontStyle:String!
+	"是否默认,1是,2否"
+	isDefault:Int!
+	"描述"
+	remark:String!
+	"状态,  1可用,2禁用"
+	status:Int!
+	"创建人"
+	creator:Int64!
+	"创建时间"
+	createTime:Time!
+	"更新人"
+	updator:Int64!
+	"更新时间"
+	updateTime:Time!
+	"乐观锁"
+	version:Int!
+	"是否删除,1是,2否"
+	isDelete:Int!
+}
+
+"删除优先级请求结构体"
+input DeletePriorityReq{
+	"主键"
+	id:Int64!
+	"组织Id 暂时不用传 之后用户校验的时候比较是否包含这个orgId 操作的时候是否有当前orgId的权限"
+	orgId:Int64
+}
+
+"优先级列表响应结构体"
+type PriorityList{
+	total:Int64!
+	list:[Priority!]
+}
