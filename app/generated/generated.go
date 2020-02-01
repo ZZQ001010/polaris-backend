@@ -10,10 +10,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/galaxy-book/common/core/types"
-	"github.com/galaxy-book/polaris-backend/common/model/vo"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
+	"github.com/galaxy-book/common/core/types"
+	"github.com/galaxy-book/polaris-backend/common/model/vo"
 	"github.com/vektah/gqlparser"
 	"github.com/vektah/gqlparser/ast"
 )
@@ -14436,7 +14436,7 @@ func (ec *executionContext) field_Mutation_addProjectMember_args(ctx context.Con
 	args := map[string]interface{}{}
 	var arg0 vo.RemoveProjectMemberReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRemoveProjectMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRemoveProjectMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14464,7 +14464,7 @@ func (ec *executionContext) field_Mutation_bindLoginName_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.BindLoginNameReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNBindLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBindLoginNameReq(ctx, tmp)
+		arg0, err = ec.unmarshalNBindLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBindLoginNameReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14492,7 +14492,7 @@ func (ec *executionContext) field_Mutation_checkLoginName_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.CheckLoginNameReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCheckLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCheckLoginNameReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCheckLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCheckLoginNameReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14506,7 +14506,7 @@ func (ec *executionContext) field_Mutation_convertCode_args(ctx context.Context,
 	args := map[string]interface{}{}
 	var arg0 vo.ConvertCodeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNConvertCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNConvertCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14520,7 +14520,7 @@ func (ec *executionContext) field_Mutation_createIssueComment_args(ctx context.C
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIssueCommentReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIssueCommentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueCommentReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIssueCommentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueCommentReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14534,7 +14534,7 @@ func (ec *executionContext) field_Mutation_createIssueObjectType_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIssueObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14548,7 +14548,7 @@ func (ec *executionContext) field_Mutation_createIssueResource_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIssueResourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIssueResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueResourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIssueResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueResourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14562,7 +14562,7 @@ func (ec *executionContext) field_Mutation_createIssueSource_args(ctx context.Co
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIssueSourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueSourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueSourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14576,7 +14576,7 @@ func (ec *executionContext) field_Mutation_createIssue_args(ctx context.Context,
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIssueReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14590,7 +14590,7 @@ func (ec *executionContext) field_Mutation_createIteration_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.CreateIterationReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIterationReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIterationReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14604,7 +14604,7 @@ func (ec *executionContext) field_Mutation_createOrg_args(ctx context.Context, r
 	args := map[string]interface{}{}
 	var arg0 vo.CreateOrgReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateOrgReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateOrgReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateOrgReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateOrgReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14618,7 +14618,7 @@ func (ec *executionContext) field_Mutation_createPriority_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.CreatePriorityReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreatePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreatePriorityReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreatePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreatePriorityReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14632,7 +14632,7 @@ func (ec *executionContext) field_Mutation_createProcessStatus_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProcessStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProcessStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProcessStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14646,7 +14646,7 @@ func (ec *executionContext) field_Mutation_createProjectDetail_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProjectDetailReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectDetailReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectDetailReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14660,7 +14660,7 @@ func (ec *executionContext) field_Mutation_createProjectFolder_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProjectFolderReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectFolderReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectFolderReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14674,7 +14674,7 @@ func (ec *executionContext) field_Mutation_createProjectObjectType_args(ctx cont
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProjectObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14688,7 +14688,7 @@ func (ec *executionContext) field_Mutation_createProjectResource_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProjectResourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectResourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectResourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14702,7 +14702,7 @@ func (ec *executionContext) field_Mutation_createProject_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.CreateProjectReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateProjectReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateProjectReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14716,7 +14716,7 @@ func (ec *executionContext) field_Mutation_createRole_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 vo.CreateRoleReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateRoleReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateRoleReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14730,7 +14730,7 @@ func (ec *executionContext) field_Mutation_createTag_args(ctx context.Context, r
 	args := map[string]interface{}{}
 	var arg0 vo.CreateTagReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNCreateTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateTagReq(ctx, tmp)
+		arg0, err = ec.unmarshalNCreateTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateTagReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14744,7 +14744,7 @@ func (ec *executionContext) field_Mutation_delRole_args(ctx context.Context, raw
 	args := map[string]interface{}{}
 	var arg0 vo.DelRoleReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDelRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDelRoleReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDelRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDelRoleReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14758,7 +14758,7 @@ func (ec *executionContext) field_Mutation_deleteIssueObjectType_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteIssueObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14772,7 +14772,7 @@ func (ec *executionContext) field_Mutation_deleteIssueResource_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteIssueResourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteIssueResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueResourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteIssueResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueResourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14786,7 +14786,7 @@ func (ec *executionContext) field_Mutation_deleteIssueSource_args(ctx context.Co
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteIssueSourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueSourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueSourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14800,7 +14800,7 @@ func (ec *executionContext) field_Mutation_deleteIssue_args(ctx context.Context,
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteIssueReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14814,7 +14814,7 @@ func (ec *executionContext) field_Mutation_deleteIteration_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteIterationReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIterationReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIterationReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14828,7 +14828,7 @@ func (ec *executionContext) field_Mutation_deletePriority_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.DeletePriorityReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeletePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeletePriorityReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeletePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeletePriorityReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14842,7 +14842,7 @@ func (ec *executionContext) field_Mutation_deleteProcessStatus_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProcessStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProcessStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProcessStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14856,7 +14856,7 @@ func (ec *executionContext) field_Mutation_deleteProjectAttachment_args(ctx cont
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProjectAttachmentReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProjectAttachmentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProjectAttachmentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14870,7 +14870,7 @@ func (ec *executionContext) field_Mutation_deleteProjectDetail_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProjectDetailReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectDetailReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectDetailReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14884,7 +14884,7 @@ func (ec *executionContext) field_Mutation_deleteProjectFolder_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProjectFolderReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14898,7 +14898,7 @@ func (ec *executionContext) field_Mutation_deleteProjectObjectType_args(ctx cont
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProjectObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14912,7 +14912,7 @@ func (ec *executionContext) field_Mutation_deleteProjectResource_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteProjectResourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14926,7 +14926,7 @@ func (ec *executionContext) field_Mutation_deleteTag_args(ctx context.Context, r
 	args := map[string]interface{}{}
 	var arg0 vo.DeleteTagReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNDeleteTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteTagReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDeleteTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteTagReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14940,7 +14940,7 @@ func (ec *executionContext) field_Mutation_importIssues_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 vo.ImportIssuesReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNImportIssuesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐImportIssuesReq(ctx, tmp)
+		arg0, err = ec.unmarshalNImportIssuesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐImportIssuesReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14968,7 +14968,7 @@ func (ec *executionContext) field_Mutation_registerWebSiteContact_args(ctx conte
 	args := map[string]interface{}{}
 	var arg0 vo.RegisterWebSiteContactReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRegisterWebSiteContactReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRegisterWebSiteContactReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRegisterWebSiteContactReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRegisterWebSiteContactReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14982,7 +14982,7 @@ func (ec *executionContext) field_Mutation_removeOrgMember_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.RemoveOrgMemberReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRemoveOrgMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveOrgMemberReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRemoveOrgMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveOrgMemberReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -14996,7 +14996,7 @@ func (ec *executionContext) field_Mutation_removeProjectMember_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.RemoveProjectMemberReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRemoveProjectMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRemoveProjectMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15010,7 +15010,7 @@ func (ec *executionContext) field_Mutation_resetPassword_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.ResetPasswordReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNResetPasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResetPasswordReq(ctx, tmp)
+		arg0, err = ec.unmarshalNResetPasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResetPasswordReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15024,7 +15024,7 @@ func (ec *executionContext) field_Mutation_retrievePassword_args(ctx context.Con
 	args := map[string]interface{}{}
 	var arg0 vo.RetrievePasswordReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRetrievePasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRetrievePasswordReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRetrievePasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRetrievePasswordReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15038,7 +15038,7 @@ func (ec *executionContext) field_Mutation_sendAuthCode_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 vo.SendAuthCodeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNSendAuthCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendAuthCodeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNSendAuthCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendAuthCodeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15052,7 +15052,7 @@ func (ec *executionContext) field_Mutation_sendSmsLoginCode_args(ctx context.Con
 	args := map[string]interface{}{}
 	var arg0 vo.SendSmsLoginCodeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNSendSmsLoginCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendSmsLoginCodeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNSendSmsLoginCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendSmsLoginCodeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15066,7 +15066,7 @@ func (ec *executionContext) field_Mutation_setPassword_args(ctx context.Context,
 	args := map[string]interface{}{}
 	var arg0 vo.SetPasswordReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNSetPasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSetPasswordReq(ctx, tmp)
+		arg0, err = ec.unmarshalNSetPasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSetPasswordReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15094,7 +15094,7 @@ func (ec *executionContext) field_Mutation_switchUserOrganization_args(ctx conte
 	args := map[string]interface{}{}
 	var arg0 vo.SwitchUserOrganizationReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNSwitchUserOrganizationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSwitchUserOrganizationReq(ctx, tmp)
+		arg0, err = ec.unmarshalNSwitchUserOrganizationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSwitchUserOrganizationReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15108,7 +15108,7 @@ func (ec *executionContext) field_Mutation_unbindLoginName_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.UnbindLoginNameReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUnbindLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUnbindLoginNameReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUnbindLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUnbindLoginNameReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15136,7 +15136,7 @@ func (ec *executionContext) field_Mutation_updateIssueAndIssueRelate_args(ctx co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueAndIssueRelateReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueAndIssueRelateReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueAndIssueRelateReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueAndIssueRelateReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueAndIssueRelateReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15150,7 +15150,7 @@ func (ec *executionContext) field_Mutation_updateIssueObjectType_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15164,7 +15164,7 @@ func (ec *executionContext) field_Mutation_updateIssueProjectObjectType_args(ctx
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueProjectObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueProjectObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueProjectObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15178,7 +15178,7 @@ func (ec *executionContext) field_Mutation_updateIssueSort_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueSortReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueSortReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSortReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueSortReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSortReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15192,7 +15192,7 @@ func (ec *executionContext) field_Mutation_updateIssueSource_args(ctx context.Co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueSourceReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSourceReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15206,7 +15206,7 @@ func (ec *executionContext) field_Mutation_updateIssueStatus_args(ctx context.Co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15220,7 +15220,7 @@ func (ec *executionContext) field_Mutation_updateIssueTags_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueTagsReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueTagsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueTagsReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueTagsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueTagsReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15234,7 +15234,7 @@ func (ec *executionContext) field_Mutation_updateIssue_args(ctx context.Context,
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIssueReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15248,7 +15248,7 @@ func (ec *executionContext) field_Mutation_updateIterationIssueRelate_args(ctx c
 	args := map[string]interface{}{}
 	var arg0 vo.IterationIssueRealtionReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNIterationIssueRealtionReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationIssueRealtionReq(ctx, tmp)
+		arg0, err = ec.unmarshalNIterationIssueRealtionReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationIssueRealtionReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15262,7 +15262,7 @@ func (ec *executionContext) field_Mutation_updateIterationStatus_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIterationStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIterationStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIterationStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15276,7 +15276,7 @@ func (ec *executionContext) field_Mutation_updateIteration_args(ctx context.Cont
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateIterationReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15290,7 +15290,7 @@ func (ec *executionContext) field_Mutation_updateOrgMemberCheckStatus_args(ctx c
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateOrgMemberCheckStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateOrgMemberCheckStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberCheckStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateOrgMemberCheckStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberCheckStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15304,7 +15304,7 @@ func (ec *executionContext) field_Mutation_updateOrgMemberStatus_args(ctx contex
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateOrgMemberStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateOrgMemberStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateOrgMemberStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15318,7 +15318,7 @@ func (ec *executionContext) field_Mutation_updateOrganizationSetting_args(ctx co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateOrganizationSettingsReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateOrganizationSettingsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrganizationSettingsReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateOrganizationSettingsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrganizationSettingsReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15332,7 +15332,7 @@ func (ec *executionContext) field_Mutation_updatePriority_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.UpdatePriorityReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdatePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdatePriorityReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdatePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdatePriorityReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15346,7 +15346,7 @@ func (ec *executionContext) field_Mutation_updateProcessStatus_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProcessStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProcessStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProcessStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15360,7 +15360,7 @@ func (ec *executionContext) field_Mutation_updateProjectDetail_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectDetailReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectDetailReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectDetailReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15374,7 +15374,7 @@ func (ec *executionContext) field_Mutation_updateProjectFolder_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectFolderReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15388,7 +15388,7 @@ func (ec *executionContext) field_Mutation_updateProjectObjectType_args(ctx cont
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectObjectTypeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectObjectTypeReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectObjectTypeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15402,7 +15402,7 @@ func (ec *executionContext) field_Mutation_updateProjectResourceFolder_args(ctx 
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectResourceFolderReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectResourceFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectResourceFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15416,7 +15416,7 @@ func (ec *executionContext) field_Mutation_updateProjectResourceName_args(ctx co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectResourceNameReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectResourceNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceNameReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectResourceNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceNameReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15430,7 +15430,7 @@ func (ec *executionContext) field_Mutation_updateProjectStatus_args(ctx context.
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15444,7 +15444,7 @@ func (ec *executionContext) field_Mutation_updateProject_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateProjectReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateProjectReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateProjectReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15458,7 +15458,7 @@ func (ec *executionContext) field_Mutation_updateRolePermissionOperation_args(ct
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateRolePermissionOperationReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateRolePermissionOperationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRolePermissionOperationReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateRolePermissionOperationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRolePermissionOperationReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15472,7 +15472,7 @@ func (ec *executionContext) field_Mutation_updateRole_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateRoleReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRoleReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRoleReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15486,7 +15486,7 @@ func (ec *executionContext) field_Mutation_updateTag_args(ctx context.Context, r
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateTagReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateTagReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateTagReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15500,7 +15500,7 @@ func (ec *executionContext) field_Mutation_updateUserConfig_args(ctx context.Con
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateUserConfigReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateUserConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateUserConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15514,7 +15514,7 @@ func (ec *executionContext) field_Mutation_updateUserDefaultProjectConfig_args(c
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateUserDefaultProjectConfigReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateUserDefaultProjectConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserDefaultProjectConfigReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateUserDefaultProjectConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserDefaultProjectConfigReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15528,7 +15528,7 @@ func (ec *executionContext) field_Mutation_updateUserInfo_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateUserInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateUserInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserInfoReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateUserInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15542,7 +15542,7 @@ func (ec *executionContext) field_Mutation_updateUserOrgRole_args(ctx context.Co
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateUserOrgRoleReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateUserOrgRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserOrgRoleReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateUserOrgRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserOrgRoleReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15556,7 +15556,7 @@ func (ec *executionContext) field_Mutation_updateUserPcConfig_args(ctx context.C
 	args := map[string]interface{}{}
 	var arg0 vo.UpdateUserPcConfigReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUpdateUserPcConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserPcConfigReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUpdateUserPcConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserPcConfigReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15570,7 +15570,7 @@ func (ec *executionContext) field_Mutation_userLogin_args(ctx context.Context, r
 	args := map[string]interface{}{}
 	var arg0 vo.UserLoginReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUserLoginReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUserLoginReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15584,7 +15584,7 @@ func (ec *executionContext) field_Mutation_userRegister_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 vo.UserRegisterReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNUserRegisterReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterReq(ctx, tmp)
+		arg0, err = ec.unmarshalNUserRegisterReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15612,7 +15612,7 @@ func (ec *executionContext) field_Query_areaLinkageList_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 vo.AreaLinkageListReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNAreaLinkageListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListReq(ctx, tmp)
+		arg0, err = ec.unmarshalNAreaLinkageListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15626,7 +15626,7 @@ func (ec *executionContext) field_Query_departmentMembers_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.DepartmentMemberListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg0, err = ec.unmarshalNDepartmentMemberListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberListReq(ctx, tmp)
+		arg0, err = ec.unmarshalNDepartmentMemberListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15656,7 +15656,7 @@ func (ec *executionContext) field_Query_departments_args(ctx context.Context, ra
 	args["size"] = arg1
 	var arg2 *vo.DepartmentListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalODepartmentListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx, tmp)
+		arg2, err = ec.unmarshalODepartmentListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15698,7 +15698,7 @@ func (ec *executionContext) field_Query_getInviteCode_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 *vo.GetInviteCodeReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOGetInviteCodeReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx, tmp)
+		arg0, err = ec.unmarshalOGetInviteCodeReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15712,7 +15712,7 @@ func (ec *executionContext) field_Query_getInviteInfo_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 vo.GetInviteInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNGetInviteInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoReq(ctx, tmp)
+		arg0, err = ec.unmarshalNGetInviteInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15726,7 +15726,7 @@ func (ec *executionContext) field_Query_getMQTTChannelKey_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 vo.GetMQTTChannelKeyReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNGetMQTTChannelKeyReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyReq(ctx, tmp)
+		arg0, err = ec.unmarshalNGetMQTTChannelKeyReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15740,7 +15740,7 @@ func (ec *executionContext) field_Query_getOssPostPolicy_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.OssPostPolicyReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNOssPostPolicyReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyReq(ctx, tmp)
+		arg0, err = ec.unmarshalNOssPostPolicyReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15754,7 +15754,7 @@ func (ec *executionContext) field_Query_getOssSignUrl_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 vo.OssApplySignURLReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNOssApplySignUrlReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLReq(ctx, tmp)
+		arg0, err = ec.unmarshalNOssApplySignUrlReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15806,7 +15806,7 @@ func (ec *executionContext) field_Query_homeIssues_args(ctx context.Context, raw
 	args["size"] = arg1
 	var arg2 *vo.HomeIssueInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg2, err = ec.unmarshalOHomeIssueInfoReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx, tmp)
+		arg2, err = ec.unmarshalOHomeIssueInfoReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15834,7 +15834,7 @@ func (ec *executionContext) field_Query_issueAssignRank_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 vo.IssueAssignRankReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNIssueAssignRankReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankReq(ctx, tmp)
+		arg0, err = ec.unmarshalNIssueAssignRankReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15848,7 +15848,7 @@ func (ec *executionContext) field_Query_issueDailyPersonalWorkCompletionStat_arg
 	args := map[string]interface{}{}
 	var arg0 *vo.IssueDailyPersonalWorkCompletionStatReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOIssueDailyPersonalWorkCompletionStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx, tmp)
+		arg0, err = ec.unmarshalOIssueDailyPersonalWorkCompletionStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15892,7 +15892,7 @@ func (ec *executionContext) field_Query_issueObjectTypes_args(ctx context.Contex
 	args["size"] = arg1
 	var arg2 *vo.IssueObjectTypesReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOIssueObjectTypesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx, tmp)
+		arg2, err = ec.unmarshalOIssueObjectTypesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15950,7 +15950,7 @@ func (ec *executionContext) field_Query_issueResources_args(ctx context.Context,
 	args["size"] = arg1
 	var arg2 *vo.GetIssueResourcesReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg2, err = ec.unmarshalOGetIssueResourcesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx, tmp)
+		arg2, err = ec.unmarshalOGetIssueResourcesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -15980,7 +15980,7 @@ func (ec *executionContext) field_Query_issueRestInfos_args(ctx context.Context,
 	args["size"] = arg1
 	var arg2 *vo.IssueRestInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg2, err = ec.unmarshalOIssueRestInfoReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx, tmp)
+		arg2, err = ec.unmarshalOIssueRestInfoReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16010,7 +16010,7 @@ func (ec *executionContext) field_Query_issueSources_args(ctx context.Context, r
 	args["size"] = arg1
 	var arg2 *vo.IssueSourcesReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOIssueSourcesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx, tmp)
+		arg2, err = ec.unmarshalOIssueSourcesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16024,7 +16024,7 @@ func (ec *executionContext) field_Query_issueStatusTypeStatDetail_args(ctx conte
 	args := map[string]interface{}{}
 	var arg0 *vo.IssueStatusTypeStatReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOIssueStatusTypeStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, tmp)
+		arg0, err = ec.unmarshalOIssueStatusTypeStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16038,7 +16038,7 @@ func (ec *executionContext) field_Query_issueStatusTypeStat_args(ctx context.Con
 	args := map[string]interface{}{}
 	var arg0 *vo.IssueStatusTypeStatReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOIssueStatusTypeStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, tmp)
+		arg0, err = ec.unmarshalOIssueStatusTypeStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16052,7 +16052,7 @@ func (ec *executionContext) field_Query_iterationInfo_args(ctx context.Context, 
 	args := map[string]interface{}{}
 	var arg0 vo.IterationInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNIterationInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoReq(ctx, tmp)
+		arg0, err = ec.unmarshalNIterationInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16082,7 +16082,7 @@ func (ec *executionContext) field_Query_iterationStats_args(ctx context.Context,
 	args["size"] = arg1
 	var arg2 vo.IterationStatReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalNIterationStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatReq(ctx, tmp)
+		arg2, err = ec.unmarshalNIterationStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16096,7 +16096,7 @@ func (ec *executionContext) field_Query_iterationStatusTypeStat_args(ctx context
 	args := map[string]interface{}{}
 	var arg0 *vo.IterationStatusTypeStatReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOIterationStatusTypeStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx, tmp)
+		arg0, err = ec.unmarshalOIterationStatusTypeStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16126,7 +16126,7 @@ func (ec *executionContext) field_Query_iterations_args(ctx context.Context, raw
 	args["size"] = arg1
 	var arg2 *vo.IterationListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOIterationListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx, tmp)
+		arg2, err = ec.unmarshalOIterationListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16156,7 +16156,7 @@ func (ec *executionContext) field_Query_noticeList_args(ctx context.Context, raw
 	args["size"] = arg1
 	var arg2 *vo.NoticeListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalONoticeListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx, tmp)
+		arg2, err = ec.unmarshalONoticeListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16170,7 +16170,7 @@ func (ec *executionContext) field_Query_orgProjectMember_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.OrgProjectMemberReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNOrgProjectMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberReq(ctx, tmp)
+		arg0, err = ec.unmarshalNOrgProjectMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16200,7 +16200,7 @@ func (ec *executionContext) field_Query_orgUserList_args(ctx context.Context, ra
 	args["size"] = arg1
 	var arg2 vo.OrgUserListReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg2, err = ec.unmarshalNOrgUserListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgUserListReq(ctx, tmp)
+		arg2, err = ec.unmarshalNOrgUserListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgUserListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16214,7 +16214,7 @@ func (ec *executionContext) field_Query_organizationInfo_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.OrganizationInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNOrganizationInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoReq(ctx, tmp)
+		arg0, err = ec.unmarshalNOrganizationInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16266,7 +16266,7 @@ func (ec *executionContext) field_Query_prioritys_args(ctx context.Context, rawA
 	args["size"] = arg1
 	var arg2 *vo.PriorityListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOPriorityListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx, tmp)
+		arg2, err = ec.unmarshalOPriorityListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16318,7 +16318,7 @@ func (ec *executionContext) field_Query_projectAttachment_args(ctx context.Conte
 	args["size"] = arg1
 	var arg2 vo.ProjectAttachmentReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalNProjectAttachmentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectAttachmentReq(ctx, tmp)
+		arg2, err = ec.unmarshalNProjectAttachmentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectAttachmentReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16348,7 +16348,7 @@ func (ec *executionContext) field_Query_projectDayStats_args(ctx context.Context
 	args["size"] = arg1
 	var arg2 *vo.ProjectDayStatReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOProjectDayStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx, tmp)
+		arg2, err = ec.unmarshalOProjectDayStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16392,7 +16392,7 @@ func (ec *executionContext) field_Query_projectFolder_args(ctx context.Context, 
 	args["size"] = arg1
 	var arg2 vo.ProjectFolderReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalNProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectFolderReq(ctx, tmp)
+		arg2, err = ec.unmarshalNProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectFolderReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16406,7 +16406,7 @@ func (ec *executionContext) field_Query_projectInfo_args(ctx context.Context, ra
 	args := map[string]interface{}{}
 	var arg0 vo.ProjectInfoReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNProjectInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfoReq(ctx, tmp)
+		arg0, err = ec.unmarshalNProjectInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfoReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16420,7 +16420,7 @@ func (ec *executionContext) field_Query_projectIssueRelatedStatus_args(ctx conte
 	args := map[string]interface{}{}
 	var arg0 vo.ProjectIssueRelatedStatusReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNProjectIssueRelatedStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectIssueRelatedStatusReq(ctx, tmp)
+		arg0, err = ec.unmarshalNProjectIssueRelatedStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectIssueRelatedStatusReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16464,7 +16464,7 @@ func (ec *executionContext) field_Query_projectObjectTypes_args(ctx context.Cont
 	args["size"] = arg1
 	var arg2 *vo.ProjectObjectTypesReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalOprojectObjectTypesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx, tmp)
+		arg2, err = ec.unmarshalOprojectObjectTypesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16494,7 +16494,7 @@ func (ec *executionContext) field_Query_projectResource_args(ctx context.Context
 	args["size"] = arg1
 	var arg2 vo.ProjectResourceReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalNProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectResourceReq(ctx, tmp)
+		arg2, err = ec.unmarshalNProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectResourceReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16536,7 +16536,7 @@ func (ec *executionContext) field_Query_projectSupportObjectTypes_args(ctx conte
 	args := map[string]interface{}{}
 	var arg0 vo.ProjectSupportObjectTypeListReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNProjectSupportObjectTypeListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListReq(ctx, tmp)
+		arg0, err = ec.unmarshalNProjectSupportObjectTypeListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16566,7 +16566,7 @@ func (ec *executionContext) field_Query_projectUserList_args(ctx context.Context
 	args["size"] = arg1
 	var arg2 vo.ProjectUserListReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg2, err = ec.unmarshalNProjectUserListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListReq(ctx, tmp)
+		arg2, err = ec.unmarshalNProjectUserListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16612,7 +16612,7 @@ func (ec *executionContext) field_Query_projects_args(ctx context.Context, rawAr
 	args["order"] = arg3
 	var arg4 *vo.ProjectsReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg4, err = ec.unmarshalOProjectsReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx, tmp)
+		arg4, err = ec.unmarshalOProjectsReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16626,7 +16626,7 @@ func (ec *executionContext) field_Query_relatedIssueList_args(ctx context.Contex
 	args := map[string]interface{}{}
 	var arg0 vo.RelatedIssueListReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNRelatedIssueListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelatedIssueListReq(ctx, tmp)
+		arg0, err = ec.unmarshalNRelatedIssueListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelatedIssueListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16656,7 +16656,7 @@ func (ec *executionContext) field_Query_tagList_args(ctx context.Context, rawArg
 	args["size"] = arg1
 	var arg2 vo.TagListReq
 	if tmp, ok := rawArgs["params"]; ok {
-		arg2, err = ec.unmarshalNTagListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagListReq(ctx, tmp)
+		arg2, err = ec.unmarshalNTagListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagListReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -16670,7 +16670,7 @@ func (ec *executionContext) field_Query_trendList_args(ctx context.Context, rawA
 	args := map[string]interface{}{}
 	var arg0 *vo.TrendReq
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOTrendReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx, tmp)
+		arg0, err = ec.unmarshalOTrendReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -17110,7 +17110,7 @@ func (ec *executionContext) _AppInfo_createTime(ctx context.Context, field graph
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AppInfo_updator(ctx context.Context, field graphql.CollectedField, obj *vo.AppInfo) (ret graphql.Marshaler) {
@@ -17184,7 +17184,7 @@ func (ec *executionContext) _AppInfo_updateTime(ctx context.Context, field graph
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AppInfo_version(ctx context.Context, field graphql.CollectedField, obj *vo.AppInfo) (ret graphql.Marshaler) {
@@ -17329,7 +17329,7 @@ func (ec *executionContext) _AppInfoList_list(ctx context.Context, field graphql
 	res := resTmp.([]*vo.AppInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOAppInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx, field.Selections, res)
+	return ec.marshalOAppInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AreaLinkageListResp_list(ctx context.Context, field graphql.CollectedField, obj *vo.AreaLinkageListResp) (ret graphql.Marshaler) {
@@ -17363,7 +17363,7 @@ func (ec *executionContext) _AreaLinkageListResp_list(ctx context.Context, field
 	res := resTmp.([]*vo.AreaLinkageResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOAreaLinkageResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx, field.Selections, res)
+	return ec.marshalOAreaLinkageResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AreaLinkageResp_id(ctx context.Context, field graphql.CollectedField, obj *vo.AreaLinkageResp) (ret graphql.Marshaler) {
@@ -18066,7 +18066,7 @@ func (ec *executionContext) _Attachment_createTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Attachment_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Attachment) (ret graphql.Marshaler) {
@@ -18140,7 +18140,7 @@ func (ec *executionContext) _Attachment_updateTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Attachment_version(ctx context.Context, field graphql.CollectedField, obj *vo.Attachment) (ret graphql.Marshaler) {
@@ -18251,7 +18251,7 @@ func (ec *executionContext) _Attachment_issueList(ctx context.Context, field gra
 	res := resTmp.([]*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AttachmentList_total(ctx context.Context, field graphql.CollectedField, obj *vo.AttachmentList) (ret graphql.Marshaler) {
@@ -18322,7 +18322,7 @@ func (ec *executionContext) _AttachmentList_list(ctx context.Context, field grap
 	res := resTmp.([]*vo.Attachment)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOAttachment2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx, field.Selections, res)
+	return ec.marshalOAttachment2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _AuthResp_token(ctx context.Context, field graphql.CollectedField, obj *vo.AuthResp) (ret graphql.Marshaler) {
@@ -18618,7 +18618,7 @@ func (ec *executionContext) _BasicConfigResp_buildInfo(ctx context.Context, fiel
 	res := resTmp.(*vo.BuildInfoDefine)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNBuildInfoDefine2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx, field.Selections, res)
+	return ec.marshalNBuildInfoDefine2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _BuildInfoDefine_gitCommitLog(ctx context.Context, field graphql.CollectedField, obj *vo.BuildInfoDefine) (ret graphql.Marshaler) {
@@ -19420,7 +19420,7 @@ func (ec *executionContext) _Department_createTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _DepartmentList_total(ctx context.Context, field graphql.CollectedField, obj *vo.DepartmentList) (ret graphql.Marshaler) {
@@ -19491,7 +19491,7 @@ func (ec *executionContext) _DepartmentList_list(ctx context.Context, field grap
 	res := resTmp.([]*vo.Department)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalODepartment2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx, field.Selections, res)
+	return ec.marshalODepartment2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _DepartmentMemberInfo_userId(ctx context.Context, field graphql.CollectedField, obj *vo.DepartmentMemberInfo) (ret graphql.Marshaler) {
@@ -20376,7 +20376,7 @@ func (ec *executionContext) _Folder_createTime(ctx context.Context, field graphq
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Folder_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Folder) (ret graphql.Marshaler) {
@@ -20450,7 +20450,7 @@ func (ec *executionContext) _Folder_updateTime(ctx context.Context, field graphq
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Folder_version(ctx context.Context, field graphql.CollectedField, obj *vo.Folder) (ret graphql.Marshaler) {
@@ -20598,7 +20598,7 @@ func (ec *executionContext) _FolderList_list(ctx context.Context, field graphql.
 	res := resTmp.([]*vo.Folder)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNFolder2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx, field.Selections, res)
+	return ec.marshalNFolder2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _GetInviteCodeResp_inviteCode(ctx context.Context, field graphql.CollectedField, obj *vo.GetInviteCodeResp) (ret graphql.Marshaler) {
@@ -21076,7 +21076,7 @@ func (ec *executionContext) _HomeIssueInfo_issue(ctx context.Context, field grap
 	res := resTmp.(*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_project(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21113,7 +21113,7 @@ func (ec *executionContext) _HomeIssueInfo_project(ctx context.Context, field gr
 	res := resTmp.(*vo.HomeIssueProjectInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_owner(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21150,7 +21150,7 @@ func (ec *executionContext) _HomeIssueInfo_owner(ctx context.Context, field grap
 	res := resTmp.(*vo.HomeIssueOwnerInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueOwnerInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueOwnerInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_status(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21187,7 +21187,7 @@ func (ec *executionContext) _HomeIssueInfo_status(ctx context.Context, field gra
 	res := resTmp.(*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_priority(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21224,7 +21224,7 @@ func (ec *executionContext) _HomeIssueInfo_priority(ctx context.Context, field g
 	res := resTmp.(*vo.HomeIssuePriorityInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssuePriorityInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssuePriorityInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_tags(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21258,7 +21258,7 @@ func (ec *executionContext) _HomeIssueInfo_tags(ctx context.Context, field graph
 	res := resTmp.([]*vo.HomeIssueTagInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueTagInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueTagInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueInfo_childsNum(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueInfo) (ret graphql.Marshaler) {
@@ -21440,7 +21440,7 @@ func (ec *executionContext) _HomeIssueInfoResp_list(ctx context.Context, field g
 	res := resTmp.([]*vo.HomeIssueInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _HomeIssueOwnerInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.HomeIssueOwnerInfo) (ret graphql.Marshaler) {
@@ -22282,7 +22282,7 @@ func (ec *executionContext) _IndustryListResp_list(ctx context.Context, field gr
 	res := resTmp.([]*vo.IndustryResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIndustryResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx, field.Selections, res)
+	return ec.marshalOIndustryResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IndustryResp_id(ctx context.Context, field graphql.CollectedField, obj *vo.IndustryResp) (ret graphql.Marshaler) {
@@ -22837,7 +22837,7 @@ func (ec *executionContext) _Issue_planStartTime(ctx context.Context, field grap
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_planEndTime(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -22874,7 +22874,7 @@ func (ec *executionContext) _Issue_planEndTime(ctx context.Context, field graphq
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_startTime(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -22911,7 +22911,7 @@ func (ec *executionContext) _Issue_startTime(ctx context.Context, field graphql.
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_endTime(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -22948,7 +22948,7 @@ func (ec *executionContext) _Issue_endTime(ctx context.Context, field graphql.Co
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_planWorkHour(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -23315,7 +23315,7 @@ func (ec *executionContext) _Issue_createTime(ctx context.Context, field graphql
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -23389,7 +23389,7 @@ func (ec *executionContext) _Issue_updateTime(ctx context.Context, field graphql
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Issue_sort(ctx context.Context, field graphql.CollectedField, obj *vo.Issue) (ret graphql.Marshaler) {
@@ -23830,7 +23830,7 @@ func (ec *executionContext) _IssueDailyPersonalWorkCompletionStatResp_list(ctx c
 	res := resTmp.([]*vo.IssueDailyPersonalWorkCompletionStatData)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueDailyPersonalWorkCompletionStatData2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx, field.Selections, res)
+	return ec.marshalOIssueDailyPersonalWorkCompletionStatData2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_issue(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -23867,7 +23867,7 @@ func (ec *executionContext) _IssueInfo_issue(ctx context.Context, field graphql.
 	res := resTmp.(*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_project(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -23904,7 +23904,7 @@ func (ec *executionContext) _IssueInfo_project(ctx context.Context, field graphq
 	res := resTmp.(*vo.HomeIssueProjectInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_status(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -23941,7 +23941,7 @@ func (ec *executionContext) _IssueInfo_status(ctx context.Context, field graphql
 	res := resTmp.(*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_priority(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -23978,7 +23978,7 @@ func (ec *executionContext) _IssueInfo_priority(ctx context.Context, field graph
 	res := resTmp.(*vo.HomeIssuePriorityInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssuePriorityInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssuePriorityInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_owner(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24015,7 +24015,7 @@ func (ec *executionContext) _IssueInfo_owner(ctx context.Context, field graphql.
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_creatorInfo(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24052,7 +24052,7 @@ func (ec *executionContext) _IssueInfo_creatorInfo(ctx context.Context, field gr
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_participantInfos(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24086,7 +24086,7 @@ func (ec *executionContext) _IssueInfo_participantInfos(ctx context.Context, fie
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_followerInfos(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24120,7 +24120,7 @@ func (ec *executionContext) _IssueInfo_followerInfos(ctx context.Context, field 
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_nextStatus(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24154,7 +24154,7 @@ func (ec *executionContext) _IssueInfo_nextStatus(ctx context.Context, field gra
 	res := resTmp.([]*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_tags(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24188,7 +24188,7 @@ func (ec *executionContext) _IssueInfo_tags(ctx context.Context, field graphql.C
 	res := resTmp.([]*vo.HomeIssueTagInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueTagInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueTagInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_sourceInfo(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24222,7 +24222,7 @@ func (ec *executionContext) _IssueInfo_sourceInfo(ctx context.Context, field gra
 	res := resTmp.(*vo.IssueSourceInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueSourceInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx, field.Selections, res)
+	return ec.marshalOIssueSourceInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_typeInfo(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24256,7 +24256,7 @@ func (ec *executionContext) _IssueInfo_typeInfo(ctx context.Context, field graph
 	res := resTmp.(*vo.IssueObjectTypeInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueObjectTypeInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx, field.Selections, res)
+	return ec.marshalOIssueObjectTypeInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueInfo_childsNum(ctx context.Context, field graphql.CollectedField, obj *vo.IssueInfo) (ret graphql.Marshaler) {
@@ -24438,7 +24438,7 @@ func (ec *executionContext) _IssueList_list(ctx context.Context, field graphql.C
 	res := resTmp.([]*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalOIssue2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueObjectType_id(ctx context.Context, field graphql.CollectedField, obj *vo.IssueObjectType) (ret graphql.Marshaler) {
@@ -24808,7 +24808,7 @@ func (ec *executionContext) _IssueObjectType_createTime(ctx context.Context, fie
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueObjectType_updator(ctx context.Context, field graphql.CollectedField, obj *vo.IssueObjectType) (ret graphql.Marshaler) {
@@ -24882,7 +24882,7 @@ func (ec *executionContext) _IssueObjectType_updateTime(ctx context.Context, fie
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueObjectTypeInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.IssueObjectTypeInfo) (ret graphql.Marshaler) {
@@ -25027,7 +25027,7 @@ func (ec *executionContext) _IssueObjectTypeList_list(ctx context.Context, field
 	res := resTmp.([]*vo.IssueObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx, field.Selections, res)
+	return ec.marshalOIssueObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueReportResp_total(ctx context.Context, field graphql.CollectedField, obj *vo.IssueReportResp) (ret graphql.Marshaler) {
@@ -25246,7 +25246,7 @@ func (ec *executionContext) _IssueReportResp_list(ctx context.Context, field gra
 	res := resTmp.([]*vo.HomeIssueInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueRestInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.IssueRestInfo) (ret graphql.Marshaler) {
@@ -25653,7 +25653,7 @@ func (ec *executionContext) _IssueRestInfo_planEndTime(ctx context.Context, fiel
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueRestInfo_planStartTime(ctx context.Context, field graphql.CollectedField, obj *vo.IssueRestInfo) (ret graphql.Marshaler) {
@@ -25690,7 +25690,7 @@ func (ec *executionContext) _IssueRestInfo_planStartTime(ctx context.Context, fi
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueRestInfo_endTime(ctx context.Context, field graphql.CollectedField, obj *vo.IssueRestInfo) (ret graphql.Marshaler) {
@@ -25727,7 +25727,7 @@ func (ec *executionContext) _IssueRestInfo_endTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueRestInfo_priorityInfo(ctx context.Context, field graphql.CollectedField, obj *vo.IssueRestInfo) (ret graphql.Marshaler) {
@@ -25764,7 +25764,7 @@ func (ec *executionContext) _IssueRestInfo_priorityInfo(ctx context.Context, fie
 	res := resTmp.(*vo.HomeIssuePriorityInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssuePriorityInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssuePriorityInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueRestInfoResp_total(ctx context.Context, field graphql.CollectedField, obj *vo.IssueRestInfoResp) (ret graphql.Marshaler) {
@@ -25835,7 +25835,7 @@ func (ec *executionContext) _IssueRestInfoResp_list(ctx context.Context, field g
 	res := resTmp.([]*vo.IssueRestInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx, field.Selections, res)
+	return ec.marshalOIssueRestInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueSource_id(ctx context.Context, field graphql.CollectedField, obj *vo.IssueSource) (ret graphql.Marshaler) {
@@ -26205,7 +26205,7 @@ func (ec *executionContext) _IssueSource_createTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueSource_updator(ctx context.Context, field graphql.CollectedField, obj *vo.IssueSource) (ret graphql.Marshaler) {
@@ -26279,7 +26279,7 @@ func (ec *executionContext) _IssueSource_updateTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueSourceInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.IssueSourceInfo) (ret graphql.Marshaler) {
@@ -26424,7 +26424,7 @@ func (ec *executionContext) _IssueSourceList_list(ctx context.Context, field gra
 	res := resTmp.([]*vo.IssueSource)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueSource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx, field.Selections, res)
+	return ec.marshalOIssueSource2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueStatByObjectType_projectObjectTypeId(ctx context.Context, field graphql.CollectedField, obj *vo.IssueStatByObjectType) (ret graphql.Marshaler) {
@@ -26566,7 +26566,7 @@ func (ec *executionContext) _IssueStatusTypeStatDetailResp_notStart(ctx context.
 	res := resTmp.([]*vo.IssueStatByObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
+	return ec.marshalNIssueStatByObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueStatusTypeStatDetailResp_processing(ctx context.Context, field graphql.CollectedField, obj *vo.IssueStatusTypeStatDetailResp) (ret graphql.Marshaler) {
@@ -26603,7 +26603,7 @@ func (ec *executionContext) _IssueStatusTypeStatDetailResp_processing(ctx contex
 	res := resTmp.([]*vo.IssueStatByObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
+	return ec.marshalNIssueStatByObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueStatusTypeStatDetailResp_completed(ctx context.Context, field graphql.CollectedField, obj *vo.IssueStatusTypeStatDetailResp) (ret graphql.Marshaler) {
@@ -26640,7 +26640,7 @@ func (ec *executionContext) _IssueStatusTypeStatDetailResp_completed(ctx context
 	res := resTmp.([]*vo.IssueStatByObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
+	return ec.marshalNIssueStatByObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IssueStatusTypeStatResp_notStartTotal(ctx context.Context, field graphql.CollectedField, obj *vo.IssueStatusTypeStatResp) (ret graphql.Marshaler) {
@@ -27118,7 +27118,7 @@ func (ec *executionContext) _IssueStatusTypeStatResp_list(ctx context.Context, f
 	res := resTmp.([]*vo.StatCommon)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOStatCommon2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx, field.Selections, res)
+	return ec.marshalOStatCommon2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_id(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27377,7 +27377,7 @@ func (ec *executionContext) _Iteration_planStartTime(ctx context.Context, field 
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_planEndTime(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27414,7 +27414,7 @@ func (ec *executionContext) _Iteration_planEndTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_planWorkHour(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27633,7 +27633,7 @@ func (ec *executionContext) _Iteration_createTime(ctx context.Context, field gra
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27707,7 +27707,7 @@ func (ec *executionContext) _Iteration_updateTime(ctx context.Context, field gra
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_ownerInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27744,7 +27744,7 @@ func (ec *executionContext) _Iteration_ownerInfo(ctx context.Context, field grap
 	res := resTmp.(*vo.HomeIssueOwnerInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueOwnerInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueOwnerInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Iteration_statusInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Iteration) (ret graphql.Marshaler) {
@@ -27781,7 +27781,7 @@ func (ec *executionContext) _Iteration_statusInfo(ctx context.Context, field gra
 	res := resTmp.(*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationInfoResp_iteration(ctx context.Context, field graphql.CollectedField, obj *vo.IterationInfoResp) (ret graphql.Marshaler) {
@@ -27818,7 +27818,7 @@ func (ec *executionContext) _IterationInfoResp_iteration(ctx context.Context, fi
 	res := resTmp.(*vo.Iteration)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIteration2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, field.Selections, res)
+	return ec.marshalNIteration2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationInfoResp_project(ctx context.Context, field graphql.CollectedField, obj *vo.IterationInfoResp) (ret graphql.Marshaler) {
@@ -27855,7 +27855,7 @@ func (ec *executionContext) _IterationInfoResp_project(ctx context.Context, fiel
 	res := resTmp.(*vo.HomeIssueProjectInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationInfoResp_status(ctx context.Context, field graphql.CollectedField, obj *vo.IterationInfoResp) (ret graphql.Marshaler) {
@@ -27892,7 +27892,7 @@ func (ec *executionContext) _IterationInfoResp_status(ctx context.Context, field
 	res := resTmp.(*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationInfoResp_owner(ctx context.Context, field graphql.CollectedField, obj *vo.IterationInfoResp) (ret graphql.Marshaler) {
@@ -27929,7 +27929,7 @@ func (ec *executionContext) _IterationInfoResp_owner(ctx context.Context, field 
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationInfoResp_nextStatus(ctx context.Context, field graphql.CollectedField, obj *vo.IterationInfoResp) (ret graphql.Marshaler) {
@@ -27963,7 +27963,7 @@ func (ec *executionContext) _IterationInfoResp_nextStatus(ctx context.Context, f
 	res := resTmp.([]*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationList_total(ctx context.Context, field graphql.CollectedField, obj *vo.IterationList) (ret graphql.Marshaler) {
@@ -28034,7 +28034,7 @@ func (ec *executionContext) _IterationList_list(ctx context.Context, field graph
 	res := resTmp.([]*vo.Iteration)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIteration2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, field.Selections, res)
+	return ec.marshalOIteration2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationStat_id(ctx context.Context, field graphql.CollectedField, obj *vo.IterationStat) (ret graphql.Marshaler) {
@@ -29144,7 +29144,7 @@ func (ec *executionContext) _IterationStat_statDate(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationStat_status(ctx context.Context, field graphql.CollectedField, obj *vo.IterationStat) (ret graphql.Marshaler) {
@@ -29255,7 +29255,7 @@ func (ec *executionContext) _IterationStat_createTime(ctx context.Context, field
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationStatList_total(ctx context.Context, field graphql.CollectedField, obj *vo.IterationStatList) (ret graphql.Marshaler) {
@@ -29326,7 +29326,7 @@ func (ec *executionContext) _IterationStatList_list(ctx context.Context, field g
 	res := resTmp.([]*vo.IterationStat)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIterationStat2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx, field.Selections, res)
+	return ec.marshalOIterationStat2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _IterationStatusTypeStatResp_notStartTotal(ctx context.Context, field graphql.CollectedField, obj *vo.IterationStatusTypeStatResp) (ret graphql.Marshaler) {
@@ -29768,7 +29768,7 @@ func (ec *executionContext) _Mutation_sendSmsLoginCode(ctx context.Context, fiel
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_sendAuthCode(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -29812,7 +29812,7 @@ func (ec *executionContext) _Mutation_sendAuthCode(ctx context.Context, field gr
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_retrievePassword(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -29856,7 +29856,7 @@ func (ec *executionContext) _Mutation_retrievePassword(ctx context.Context, fiel
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_resetPassword(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -29900,7 +29900,7 @@ func (ec *executionContext) _Mutation_resetPassword(ctx context.Context, field g
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_setPassword(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -29944,7 +29944,7 @@ func (ec *executionContext) _Mutation_setPassword(ctx context.Context, field gra
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_unbindLoginName(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -29988,7 +29988,7 @@ func (ec *executionContext) _Mutation_unbindLoginName(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_bindLoginName(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30032,7 +30032,7 @@ func (ec *executionContext) _Mutation_bindLoginName(ctx context.Context, field g
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_checkLoginName(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30076,7 +30076,7 @@ func (ec *executionContext) _Mutation_checkLoginName(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_userLogin(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30120,7 +30120,7 @@ func (ec *executionContext) _Mutation_userLogin(ctx context.Context, field graph
 	res := resTmp.(*vo.UserLoginResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserLoginResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx, field.Selections, res)
+	return ec.marshalNUserLoginResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_userRegister(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30164,7 +30164,7 @@ func (ec *executionContext) _Mutation_userRegister(ctx context.Context, field gr
 	res := resTmp.(*vo.UserRegisterResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserRegisterResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx, field.Selections, res)
+	return ec.marshalNUserRegisterResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_userQuit(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30201,7 +30201,7 @@ func (ec *executionContext) _Mutation_userQuit(ctx context.Context, field graphq
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_registerWebSiteContact(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30245,7 +30245,7 @@ func (ec *executionContext) _Mutation_registerWebSiteContact(ctx context.Context
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_quitProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30289,7 +30289,7 @@ func (ec *executionContext) _Mutation_quitProject(ctx context.Context, field gra
 	res := resTmp.(*vo.QuitResult)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNQuitResult2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx, field.Selections, res)
+	return ec.marshalNQuitResult2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_starProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30333,7 +30333,7 @@ func (ec *executionContext) _Mutation_starProject(ctx context.Context, field gra
 	res := resTmp.(*vo.OperateProjectResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOperateProjectResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx, field.Selections, res)
+	return ec.marshalNOperateProjectResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_unstarProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30377,7 +30377,7 @@ func (ec *executionContext) _Mutation_unstarProject(ctx context.Context, field g
 	res := resTmp.(*vo.OperateProjectResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOperateProjectResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx, field.Selections, res)
+	return ec.marshalNOperateProjectResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30421,7 +30421,7 @@ func (ec *executionContext) _Mutation_updateProjectStatus(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_archiveProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30465,7 +30465,7 @@ func (ec *executionContext) _Mutation_archiveProject(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_cancelArchivedProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30509,7 +30509,7 @@ func (ec *executionContext) _Mutation_cancelArchivedProject(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateUserConfig(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30553,7 +30553,7 @@ func (ec *executionContext) _Mutation_updateUserConfig(ctx context.Context, fiel
 	res := resTmp.(*vo.UpdateUserConfigResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateUserConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateUserConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateUserDefaultProjectConfig(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30597,7 +30597,7 @@ func (ec *executionContext) _Mutation_updateUserDefaultProjectConfig(ctx context
 	res := resTmp.(*vo.UpdateUserConfigResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateUserConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateUserConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateUserPcConfig(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30641,7 +30641,7 @@ func (ec *executionContext) _Mutation_updateUserPcConfig(ctx context.Context, fi
 	res := resTmp.(*vo.UpdateUserConfigResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateUserConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateUserConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_convertCode(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30685,7 +30685,7 @@ func (ec *executionContext) _Mutation_convertCode(ctx context.Context, field gra
 	res := resTmp.(*vo.ConvertCodeResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNConvertCodeResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx, field.Selections, res)
+	return ec.marshalNConvertCodeResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIterationIssueRelate(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30729,7 +30729,7 @@ func (ec *executionContext) _Mutation_updateIterationIssueRelate(ctx context.Con
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIterationStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30773,7 +30773,7 @@ func (ec *executionContext) _Mutation_updateIterationStatus(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createOrg(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30817,7 +30817,7 @@ func (ec *executionContext) _Mutation_createOrg(ctx context.Context, field graph
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIssue(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30861,7 +30861,7 @@ func (ec *executionContext) _Mutation_createIssue(ctx context.Context, field gra
 	res := resTmp.(*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIssueComment(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30905,7 +30905,7 @@ func (ec *executionContext) _Mutation_createIssueComment(ctx context.Context, fi
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIssueResource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30949,7 +30949,7 @@ func (ec *executionContext) _Mutation_createIssueResource(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteIssueResource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -30993,7 +30993,7 @@ func (ec *executionContext) _Mutation_deleteIssueResource(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueAndIssueRelate(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31037,7 +31037,7 @@ func (ec *executionContext) _Mutation_updateIssueAndIssueRelate(ctx context.Cont
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssue(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31081,7 +31081,7 @@ func (ec *executionContext) _Mutation_updateIssue(ctx context.Context, field gra
 	res := resTmp.(*vo.UpdateIssueResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateIssueResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateIssueResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31125,7 +31125,7 @@ func (ec *executionContext) _Mutation_updateIssueStatus(ctx context.Context, fie
 	res := resTmp.(*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueSort(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31169,7 +31169,7 @@ func (ec *executionContext) _Mutation_updateIssueSort(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueProjectObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31213,7 +31213,7 @@ func (ec *executionContext) _Mutation_updateIssueProjectObjectType(ctx context.C
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueTags(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31257,7 +31257,7 @@ func (ec *executionContext) _Mutation_updateIssueTags(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteIssue(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31301,7 +31301,7 @@ func (ec *executionContext) _Mutation_deleteIssue(ctx context.Context, field gra
 	res := resTmp.(*vo.Issue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
+	return ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31345,7 +31345,7 @@ func (ec *executionContext) _Mutation_createProject(ctx context.Context, field g
 	res := resTmp.(*vo.Project)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProject2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
+	return ec.marshalNProject2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31389,7 +31389,7 @@ func (ec *executionContext) _Mutation_updateProject(ctx context.Context, field g
 	res := resTmp.(*vo.Project)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProject2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
+	return ec.marshalNProject2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProcessStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31433,7 +31433,7 @@ func (ec *executionContext) _Mutation_createProcessStatus(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProcessStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31477,7 +31477,7 @@ func (ec *executionContext) _Mutation_updateProcessStatus(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProcessStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31521,7 +31521,7 @@ func (ec *executionContext) _Mutation_deleteProcessStatus(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createPriority(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31565,7 +31565,7 @@ func (ec *executionContext) _Mutation_createPriority(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updatePriority(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31609,7 +31609,7 @@ func (ec *executionContext) _Mutation_updatePriority(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deletePriority(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31653,7 +31653,7 @@ func (ec *executionContext) _Mutation_deletePriority(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIteration(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31697,7 +31697,7 @@ func (ec *executionContext) _Mutation_createIteration(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIteration(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31741,7 +31741,7 @@ func (ec *executionContext) _Mutation_updateIteration(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteIteration(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31785,7 +31785,7 @@ func (ec *executionContext) _Mutation_deleteIteration(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProjectDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31829,7 +31829,7 @@ func (ec *executionContext) _Mutation_createProjectDetail(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31873,7 +31873,7 @@ func (ec *executionContext) _Mutation_updateProjectDetail(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProjectDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31917,7 +31917,7 @@ func (ec *executionContext) _Mutation_deleteProjectDetail(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_importIssues(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -31961,7 +31961,7 @@ func (ec *executionContext) _Mutation_importIssues(ctx context.Context, field gr
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createTag(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32005,7 +32005,7 @@ func (ec *executionContext) _Mutation_createTag(ctx context.Context, field graph
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteTag(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32049,7 +32049,7 @@ func (ec *executionContext) _Mutation_deleteTag(ctx context.Context, field graph
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateTag(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32093,7 +32093,7 @@ func (ec *executionContext) _Mutation_updateTag(ctx context.Context, field graph
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProjectObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32137,7 +32137,7 @@ func (ec *executionContext) _Mutation_createProjectObjectType(ctx context.Contex
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32181,7 +32181,7 @@ func (ec *executionContext) _Mutation_updateProjectObjectType(ctx context.Contex
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProjectObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32225,7 +32225,7 @@ func (ec *executionContext) _Mutation_deleteProjectObjectType(ctx context.Contex
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIssueObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32269,7 +32269,7 @@ func (ec *executionContext) _Mutation_createIssueObjectType(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32313,7 +32313,7 @@ func (ec *executionContext) _Mutation_updateIssueObjectType(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteIssueObjectType(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32357,7 +32357,7 @@ func (ec *executionContext) _Mutation_deleteIssueObjectType(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createIssueSource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32401,7 +32401,7 @@ func (ec *executionContext) _Mutation_createIssueSource(ctx context.Context, fie
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateIssueSource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32445,7 +32445,7 @@ func (ec *executionContext) _Mutation_updateIssueSource(ctx context.Context, fie
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteIssueSource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32489,7 +32489,7 @@ func (ec *executionContext) _Mutation_deleteIssueSource(ctx context.Context, fie
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_switchUserOrganization(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32533,7 +32533,7 @@ func (ec *executionContext) _Mutation_switchUserOrganization(ctx context.Context
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateOrganizationSetting(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32577,7 +32577,7 @@ func (ec *executionContext) _Mutation_updateOrganizationSetting(ctx context.Cont
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateUserOrgRole(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32621,7 +32621,7 @@ func (ec *executionContext) _Mutation_updateUserOrgRole(ctx context.Context, fie
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateOrgMemberStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32665,7 +32665,7 @@ func (ec *executionContext) _Mutation_updateOrgMemberStatus(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateOrgMemberCheckStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32709,7 +32709,7 @@ func (ec *executionContext) _Mutation_updateOrgMemberCheckStatus(ctx context.Con
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createRole(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32753,7 +32753,7 @@ func (ec *executionContext) _Mutation_createRole(ctx context.Context, field grap
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateRolePermissionOperation(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32797,7 +32797,7 @@ func (ec *executionContext) _Mutation_updateRolePermissionOperation(ctx context.
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_delRole(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32841,7 +32841,7 @@ func (ec *executionContext) _Mutation_delRole(ctx context.Context, field graphql
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateRole(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32885,7 +32885,7 @@ func (ec *executionContext) _Mutation_updateRole(ctx context.Context, field grap
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_removeOrgMember(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32929,7 +32929,7 @@ func (ec *executionContext) _Mutation_removeOrgMember(ctx context.Context, field
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateUserInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -32973,7 +32973,7 @@ func (ec *executionContext) _Mutation_updateUserInfo(ctx context.Context, field 
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_removeProjectMember(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33017,7 +33017,7 @@ func (ec *executionContext) _Mutation_removeProjectMember(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_addProjectMember(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33061,7 +33061,7 @@ func (ec *executionContext) _Mutation_addProjectMember(ctx context.Context, fiel
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProjectResource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33105,7 +33105,7 @@ func (ec *executionContext) _Mutation_createProjectResource(ctx context.Context,
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectResourceFolder(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33149,7 +33149,7 @@ func (ec *executionContext) _Mutation_updateProjectResourceFolder(ctx context.Co
 	res := resTmp.(*vo.UpdateProjectResourceFolderResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateProjectResourceFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateProjectResourceFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectResourceName(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33193,7 +33193,7 @@ func (ec *executionContext) _Mutation_updateProjectResourceName(ctx context.Cont
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProjectResource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33237,7 +33237,7 @@ func (ec *executionContext) _Mutation_deleteProjectResource(ctx context.Context,
 	res := resTmp.(*vo.DeleteProjectResourceResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNDeleteProjectResourceResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx, field.Selections, res)
+	return ec.marshalNDeleteProjectResourceResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createProjectFolder(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33281,7 +33281,7 @@ func (ec *executionContext) _Mutation_createProjectFolder(ctx context.Context, f
 	res := resTmp.(*vo.Void)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
+	return ec.marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProjectFolder(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33325,7 +33325,7 @@ func (ec *executionContext) _Mutation_deleteProjectFolder(ctx context.Context, f
 	res := resTmp.(*vo.DeleteProjectFolderResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNDeleteProjectFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx, field.Selections, res)
+	return ec.marshalNDeleteProjectFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_updateProjectFolder(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33369,7 +33369,7 @@ func (ec *executionContext) _Mutation_updateProjectFolder(ctx context.Context, f
 	res := resTmp.(*vo.UpdateProjectFolderResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUpdateProjectFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx, field.Selections, res)
+	return ec.marshalNUpdateProjectFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_deleteProjectAttachment(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -33413,7 +33413,7 @@ func (ec *executionContext) _Mutation_deleteProjectAttachment(ctx context.Contex
 	res := resTmp.(*vo.DeleteProjectAttachmentResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNDeleteProjectAttachmentResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx, field.Selections, res)
+	return ec.marshalNDeleteProjectAttachmentResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Notice_id(ctx context.Context, field graphql.CollectedField, obj *vo.Notice) (ret graphql.Marshaler) {
@@ -33894,7 +33894,7 @@ func (ec *executionContext) _Notice_createTime(ctx context.Context, field graphq
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Notice_creatorInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Notice) (ret graphql.Marshaler) {
@@ -33931,7 +33931,7 @@ func (ec *executionContext) _Notice_creatorInfo(ctx context.Context, field graph
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Notice_projectName(ctx context.Context, field graphql.CollectedField, obj *vo.Notice) (ret graphql.Marshaler) {
@@ -34113,7 +34113,7 @@ func (ec *executionContext) _NoticeList_list(ctx context.Context, field graphql.
 	res := resTmp.([]*vo.Notice)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalONotice2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx, field.Selections, res)
+	return ec.marshalONotice2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OperateProjectResp_isSuccess(ctx context.Context, field graphql.CollectedField, obj *vo.OperateProjectResp) (ret graphql.Marshaler) {
@@ -34628,7 +34628,7 @@ func (ec *executionContext) _OrgProjectMemberResp_owner(ctx context.Context, fie
 	res := resTmp.(*vo.OrgProjectMemberInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrgProjectMemberInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
+	return ec.marshalNOrgProjectMemberInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrgProjectMemberResp_participants(ctx context.Context, field graphql.CollectedField, obj *vo.OrgProjectMemberResp) (ret graphql.Marshaler) {
@@ -34665,7 +34665,7 @@ func (ec *executionContext) _OrgProjectMemberResp_participants(ctx context.Conte
 	res := resTmp.([]*vo.OrgProjectMemberInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
+	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrgProjectMemberResp_follower(ctx context.Context, field graphql.CollectedField, obj *vo.OrgProjectMemberResp) (ret graphql.Marshaler) {
@@ -34702,7 +34702,7 @@ func (ec *executionContext) _OrgProjectMemberResp_follower(ctx context.Context, 
 	res := resTmp.([]*vo.OrgProjectMemberInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
+	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrgProjectMemberResp_allMembers(ctx context.Context, field graphql.CollectedField, obj *vo.OrgProjectMemberResp) (ret graphql.Marshaler) {
@@ -34739,7 +34739,7 @@ func (ec *executionContext) _OrgProjectMemberResp_allMembers(ctx context.Context
 	res := resTmp.([]*vo.OrgProjectMemberInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
+	return ec.marshalNOrgProjectMemberInfoResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationInfoResp_orgId(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationInfoResp) (ret graphql.Marshaler) {
@@ -35627,7 +35627,7 @@ func (ec *executionContext) _OrganizationUser_statusChangeTime(ctx context.Conte
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_auditorId(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35701,7 +35701,7 @@ func (ec *executionContext) _OrganizationUser_auditTime(ctx context.Context, fie
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_creator(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35775,7 +35775,7 @@ func (ec *executionContext) _OrganizationUser_createTime(ctx context.Context, fi
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_updator(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35849,7 +35849,7 @@ func (ec *executionContext) _OrganizationUser_updateTime(ctx context.Context, fi
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_userInfo(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35886,7 +35886,7 @@ func (ec *executionContext) _OrganizationUser_userInfo(ctx context.Context, fiel
 	res := resTmp.(*vo.PersonalInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
+	return ec.marshalNPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_auditorInfo(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35920,7 +35920,7 @@ func (ec *executionContext) _OrganizationUser_auditorInfo(ctx context.Context, f
 	res := resTmp.(*vo.PersonalInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
+	return ec.marshalOPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OrganizationUser_userRole(ctx context.Context, field graphql.CollectedField, obj *vo.OrganizationUser) (ret graphql.Marshaler) {
@@ -35954,7 +35954,7 @@ func (ec *executionContext) _OrganizationUser_userRole(ctx context.Context, fiel
 	res := resTmp.(*vo.UserRoleInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserRoleInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx, field.Selections, res)
+	return ec.marshalOUserRoleInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _OssApplySignUrlResp_signUrl(ctx context.Context, field graphql.CollectedField, obj *vo.OssApplySignURLResp) (ret graphql.Marshaler) {
@@ -36879,7 +36879,7 @@ func (ec *executionContext) _Permission_createTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Permission_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Permission) (ret graphql.Marshaler) {
@@ -36953,7 +36953,7 @@ func (ec *executionContext) _Permission_updateTime(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionList_total(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionList) (ret graphql.Marshaler) {
@@ -37024,7 +37024,7 @@ func (ec *executionContext) _PermissionList_list(ctx context.Context, field grap
 	res := resTmp.([]*vo.Permission)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, field.Selections, res)
+	return ec.marshalOPermission2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperation_id(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperation) (ret graphql.Marshaler) {
@@ -37431,7 +37431,7 @@ func (ec *executionContext) _PermissionOperation_createTime(ctx context.Context,
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperation_updator(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperation) (ret graphql.Marshaler) {
@@ -37505,7 +37505,7 @@ func (ec *executionContext) _PermissionOperation_updateTime(ctx context.Context,
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperationList_total(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperationList) (ret graphql.Marshaler) {
@@ -37576,7 +37576,7 @@ func (ec *executionContext) _PermissionOperationList_list(ctx context.Context, f
 	res := resTmp.([]*vo.PermissionOperation)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPermissionOperation2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, field.Selections, res)
+	return ec.marshalOPermissionOperation2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperationListResp_permissionInfo(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperationListResp) (ret graphql.Marshaler) {
@@ -37613,7 +37613,7 @@ func (ec *executionContext) _PermissionOperationListResp_permissionInfo(ctx cont
 	res := resTmp.(*vo.Permission)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNPermission2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, field.Selections, res)
+	return ec.marshalNPermission2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperationListResp_operationList(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperationListResp) (ret graphql.Marshaler) {
@@ -37647,7 +37647,7 @@ func (ec *executionContext) _PermissionOperationListResp_operationList(ctx conte
 	res := resTmp.([]*vo.PermissionOperation)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPermissionOperation2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, field.Selections, res)
+	return ec.marshalOPermissionOperation2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PermissionOperationListResp_permissionHave(ctx context.Context, field graphql.CollectedField, obj *vo.PermissionOperationListResp) (ret graphql.Marshaler) {
@@ -38085,7 +38085,7 @@ func (ec *executionContext) _PersonalInfo_birthday(ctx context.Context, field gr
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PersonalInfo_sex(ctx context.Context, field graphql.CollectedField, obj *vo.PersonalInfo) (ret graphql.Marshaler) {
@@ -38455,7 +38455,7 @@ func (ec *executionContext) _PersonalInfo_lastLoginTime(ctx context.Context, fie
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PersonalInfo_loginFailCount(ctx context.Context, field graphql.CollectedField, obj *vo.PersonalInfo) (ret graphql.Marshaler) {
@@ -38529,7 +38529,7 @@ func (ec *executionContext) _PersonalInfo_createTime(ctx context.Context, field 
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PersonalInfo_updateTime(ctx context.Context, field graphql.CollectedField, obj *vo.PersonalInfo) (ret graphql.Marshaler) {
@@ -38566,7 +38566,7 @@ func (ec *executionContext) _PersonalInfo_updateTime(ctx context.Context, field 
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _PersonalInfo_passwordSet(ctx context.Context, field graphql.CollectedField, obj *vo.PersonalInfo) (ret graphql.Marshaler) {
@@ -39084,7 +39084,7 @@ func (ec *executionContext) _Priority_createTime(ctx context.Context, field grap
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Priority_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Priority) (ret graphql.Marshaler) {
@@ -39158,7 +39158,7 @@ func (ec *executionContext) _Priority_updateTime(ctx context.Context, field grap
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Priority_version(ctx context.Context, field graphql.CollectedField, obj *vo.Priority) (ret graphql.Marshaler) {
@@ -39303,7 +39303,7 @@ func (ec *executionContext) _PriorityList_list(ctx context.Context, field graphq
 	res := resTmp.([]*vo.Priority)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPriority2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx, field.Selections, res)
+	return ec.marshalOPriority2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProcessStatus_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProcessStatus) (ret graphql.Marshaler) {
@@ -39784,7 +39784,7 @@ func (ec *executionContext) _ProcessStatus_createTime(ctx context.Context, field
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProcessStatus_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProcessStatus) (ret graphql.Marshaler) {
@@ -39858,7 +39858,7 @@ func (ec *executionContext) _ProcessStatus_updateTime(ctx context.Context, field
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProcessStatus_version(ctx context.Context, field graphql.CollectedField, obj *vo.ProcessStatus) (ret graphql.Marshaler) {
@@ -40003,7 +40003,7 @@ func (ec *executionContext) _ProcessStatusList_list(ctx context.Context, field g
 	res := resTmp.([]*vo.ProcessStatus)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProcessStatus2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx, field.Selections, res)
+	return ec.marshalOProcessStatus2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_id(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40333,7 +40333,7 @@ func (ec *executionContext) _Project_planStartTime(ctx context.Context, field gr
 	res := resTmp.(*types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_planEndTime(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40367,7 +40367,7 @@ func (ec *executionContext) _Project_planEndTime(ctx context.Context, field grap
 	res := resTmp.(*types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_publicStatus(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40626,7 +40626,7 @@ func (ec *executionContext) _Project_createTime(ctx context.Context, field graph
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40700,7 +40700,7 @@ func (ec *executionContext) _Project_updateTime(ctx context.Context, field graph
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_version(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40808,7 +40808,7 @@ func (ec *executionContext) _Project_creatorInfo(ctx context.Context, field grap
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_ownerInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40842,7 +40842,7 @@ func (ec *executionContext) _Project_ownerInfo(ctx context.Context, field graphq
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_memberInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40876,7 +40876,7 @@ func (ec *executionContext) _Project_memberInfo(ctx context.Context, field graph
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_followerInfo(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -40910,7 +40910,7 @@ func (ec *executionContext) _Project_followerInfo(ctx context.Context, field gra
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_resourcePath(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -41129,7 +41129,7 @@ func (ec *executionContext) _Project_allStatus(ctx context.Context, field graphq
 	res := resTmp.([]*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Project_projectTypeName(ctx context.Context, field graphql.CollectedField, obj *vo.Project) (ret graphql.Marshaler) {
@@ -42535,7 +42535,7 @@ func (ec *executionContext) _ProjectDayStat_statDate(ctx context.Context, field 
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDayStat_status(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDayStat) (ret graphql.Marshaler) {
@@ -42646,7 +42646,7 @@ func (ec *executionContext) _ProjectDayStat_createTime(ctx context.Context, fiel
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDayStat_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDayStat) (ret graphql.Marshaler) {
@@ -42720,7 +42720,7 @@ func (ec *executionContext) _ProjectDayStat_updateTime(ctx context.Context, fiel
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDayStat_version(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDayStat) (ret graphql.Marshaler) {
@@ -42865,7 +42865,7 @@ func (ec *executionContext) _ProjectDayStatList_list(ctx context.Context, field 
 	res := resTmp.([]*vo.ProjectDayStat)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectDayStat2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx, field.Selections, res)
+	return ec.marshalOProjectDayStat2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDetail_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDetail) (ret graphql.Marshaler) {
@@ -43161,7 +43161,7 @@ func (ec *executionContext) _ProjectDetail_createTime(ctx context.Context, field
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDetail_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDetail) (ret graphql.Marshaler) {
@@ -43235,7 +43235,7 @@ func (ec *executionContext) _ProjectDetail_updateTime(ctx context.Context, field
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectDetailList_total(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectDetailList) (ret graphql.Marshaler) {
@@ -43306,7 +43306,7 @@ func (ec *executionContext) _ProjectDetailList_list(ctx context.Context, field g
 	res := resTmp.([]*vo.ProjectDetail)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectDetail2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, field.Selections, res)
+	return ec.marshalOProjectDetail2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -43636,7 +43636,7 @@ func (ec *executionContext) _ProjectInfo_planStartTime(ctx context.Context, fiel
 	res := resTmp.(*types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_planEndTime(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -43670,7 +43670,7 @@ func (ec *executionContext) _ProjectInfo_planEndTime(ctx context.Context, field 
 	res := resTmp.(*types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_publicStatus(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -43929,7 +43929,7 @@ func (ec *executionContext) _ProjectInfo_createTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44003,7 +44003,7 @@ func (ec *executionContext) _ProjectInfo_updateTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_creatorInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44037,7 +44037,7 @@ func (ec *executionContext) _ProjectInfo_creatorInfo(ctx context.Context, field 
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_ownerInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44071,7 +44071,7 @@ func (ec *executionContext) _ProjectInfo_ownerInfo(ctx context.Context, field gr
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_memberInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44105,7 +44105,7 @@ func (ec *executionContext) _ProjectInfo_memberInfo(ctx context.Context, field g
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_followerInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44139,7 +44139,7 @@ func (ec *executionContext) _ProjectInfo_followerInfo(ctx context.Context, field
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectInfo_resourcePath(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectInfo) (ret graphql.Marshaler) {
@@ -44210,7 +44210,7 @@ func (ec *executionContext) _ProjectInfo_allStatus(ctx context.Context, field gr
 	res := resTmp.([]*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalOHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectList_total(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectList) (ret graphql.Marshaler) {
@@ -44281,7 +44281,7 @@ func (ec *executionContext) _ProjectList_list(ctx context.Context, field graphql
 	res := resTmp.([]*vo.Project)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProject2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
+	return ec.marshalOProject2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectObjectType_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectObjectType) (ret graphql.Marshaler) {
@@ -44836,7 +44836,7 @@ func (ec *executionContext) _ProjectObjectType_createTime(ctx context.Context, f
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectObjectType_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectObjectType) (ret graphql.Marshaler) {
@@ -44910,7 +44910,7 @@ func (ec *executionContext) _ProjectObjectType_updateTime(ctx context.Context, f
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectObjectType_version(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectObjectType) (ret graphql.Marshaler) {
@@ -45055,7 +45055,7 @@ func (ec *executionContext) _ProjectObjectTypeList_list(ctx context.Context, fie
 	res := resTmp.([]*vo.ProjectObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, field.Selections, res)
+	return ec.marshalOProjectObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectObjectTypeRestInfo_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectObjectTypeRestInfo) (ret graphql.Marshaler) {
@@ -45237,7 +45237,7 @@ func (ec *executionContext) _ProjectObjectTypeWithProjectList_list(ctx context.C
 	res := resTmp.([]*vo.ProjectObjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, field.Selections, res)
+	return ec.marshalOProjectObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectStatisticsResp_iterationTotal(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectStatisticsResp) (ret graphql.Marshaler) {
@@ -45382,7 +45382,7 @@ func (ec *executionContext) _ProjectSupportObjectTypeListResp_projectSupportList
 	res := resTmp.([]*vo.ProjectObjectTypeRestInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectObjectTypeRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, field.Selections, res)
+	return ec.marshalOProjectObjectTypeRestInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectSupportObjectTypeListResp_iterationSupportList(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectSupportObjectTypeListResp) (ret graphql.Marshaler) {
@@ -45416,7 +45416,7 @@ func (ec *executionContext) _ProjectSupportObjectTypeListResp_iterationSupportLi
 	res := resTmp.([]*vo.ProjectObjectTypeRestInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectObjectTypeRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, field.Selections, res)
+	return ec.marshalOProjectObjectTypeRestInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectType_id(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectType) (ret graphql.Marshaler) {
@@ -45823,7 +45823,7 @@ func (ec *executionContext) _ProjectType_createTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectType_updator(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectType) (ret graphql.Marshaler) {
@@ -45897,7 +45897,7 @@ func (ec *executionContext) _ProjectType_updateTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectTypeList_total(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectTypeList) (ret graphql.Marshaler) {
@@ -45968,7 +45968,7 @@ func (ec *executionContext) _ProjectTypeList_list(ctx context.Context, field gra
 	res := resTmp.([]*vo.ProjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, field.Selections, res)
+	return ec.marshalOProjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ProjectUserListResp_total(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectUserListResp) (ret graphql.Marshaler) {
@@ -46039,7 +46039,7 @@ func (ec *executionContext) _ProjectUserListResp_list(ctx context.Context, field
 	res := resTmp.([]*vo.ProjectUser)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOprojectUser2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx, field.Selections, res)
+	return ec.marshalOprojectUser2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getBaseConfig(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46076,7 +46076,7 @@ func (ec *executionContext) _Query_getBaseConfig(ctx context.Context, field grap
 	res := resTmp.(*vo.BasicConfigResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNBasicConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx, field.Selections, res)
+	return ec.marshalNBasicConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_personalInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46113,7 +46113,7 @@ func (ec *executionContext) _Query_personalInfo(ctx context.Context, field graph
 	res := resTmp.(*vo.PersonalInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
+	return ec.marshalNPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_userConfigInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46150,7 +46150,7 @@ func (ec *executionContext) _Query_userConfigInfo(ctx context.Context, field gra
 	res := resTmp.(*vo.UserConfig)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserConfig2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx, field.Selections, res)
+	return ec.marshalNUserConfig2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_homeIssues(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46194,7 +46194,7 @@ func (ec *executionContext) _Query_homeIssues(ctx context.Context, field graphql
 	res := resTmp.(*vo.HomeIssueInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46238,7 +46238,7 @@ func (ec *executionContext) _Query_issueInfo(ctx context.Context, field graphql.
 	res := resTmp.(*vo.IssueInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx, field.Selections, res)
+	return ec.marshalNIssueInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueRestInfos(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46282,7 +46282,7 @@ func (ec *executionContext) _Query_issueRestInfos(ctx context.Context, field gra
 	res := resTmp.(*vo.IssueRestInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueRestInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx, field.Selections, res)
+	return ec.marshalNIssueRestInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_relatedIssueList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46326,7 +46326,7 @@ func (ec *executionContext) _Query_relatedIssueList(ctx context.Context, field g
 	res := resTmp.(*vo.IssueRestInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueRestInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx, field.Selections, res)
+	return ec.marshalNIssueRestInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueReport(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46370,7 +46370,7 @@ func (ec *executionContext) _Query_issueReport(ctx context.Context, field graphq
 	res := resTmp.(*vo.IssueReportResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueReportResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx, field.Selections, res)
+	return ec.marshalNIssueReportResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueReportDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46414,7 +46414,7 @@ func (ec *executionContext) _Query_issueReportDetail(ctx context.Context, field 
 	res := resTmp.(*vo.IssueReportResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueReportResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx, field.Selections, res)
+	return ec.marshalNIssueReportResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueAndProjectCountStat(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46451,7 +46451,7 @@ func (ec *executionContext) _Query_issueAndProjectCountStat(ctx context.Context,
 	res := resTmp.(*vo.IssueAndProjectCountStatResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueAndProjectCountStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx, field.Selections, res)
+	return ec.marshalNIssueAndProjectCountStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueStatusTypeStat(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46495,7 +46495,7 @@ func (ec *executionContext) _Query_issueStatusTypeStat(ctx context.Context, fiel
 	res := resTmp.(*vo.IssueStatusTypeStatResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueStatusTypeStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx, field.Selections, res)
+	return ec.marshalNIssueStatusTypeStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueStatusTypeStatDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46539,7 +46539,7 @@ func (ec *executionContext) _Query_issueStatusTypeStatDetail(ctx context.Context
 	res := resTmp.(*vo.IssueStatusTypeStatDetailResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueStatusTypeStatDetailResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx, field.Selections, res)
+	return ec.marshalNIssueStatusTypeStatDetailResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueDailyPersonalWorkCompletionStat(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46583,7 +46583,7 @@ func (ec *executionContext) _Query_issueDailyPersonalWorkCompletionStat(ctx cont
 	res := resTmp.(*vo.IssueDailyPersonalWorkCompletionStatResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueDailyPersonalWorkCompletionStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx, field.Selections, res)
+	return ec.marshalNIssueDailyPersonalWorkCompletionStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueAssignRank(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46624,7 +46624,7 @@ func (ec *executionContext) _Query_issueAssignRank(ctx context.Context, field gr
 	res := resTmp.([]*vo.IssueAssignRankInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOIssueAssignRankInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx, field.Selections, res)
+	return ec.marshalOIssueAssignRankInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueResources(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46668,7 +46668,7 @@ func (ec *executionContext) _Query_issueResources(ctx context.Context, field gra
 	res := resTmp.(*vo.ResourceList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNResourceList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx, field.Selections, res)
+	return ec.marshalNResourceList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_trendList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46712,7 +46712,7 @@ func (ec *executionContext) _Query_trendList(ctx context.Context, field graphql.
 	res := resTmp.(*vo.TrendsList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTrendsList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx, field.Selections, res)
+	return ec.marshalNTrendsList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectStatistics(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46756,7 +46756,7 @@ func (ec *executionContext) _Query_projectStatistics(ctx context.Context, field 
 	res := resTmp.(*vo.ProjectStatisticsResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectStatisticsResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx, field.Selections, res)
+	return ec.marshalNProjectStatisticsResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectIssueRelatedStatus(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46800,7 +46800,7 @@ func (ec *executionContext) _Query_projectIssueRelatedStatus(ctx context.Context
 	res := resTmp.([]*vo.HomeIssueStatusInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
+	return ec.marshalNHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_iterationStatusTypeStat(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46844,7 +46844,7 @@ func (ec *executionContext) _Query_iterationStatusTypeStat(ctx context.Context, 
 	res := resTmp.(*vo.IterationStatusTypeStatResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIterationStatusTypeStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx, field.Selections, res)
+	return ec.marshalNIterationStatusTypeStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_iterationInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46888,7 +46888,7 @@ func (ec *executionContext) _Query_iterationInfo(ctx context.Context, field grap
 	res := resTmp.(*vo.IterationInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIterationInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx, field.Selections, res)
+	return ec.marshalNIterationInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_userIds(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46932,7 +46932,7 @@ func (ec *executionContext) _Query_userIds(ctx context.Context, field graphql.Co
 	res := resTmp.([]*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_userId(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -46976,7 +46976,7 @@ func (ec *executionContext) _Query_userId(ctx context.Context, field graphql.Col
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getOssSignUrl(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47020,7 +47020,7 @@ func (ec *executionContext) _Query_getOssSignUrl(ctx context.Context, field grap
 	res := resTmp.(*vo.OssApplySignURLResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOssApplySignUrlResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx, field.Selections, res)
+	return ec.marshalNOssApplySignUrlResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getOssPostPolicy(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47064,7 +47064,7 @@ func (ec *executionContext) _Query_getOssPostPolicy(ctx context.Context, field g
 	res := resTmp.(*vo.OssPostPolicyResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOssPostPolicyResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx, field.Selections, res)
+	return ec.marshalNOssPostPolicyResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getInviteCode(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47108,7 +47108,7 @@ func (ec *executionContext) _Query_getInviteCode(ctx context.Context, field grap
 	res := resTmp.(*vo.GetInviteCodeResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNGetInviteCodeResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx, field.Selections, res)
+	return ec.marshalNGetInviteCodeResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getInviteInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47152,7 +47152,7 @@ func (ec *executionContext) _Query_getInviteInfo(ctx context.Context, field grap
 	res := resTmp.(*vo.GetInviteInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNGetInviteInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx, field.Selections, res)
+	return ec.marshalNGetInviteInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getMQTTChannelKey(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47196,7 +47196,7 @@ func (ec *executionContext) _Query_getMQTTChannelKey(ctx context.Context, field 
 	res := resTmp.(*vo.GetMQTTChannelKeyResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNGetMQTTChannelKeyResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx, field.Selections, res)
+	return ec.marshalNGetMQTTChannelKeyResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectSupportObjectTypes(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47240,7 +47240,7 @@ func (ec *executionContext) _Query_projectSupportObjectTypes(ctx context.Context
 	res := resTmp.(*vo.ProjectSupportObjectTypeListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectSupportObjectTypeListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx, field.Selections, res)
+	return ec.marshalNProjectSupportObjectTypeListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_prioritys(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47284,7 +47284,7 @@ func (ec *executionContext) _Query_prioritys(ctx context.Context, field graphql.
 	res := resTmp.(*vo.PriorityList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNPriorityList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx, field.Selections, res)
+	return ec.marshalNPriorityList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_processStatuss(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47328,7 +47328,7 @@ func (ec *executionContext) _Query_processStatuss(ctx context.Context, field gra
 	res := resTmp.(*vo.ProcessStatusList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProcessStatusList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx, field.Selections, res)
+	return ec.marshalNProcessStatusList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projects(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47372,7 +47372,7 @@ func (ec *executionContext) _Query_projects(ctx context.Context, field graphql.C
 	res := resTmp.(*vo.ProjectList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx, field.Selections, res)
+	return ec.marshalNProjectList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47416,7 +47416,7 @@ func (ec *executionContext) _Query_projectInfo(ctx context.Context, field graphq
 	res := resTmp.(*vo.ProjectInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx, field.Selections, res)
+	return ec.marshalNProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_iterations(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47460,7 +47460,7 @@ func (ec *executionContext) _Query_iterations(ctx context.Context, field graphql
 	res := resTmp.(*vo.IterationList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIterationList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx, field.Selections, res)
+	return ec.marshalNIterationList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_iterationStats(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47504,7 +47504,7 @@ func (ec *executionContext) _Query_iterationStats(ctx context.Context, field gra
 	res := resTmp.(*vo.IterationStatList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIterationStatList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx, field.Selections, res)
+	return ec.marshalNIterationStatList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectDetail(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47548,7 +47548,7 @@ func (ec *executionContext) _Query_projectDetail(ctx context.Context, field grap
 	res := resTmp.(*vo.ProjectDetail)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectDetail2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, field.Selections, res)
+	return ec.marshalNProjectDetail2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectObjectTypes(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47592,7 +47592,7 @@ func (ec *executionContext) _Query_projectObjectTypes(ctx context.Context, field
 	res := resTmp.(*vo.ProjectObjectTypeList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectObjectTypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx, field.Selections, res)
+	return ec.marshalNProjectObjectTypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectDayStats(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47636,7 +47636,7 @@ func (ec *executionContext) _Query_projectDayStats(ctx context.Context, field gr
 	res := resTmp.(*vo.ProjectDayStatList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectDayStatList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx, field.Selections, res)
+	return ec.marshalNProjectDayStatList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueObjectTypes(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47680,7 +47680,7 @@ func (ec *executionContext) _Query_issueObjectTypes(ctx context.Context, field g
 	res := resTmp.(*vo.IssueObjectTypeList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueObjectTypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx, field.Selections, res)
+	return ec.marshalNIssueObjectTypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_issueSources(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47724,7 +47724,7 @@ func (ec *executionContext) _Query_issueSources(ctx context.Context, field graph
 	res := resTmp.(*vo.IssueSourceList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIssueSourceList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx, field.Selections, res)
+	return ec.marshalNIssueSourceList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectObjectTypesWithProject(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47768,7 +47768,7 @@ func (ec *executionContext) _Query_projectObjectTypesWithProject(ctx context.Con
 	res := resTmp.(*vo.ProjectObjectTypeWithProjectList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectObjectTypeWithProjectList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx, field.Selections, res)
+	return ec.marshalNProjectObjectTypeWithProjectList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_departments(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47812,7 +47812,7 @@ func (ec *executionContext) _Query_departments(ctx context.Context, field graphq
 	res := resTmp.(*vo.DepartmentList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNDepartmentList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx, field.Selections, res)
+	return ec.marshalNDepartmentList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_departmentMembers(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47856,7 +47856,7 @@ func (ec *executionContext) _Query_departmentMembers(ctx context.Context, field 
 	res := resTmp.([]*vo.DepartmentMemberInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNDepartmentMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx, field.Selections, res)
+	return ec.marshalNDepartmentMemberInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectTypes(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47890,7 +47890,7 @@ func (ec *executionContext) _Query_projectTypes(ctx context.Context, field graph
 	res := resTmp.([]*vo.ProjectType)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOProjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, field.Selections, res)
+	return ec.marshalOProjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_userOrganizationList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47927,7 +47927,7 @@ func (ec *executionContext) _Query_userOrganizationList(ctx context.Context, fie
 	res := resTmp.(*vo.UserOrganizationListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserOrganizationListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx, field.Selections, res)
+	return ec.marshalNUserOrganizationListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_tagList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -47971,7 +47971,7 @@ func (ec *executionContext) _Query_tagList(ctx context.Context, field graphql.Co
 	res := resTmp.(*vo.TagList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTagList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx, field.Selections, res)
+	return ec.marshalNTagList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_hotTagList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48015,7 +48015,7 @@ func (ec *executionContext) _Query_hotTagList(ctx context.Context, field graphql
 	res := resTmp.(*vo.TagList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTagList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx, field.Selections, res)
+	return ec.marshalNTagList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_tagDefaultStyle(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48052,7 +48052,7 @@ func (ec *executionContext) _Query_tagDefaultStyle(ctx context.Context, field gr
 	res := resTmp.(*vo.StypeList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNStypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx, field.Selections, res)
+	return ec.marshalNStypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_noticeList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48096,7 +48096,7 @@ func (ec *executionContext) _Query_noticeList(ctx context.Context, field graphql
 	res := resTmp.(*vo.NoticeList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNNoticeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx, field.Selections, res)
+	return ec.marshalNNoticeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_unreadNoticeCount(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48133,7 +48133,7 @@ func (ec *executionContext) _Query_unreadNoticeCount(ctx context.Context, field 
 	res := resTmp.(*vo.NoticeCountResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNNoticeCountResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx, field.Selections, res)
+	return ec.marshalNNoticeCountResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_areaLinkageList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48177,7 +48177,7 @@ func (ec *executionContext) _Query_areaLinkageList(ctx context.Context, field gr
 	res := resTmp.(*vo.AreaLinkageListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNAreaLinkageListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx, field.Selections, res)
+	return ec.marshalNAreaLinkageListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_industryList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48214,7 +48214,7 @@ func (ec *executionContext) _Query_industryList(ctx context.Context, field graph
 	res := resTmp.(*vo.IndustryListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNIndustryListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx, field.Selections, res)
+	return ec.marshalNIndustryListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_organizationInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48258,7 +48258,7 @@ func (ec *executionContext) _Query_organizationInfo(ctx context.Context, field g
 	res := resTmp.(*vo.OrganizationInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrganizationInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx, field.Selections, res)
+	return ec.marshalNOrganizationInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_exportIssueTemplate(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48302,7 +48302,7 @@ func (ec *executionContext) _Query_exportIssueTemplate(ctx context.Context, fiel
 	res := resTmp.(*vo.ExportIssueTemplateResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNExportIssueTemplateResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx, field.Selections, res)
+	return ec.marshalNExportIssueTemplateResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_orgUserList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48346,7 +48346,7 @@ func (ec *executionContext) _Query_orgUserList(ctx context.Context, field graphq
 	res := resTmp.(*vo.UserOrganizationList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserOrganizationList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx, field.Selections, res)
+	return ec.marshalNUserOrganizationList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_permissionOperationList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48390,7 +48390,7 @@ func (ec *executionContext) _Query_permissionOperationList(ctx context.Context, 
 	res := resTmp.([]*vo.PermissionOperationListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNPermissionOperationListResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx, field.Selections, res)
+	return ec.marshalNPermissionOperationListResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_orgRoleList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48427,7 +48427,7 @@ func (ec *executionContext) _Query_orgRoleList(ctx context.Context, field graphq
 	res := resTmp.([]*vo.Role)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNRole2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, field.Selections, res)
+	return ec.marshalNRole2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_exportData(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48471,7 +48471,7 @@ func (ec *executionContext) _Query_exportData(ctx context.Context, field graphql
 	res := resTmp.(*vo.ExportIssueTemplateResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNExportIssueTemplateResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx, field.Selections, res)
+	return ec.marshalNExportIssueTemplateResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectUserList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48515,7 +48515,7 @@ func (ec *executionContext) _Query_projectUserList(ctx context.Context, field gr
 	res := resTmp.(*vo.ProjectUserListResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNProjectUserListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx, field.Selections, res)
+	return ec.marshalNProjectUserListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectRoleList(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48559,7 +48559,7 @@ func (ec *executionContext) _Query_projectRoleList(ctx context.Context, field gr
 	res := resTmp.([]*vo.Role)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNRole2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, field.Selections, res)
+	return ec.marshalNRole2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_orgProjectMember(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48603,7 +48603,7 @@ func (ec *executionContext) _Query_orgProjectMember(ctx context.Context, field g
 	res := resTmp.(*vo.OrgProjectMemberResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNOrgProjectMemberResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx, field.Selections, res)
+	return ec.marshalNOrgProjectMemberResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectResource(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48647,7 +48647,7 @@ func (ec *executionContext) _Query_projectResource(ctx context.Context, field gr
 	res := resTmp.(*vo.ResourceList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNResourceList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx, field.Selections, res)
+	return ec.marshalNResourceList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectFolder(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48691,7 +48691,7 @@ func (ec *executionContext) _Query_projectFolder(ctx context.Context, field grap
 	res := resTmp.(*vo.FolderList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNFolderList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx, field.Selections, res)
+	return ec.marshalNFolderList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_projectAttachment(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48735,7 +48735,7 @@ func (ec *executionContext) _Query_projectAttachment(ctx context.Context, field 
 	res := resTmp.(*vo.AttachmentList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNAttachmentList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx, field.Selections, res)
+	return ec.marshalNAttachmentList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_getPersonalPermissionInfo(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -48779,7 +48779,7 @@ func (ec *executionContext) _Query_getPersonalPermissionInfo(ctx context.Context
 	res := resTmp.(*vo.GetPersonalPermissionInfoResp)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNGetPersonalPermissionInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx, field.Selections, res)
+	return ec.marshalNGetPersonalPermissionInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query___type(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -49715,7 +49715,7 @@ func (ec *executionContext) _Resource_createTime(ctx context.Context, field grap
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Resource_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Resource) (ret graphql.Marshaler) {
@@ -49789,7 +49789,7 @@ func (ec *executionContext) _Resource_updateTime(ctx context.Context, field grap
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Resource_version(ctx context.Context, field graphql.CollectedField, obj *vo.Resource) (ret graphql.Marshaler) {
@@ -49999,7 +49999,7 @@ func (ec *executionContext) _ResourceInfo_uploadTime(ctx context.Context, field 
 	res := resTmp.(*types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _ResourceInfo_suffix(ctx context.Context, field graphql.CollectedField, obj *vo.ResourceInfo) (ret graphql.Marshaler) {
@@ -50104,7 +50104,7 @@ func (ec *executionContext) _ResourceList_list(ctx context.Context, field graphq
 	res := resTmp.([]*vo.Resource)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOResource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx, field.Selections, res)
+	return ec.marshalOResource2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Role_id(ctx context.Context, field graphql.CollectedField, obj *vo.Role) (ret graphql.Marshaler) {
@@ -50548,7 +50548,7 @@ func (ec *executionContext) _Role_createTime(ctx context.Context, field graphql.
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Role_updator(ctx context.Context, field graphql.CollectedField, obj *vo.Role) (ret graphql.Marshaler) {
@@ -50622,7 +50622,7 @@ func (ec *executionContext) _Role_updateTime(ctx context.Context, field graphql.
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _StatCommon_name(ctx context.Context, field graphql.CollectedField, obj *vo.StatCommon) (ret graphql.Marshaler) {
@@ -51029,7 +51029,7 @@ func (ec *executionContext) _StatExtResp_issue(ctx context.Context, field graphq
 	res := resTmp.(*vo.StatIssueExt)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNStatIssueExt2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx, field.Selections, res)
+	return ec.marshalNStatIssueExt2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _StatIssueExt_data(ctx context.Context, field graphql.CollectedField, obj *vo.StatIssueExt) (ret graphql.Marshaler) {
@@ -51467,7 +51467,7 @@ func (ec *executionContext) _Tag_createTime(ctx context.Context, field graphql.C
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TagList_total(ctx context.Context, field graphql.CollectedField, obj *vo.TagList) (ret graphql.Marshaler) {
@@ -51538,7 +51538,7 @@ func (ec *executionContext) _TagList_list(ctx context.Context, field graphql.Col
 	res := resTmp.([]*vo.Tag)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTag2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx, field.Selections, res)
+	return ec.marshalOTag2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Trend_id(ctx context.Context, field graphql.CollectedField, obj *vo.Trend) (ret graphql.Marshaler) {
@@ -52235,7 +52235,7 @@ func (ec *executionContext) _Trend_createTime(ctx context.Context, field graphql
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Trend_operObjName(ctx context.Context, field graphql.CollectedField, obj *vo.Trend) (ret graphql.Marshaler) {
@@ -52309,7 +52309,7 @@ func (ec *executionContext) _Trend_creatorInfo(ctx context.Context, field graphq
 	res := resTmp.(*vo.UserIDInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
+	return ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Trend_comment(ctx context.Context, field graphql.CollectedField, obj *vo.Trend) (ret graphql.Marshaler) {
@@ -52377,7 +52377,7 @@ func (ec *executionContext) _Trend_extension(ctx context.Context, field graphql.
 	res := resTmp.(*vo.TrendExtension)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTrendExtension2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx, field.Selections, res)
+	return ec.marshalOTrendExtension2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TrendExtension_issueType(ctx context.Context, field graphql.CollectedField, obj *vo.TrendExtension) (ret graphql.Marshaler) {
@@ -52479,7 +52479,7 @@ func (ec *executionContext) _TrendExtension_changeList(ctx context.Context, fiel
 	res := resTmp.([]*vo.ChangeList)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOChangeList2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx, field.Selections, res)
+	return ec.marshalOChangeList2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TrendExtension_memberInfo(ctx context.Context, field graphql.CollectedField, obj *vo.TrendExtension) (ret graphql.Marshaler) {
@@ -52513,7 +52513,7 @@ func (ec *executionContext) _TrendExtension_memberInfo(ctx context.Context, fiel
 	res := resTmp.([]*vo.MemberInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx, field.Selections, res)
+	return ec.marshalOMemberInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TrendExtension_relationIssue(ctx context.Context, field graphql.CollectedField, obj *vo.TrendExtension) (ret graphql.Marshaler) {
@@ -52547,7 +52547,7 @@ func (ec *executionContext) _TrendExtension_relationIssue(ctx context.Context, f
 	res := resTmp.(*vo.RelationIssue)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalORelationIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx, field.Selections, res)
+	return ec.marshalORelationIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TrendExtension_resourceInfo(ctx context.Context, field graphql.CollectedField, obj *vo.TrendExtension) (ret graphql.Marshaler) {
@@ -52581,7 +52581,7 @@ func (ec *executionContext) _TrendExtension_resourceInfo(ctx context.Context, fi
 	res := resTmp.([]*vo.ResourceInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOResourceInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx, field.Selections, res)
+	return ec.marshalOResourceInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _TrendsList_total(ctx context.Context, field graphql.CollectedField, obj *vo.TrendsList) (ret graphql.Marshaler) {
@@ -52763,7 +52763,7 @@ func (ec *executionContext) _TrendsList_list(ctx context.Context, field graphql.
 	res := resTmp.([]*vo.Trend)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOTrend2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx, field.Selections, res)
+	return ec.marshalOTrend2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _UpdateIssueResp_id(ctx context.Context, field graphql.CollectedField, obj *vo.UpdateIssueResp) (ret graphql.Marshaler) {
@@ -54937,7 +54937,7 @@ func (ec *executionContext) _UserOrganizationList_list(ctx context.Context, fiel
 	res := resTmp.([]*vo.OrganizationUser)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOOrganizationUser2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx, field.Selections, res)
+	return ec.marshalOOrganizationUser2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _UserOrganizationListResp_list(ctx context.Context, field graphql.CollectedField, obj *vo.UserOrganizationListResp) (ret graphql.Marshaler) {
@@ -54971,7 +54971,7 @@ func (ec *executionContext) _UserOrganizationListResp_list(ctx context.Context, 
 	res := resTmp.([]*vo.UserOrganization)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserOrganization2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx, field.Selections, res)
+	return ec.marshalOUserOrganization2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _UserRegisterResp_token(ctx context.Context, field graphql.CollectedField, obj *vo.UserRegisterResp) (ret graphql.Marshaler) {
@@ -56377,7 +56377,7 @@ func (ec *executionContext) _projectUser_createTime(ctx context.Context, field g
 	res := resTmp.(types.Time)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
+	return ec.marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _projectUser_userInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectUser) (ret graphql.Marshaler) {
@@ -56411,7 +56411,7 @@ func (ec *executionContext) _projectUser_userInfo(ctx context.Context, field gra
 	res := resTmp.(*vo.PersonalInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
+	return ec.marshalOPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _projectUser_creatorInfo(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectUser) (ret graphql.Marshaler) {
@@ -56445,7 +56445,7 @@ func (ec *executionContext) _projectUser_creatorInfo(ctx context.Context, field 
 	res := resTmp.(*vo.PersonalInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
+	return ec.marshalOPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _projectUser_userRole(ctx context.Context, field graphql.CollectedField, obj *vo.ProjectUser) (ret graphql.Marshaler) {
@@ -56479,7 +56479,7 @@ func (ec *executionContext) _projectUser_userRole(ctx context.Context, field gra
 	res := resTmp.(*vo.UserRoleInfo)
 	rctx.Result = res
 	ctx = ec.Tracer.StartFieldChildExecution(ctx)
-	return ec.marshalOUserRoleInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx, field.Selections, res)
+	return ec.marshalOUserRoleInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx, field.Selections, res)
 }
 
 // endregion **************************** field.gotpl *****************************
@@ -56686,7 +56686,7 @@ func (ec *executionContext) unmarshalInputCreateAppInfoReq(ctx context.Context, 
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56698,7 +56698,7 @@ func (ec *executionContext) unmarshalInputCreateAppInfoReq(ctx context.Context, 
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56782,7 +56782,7 @@ func (ec *executionContext) unmarshalInputCreateDepartmentReq(ctx context.Contex
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56794,7 +56794,7 @@ func (ec *executionContext) unmarshalInputCreateDepartmentReq(ctx context.Contex
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56902,7 +56902,7 @@ func (ec *executionContext) unmarshalInputCreateIssueObjectTypeReq(ctx context.C
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56914,7 +56914,7 @@ func (ec *executionContext) unmarshalInputCreateIssueObjectTypeReq(ctx context.C
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -56986,13 +56986,13 @@ func (ec *executionContext) unmarshalInputCreateIssueReq(ctx context.Context, ob
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57040,13 +57040,13 @@ func (ec *executionContext) unmarshalInputCreateIssueReq(ctx context.Context, ob
 			}
 		case "children":
 			var err error
-			it.Children, err = ec.unmarshalOIssueChildren2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, v)
+			it.Children, err = ec.unmarshalOIssueChildren2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "tags":
 			var err error
-			it.Tags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
+			it.Tags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57166,7 +57166,7 @@ func (ec *executionContext) unmarshalInputCreateIssueSourceReq(ctx context.Conte
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57178,7 +57178,7 @@ func (ec *executionContext) unmarshalInputCreateIssueSourceReq(ctx context.Conte
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57226,13 +57226,13 @@ func (ec *executionContext) unmarshalInputCreateIterationReq(ctx context.Context
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57418,7 +57418,7 @@ func (ec *executionContext) unmarshalInputCreateIterationStatReq(ctx context.Con
 			}
 		case "statDate":
 			var err error
-			it.StatDate, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatDate, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57436,7 +57436,7 @@ func (ec *executionContext) unmarshalInputCreateIterationStatReq(ctx context.Con
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57448,7 +57448,7 @@ func (ec *executionContext) unmarshalInputCreateIterationStatReq(ctx context.Con
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57574,7 +57574,7 @@ func (ec *executionContext) unmarshalInputCreatePermissionOperationReq(ctx conte
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57586,7 +57586,7 @@ func (ec *executionContext) unmarshalInputCreatePermissionOperationReq(ctx conte
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57682,7 +57682,7 @@ func (ec *executionContext) unmarshalInputCreatePermissionReq(ctx context.Contex
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57694,7 +57694,7 @@ func (ec *executionContext) unmarshalInputCreatePermissionReq(ctx context.Contex
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57790,7 +57790,7 @@ func (ec *executionContext) unmarshalInputCreatePriorityReq(ctx context.Context,
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57802,7 +57802,7 @@ func (ec *executionContext) unmarshalInputCreatePriorityReq(ctx context.Context,
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57898,7 +57898,7 @@ func (ec *executionContext) unmarshalInputCreateProcessStatusReq(ctx context.Con
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -57910,7 +57910,7 @@ func (ec *executionContext) unmarshalInputCreateProcessStatusReq(ctx context.Con
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58102,7 +58102,7 @@ func (ec *executionContext) unmarshalInputCreateProjectDayStatReq(ctx context.Co
 			}
 		case "statDate":
 			var err error
-			it.StatDate, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatDate, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58120,7 +58120,7 @@ func (ec *executionContext) unmarshalInputCreateProjectDayStatReq(ctx context.Co
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58132,7 +58132,7 @@ func (ec *executionContext) unmarshalInputCreateProjectDayStatReq(ctx context.Co
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58306,13 +58306,13 @@ func (ec *executionContext) unmarshalInputCreateProjectReq(ctx context.Context, 
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58348,7 +58348,7 @@ func (ec *executionContext) unmarshalInputCreateProjectReq(ctx context.Context, 
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58360,7 +58360,7 @@ func (ec *executionContext) unmarshalInputCreateProjectReq(ctx context.Context, 
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58510,7 +58510,7 @@ func (ec *executionContext) unmarshalInputCreateResourceReq(ctx context.Context,
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58522,7 +58522,7 @@ func (ec *executionContext) unmarshalInputCreateResourceReq(ctx context.Context,
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58684,7 +58684,7 @@ func (ec *executionContext) unmarshalInputCreateUserOrganizationReq(ctx context.
 			}
 		case "statusChangeTime":
 			var err error
-			it.StatusChangeTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatusChangeTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58696,7 +58696,7 @@ func (ec *executionContext) unmarshalInputCreateUserOrganizationReq(ctx context.
 			}
 		case "auditTime":
 			var err error
-			it.AuditTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.AuditTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58708,7 +58708,7 @@ func (ec *executionContext) unmarshalInputCreateUserOrganizationReq(ctx context.
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -58720,7 +58720,7 @@ func (ec *executionContext) unmarshalInputCreateUserOrganizationReq(ctx context.
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59458,13 +59458,13 @@ func (ec *executionContext) unmarshalInputHomeIssueInfoReq(ctx context.Context, 
 			}
 		case "startTime":
 			var err error
-			it.StartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "endTime":
 			var err error
-			it.EndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.EndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59494,7 +59494,7 @@ func (ec *executionContext) unmarshalInputHomeIssueInfoReq(ctx context.Context, 
 			}
 		case "timeScope":
 			var err error
-			it.TimeScope, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.TimeScope, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59566,7 +59566,7 @@ func (ec *executionContext) unmarshalInputHomeIssueInfoReq(ctx context.Context, 
 			}
 		case "lastUpdateTime":
 			var err error
-			it.LastUpdateTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.LastUpdateTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59578,13 +59578,13 @@ func (ec *executionContext) unmarshalInputHomeIssueInfoReq(ctx context.Context, 
 			}
 		case "periodStartTime":
 			var err error
-			it.PeriodStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PeriodStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "periodEndTime":
 			var err error
-			it.PeriodEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PeriodEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59686,13 +59686,13 @@ func (ec *executionContext) unmarshalInputIssueChildren(ctx context.Context, obj
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59722,13 +59722,13 @@ func (ec *executionContext) unmarshalInputIssueDailyPersonalWorkCompletionStatRe
 		switch k {
 		case "startDate":
 			var err error
-			it.StartDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StartDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "endDate":
 			var err error
-			it.EndDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.EndDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -59974,13 +59974,13 @@ func (ec *executionContext) unmarshalInputIterationStatReq(ctx context.Context, 
 			}
 		case "startDate":
 			var err error
-			it.StartDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StartDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "endDate":
 			var err error
-			it.EndDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.EndDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -60238,13 +60238,13 @@ func (ec *executionContext) unmarshalInputProjectDayStatReq(ctx context.Context,
 			}
 		case "startDate":
 			var err error
-			it.StartDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StartDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "endDate":
 			var err error
-			it.EndDate, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.EndDate, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -60418,13 +60418,13 @@ func (ec *executionContext) unmarshalInputProjectsReq(ctx context.Context, obj i
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -60832,13 +60832,13 @@ func (ec *executionContext) unmarshalInputTrendReq(ctx context.Context, obj inte
 			}
 		case "startTime":
 			var err error
-			it.StartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "endTime":
 			var err error
-			it.EndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.EndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -60958,7 +60958,7 @@ func (ec *executionContext) unmarshalInputUpdateAppInfoReq(ctx context.Context, 
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -60970,7 +60970,7 @@ func (ec *executionContext) unmarshalInputUpdateAppInfoReq(ctx context.Context, 
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61060,7 +61060,7 @@ func (ec *executionContext) unmarshalInputUpdateDepartmentReq(ctx context.Contex
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61072,7 +61072,7 @@ func (ec *executionContext) unmarshalInputUpdateDepartmentReq(ctx context.Contex
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61186,7 +61186,7 @@ func (ec *executionContext) unmarshalInputUpdateIssueObjectTypeReq(ctx context.C
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61198,7 +61198,7 @@ func (ec *executionContext) unmarshalInputUpdateIssueObjectTypeReq(ctx context.C
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61276,13 +61276,13 @@ func (ec *executionContext) unmarshalInputUpdateIssueReq(ctx context.Context, ob
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61438,7 +61438,7 @@ func (ec *executionContext) unmarshalInputUpdateIssueSourceReq(ctx context.Conte
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61450,7 +61450,7 @@ func (ec *executionContext) unmarshalInputUpdateIssueSourceReq(ctx context.Conte
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61522,13 +61522,13 @@ func (ec *executionContext) unmarshalInputUpdateIssueTagsReq(ctx context.Context
 			}
 		case "addTags":
 			var err error
-			it.AddTags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
+			it.AddTags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "delTags":
 			var err error
-			it.DelTags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
+			it.DelTags, err = ec.unmarshalOIssueTagReqInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61564,13 +61564,13 @@ func (ec *executionContext) unmarshalInputUpdateIterationReq(ctx context.Context
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61768,7 +61768,7 @@ func (ec *executionContext) unmarshalInputUpdateIterationStatReq(ctx context.Con
 			}
 		case "statDate":
 			var err error
-			it.StatDate, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatDate, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61786,7 +61786,7 @@ func (ec *executionContext) unmarshalInputUpdateIterationStatReq(ctx context.Con
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -61798,7 +61798,7 @@ func (ec *executionContext) unmarshalInputUpdateIterationStatReq(ctx context.Con
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62038,7 +62038,7 @@ func (ec *executionContext) unmarshalInputUpdatePermissionOperationReq(ctx conte
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62050,7 +62050,7 @@ func (ec *executionContext) unmarshalInputUpdatePermissionOperationReq(ctx conte
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62152,7 +62152,7 @@ func (ec *executionContext) unmarshalInputUpdatePermissionReq(ctx context.Contex
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62164,7 +62164,7 @@ func (ec *executionContext) unmarshalInputUpdatePermissionReq(ctx context.Contex
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62266,7 +62266,7 @@ func (ec *executionContext) unmarshalInputUpdatePriorityReq(ctx context.Context,
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62278,7 +62278,7 @@ func (ec *executionContext) unmarshalInputUpdatePriorityReq(ctx context.Context,
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62380,7 +62380,7 @@ func (ec *executionContext) unmarshalInputUpdateProcessStatusReq(ctx context.Con
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62392,7 +62392,7 @@ func (ec *executionContext) unmarshalInputUpdateProcessStatusReq(ctx context.Con
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62590,7 +62590,7 @@ func (ec *executionContext) unmarshalInputUpdateProjectDayStatReq(ctx context.Co
 			}
 		case "statDate":
 			var err error
-			it.StatDate, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatDate, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62608,7 +62608,7 @@ func (ec *executionContext) unmarshalInputUpdateProjectDayStatReq(ctx context.Co
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62620,7 +62620,7 @@ func (ec *executionContext) unmarshalInputUpdateProjectDayStatReq(ctx context.Co
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -62824,13 +62824,13 @@ func (ec *executionContext) unmarshalInputUpdateProjectReq(ctx context.Context, 
 			}
 		case "planStartTime":
 			var err error
-			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanStartTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
 		case "planEndTime":
 			var err error
-			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.PlanEndTime, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63064,7 +63064,7 @@ func (ec *executionContext) unmarshalInputUpdateResourceReq(ctx context.Context,
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63076,7 +63076,7 @@ func (ec *executionContext) unmarshalInputUpdateResourceReq(ctx context.Context,
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63112,7 +63112,7 @@ func (ec *executionContext) unmarshalInputUpdateRolePermissionOperationReq(ctx c
 			}
 		case "updatePermissions":
 			var err error
-			it.UpdatePermissions, err = ec.unmarshalOEveryPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, v)
+			it.UpdatePermissions, err = ec.unmarshalOEveryPermission2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63304,7 +63304,7 @@ func (ec *executionContext) unmarshalInputUpdateUserInfoReq(ctx context.Context,
 			}
 		case "birthday":
 			var err error
-			it.Birthday, err = ec.unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.Birthday, err = ec.unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63400,7 +63400,7 @@ func (ec *executionContext) unmarshalInputUpdateUserOrganizationReq(ctx context.
 			}
 		case "statusChangeTime":
 			var err error
-			it.StatusChangeTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.StatusChangeTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63412,7 +63412,7 @@ func (ec *executionContext) unmarshalInputUpdateUserOrganizationReq(ctx context.
 			}
 		case "auditTime":
 			var err error
-			it.AuditTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.AuditTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63424,7 +63424,7 @@ func (ec *executionContext) unmarshalInputUpdateUserOrganizationReq(ctx context.
 			}
 		case "createTime":
 			var err error
-			it.CreateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.CreateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -63436,7 +63436,7 @@ func (ec *executionContext) unmarshalInputUpdateUserOrganizationReq(ctx context.
 			}
 		case "updateTime":
 			var err error
-			it.UpdateTime, err = ec.unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+			it.UpdateTime, err = ec.unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -72216,11 +72216,11 @@ func (ec *executionContext) marshalNAny2interface(ctx context.Context, sel ast.S
 	return res
 }
 
-func (ec *executionContext) marshalNAppInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v vo.AppInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNAppInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v vo.AppInfo) graphql.Marshaler {
 	return ec._AppInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNAppInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v *vo.AppInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNAppInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v *vo.AppInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72230,15 +72230,15 @@ func (ec *executionContext) marshalNAppInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋp
 	return ec._AppInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNAreaLinkageListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListReq(ctx context.Context, v interface{}) (vo.AreaLinkageListReq, error) {
+func (ec *executionContext) unmarshalNAreaLinkageListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListReq(ctx context.Context, v interface{}) (vo.AreaLinkageListReq, error) {
 	return ec.unmarshalInputAreaLinkageListReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNAreaLinkageListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx context.Context, sel ast.SelectionSet, v vo.AreaLinkageListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNAreaLinkageListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx context.Context, sel ast.SelectionSet, v vo.AreaLinkageListResp) graphql.Marshaler {
 	return ec._AreaLinkageListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNAreaLinkageListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx context.Context, sel ast.SelectionSet, v *vo.AreaLinkageListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNAreaLinkageListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageListResp(ctx context.Context, sel ast.SelectionSet, v *vo.AreaLinkageListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72248,11 +72248,11 @@ func (ec *executionContext) marshalNAreaLinkageListResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._AreaLinkageListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNAreaLinkageResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v vo.AreaLinkageResp) graphql.Marshaler {
+func (ec *executionContext) marshalNAreaLinkageResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v vo.AreaLinkageResp) graphql.Marshaler {
 	return ec._AreaLinkageResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNAreaLinkageResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v *vo.AreaLinkageResp) graphql.Marshaler {
+func (ec *executionContext) marshalNAreaLinkageResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v *vo.AreaLinkageResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72262,11 +72262,11 @@ func (ec *executionContext) marshalNAreaLinkageResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._AreaLinkageResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNAttachment2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v vo.Attachment) graphql.Marshaler {
+func (ec *executionContext) marshalNAttachment2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v vo.Attachment) graphql.Marshaler {
 	return ec._Attachment(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNAttachment2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v *vo.Attachment) graphql.Marshaler {
+func (ec *executionContext) marshalNAttachment2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v *vo.Attachment) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72276,11 +72276,11 @@ func (ec *executionContext) marshalNAttachment2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._Attachment(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNAttachmentList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx context.Context, sel ast.SelectionSet, v vo.AttachmentList) graphql.Marshaler {
+func (ec *executionContext) marshalNAttachmentList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx context.Context, sel ast.SelectionSet, v vo.AttachmentList) graphql.Marshaler {
 	return ec._AttachmentList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNAttachmentList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx context.Context, sel ast.SelectionSet, v *vo.AttachmentList) graphql.Marshaler {
+func (ec *executionContext) marshalNAttachmentList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachmentList(ctx context.Context, sel ast.SelectionSet, v *vo.AttachmentList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72290,11 +72290,11 @@ func (ec *executionContext) marshalNAttachmentList2ᚖgiteaᚗbjxᚗcloudᚋalls
 	return ec._AttachmentList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNBasicConfigResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx context.Context, sel ast.SelectionSet, v vo.BasicConfigResp) graphql.Marshaler {
+func (ec *executionContext) marshalNBasicConfigResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx context.Context, sel ast.SelectionSet, v vo.BasicConfigResp) graphql.Marshaler {
 	return ec._BasicConfigResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNBasicConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx context.Context, sel ast.SelectionSet, v *vo.BasicConfigResp) graphql.Marshaler {
+func (ec *executionContext) marshalNBasicConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBasicConfigResp(ctx context.Context, sel ast.SelectionSet, v *vo.BasicConfigResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72304,7 +72304,7 @@ func (ec *executionContext) marshalNBasicConfigResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._BasicConfigResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNBindLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBindLoginNameReq(ctx context.Context, v interface{}) (vo.BindLoginNameReq, error) {
+func (ec *executionContext) unmarshalNBindLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBindLoginNameReq(ctx context.Context, v interface{}) (vo.BindLoginNameReq, error) {
 	return ec.unmarshalInputBindLoginNameReq(ctx, v)
 }
 
@@ -72322,11 +72322,11 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) marshalNBuildInfoDefine2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx context.Context, sel ast.SelectionSet, v vo.BuildInfoDefine) graphql.Marshaler {
+func (ec *executionContext) marshalNBuildInfoDefine2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx context.Context, sel ast.SelectionSet, v vo.BuildInfoDefine) graphql.Marshaler {
 	return ec._BuildInfoDefine(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNBuildInfoDefine2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx context.Context, sel ast.SelectionSet, v *vo.BuildInfoDefine) graphql.Marshaler {
+func (ec *executionContext) marshalNBuildInfoDefine2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐBuildInfoDefine(ctx context.Context, sel ast.SelectionSet, v *vo.BuildInfoDefine) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72336,19 +72336,19 @@ func (ec *executionContext) marshalNBuildInfoDefine2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._BuildInfoDefine(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNCheckLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCheckLoginNameReq(ctx context.Context, v interface{}) (vo.CheckLoginNameReq, error) {
+func (ec *executionContext) unmarshalNCheckLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCheckLoginNameReq(ctx context.Context, v interface{}) (vo.CheckLoginNameReq, error) {
 	return ec.unmarshalInputCheckLoginNameReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNConvertCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeReq(ctx context.Context, v interface{}) (vo.ConvertCodeReq, error) {
+func (ec *executionContext) unmarshalNConvertCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeReq(ctx context.Context, v interface{}) (vo.ConvertCodeReq, error) {
 	return ec.unmarshalInputConvertCodeReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNConvertCodeResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx context.Context, sel ast.SelectionSet, v vo.ConvertCodeResp) graphql.Marshaler {
+func (ec *executionContext) marshalNConvertCodeResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx context.Context, sel ast.SelectionSet, v vo.ConvertCodeResp) graphql.Marshaler {
 	return ec._ConvertCodeResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNConvertCodeResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx context.Context, sel ast.SelectionSet, v *vo.ConvertCodeResp) graphql.Marshaler {
+func (ec *executionContext) marshalNConvertCodeResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐConvertCodeResp(ctx context.Context, sel ast.SelectionSet, v *vo.ConvertCodeResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72358,111 +72358,111 @@ func (ec *executionContext) marshalNConvertCodeResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._ConvertCodeResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIssueCommentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueCommentReq(ctx context.Context, v interface{}) (vo.CreateIssueCommentReq, error) {
+func (ec *executionContext) unmarshalNCreateIssueCommentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueCommentReq(ctx context.Context, v interface{}) (vo.CreateIssueCommentReq, error) {
 	return ec.unmarshalInputCreateIssueCommentReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.CreateIssueObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNCreateIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.CreateIssueObjectTypeReq, error) {
 	return ec.unmarshalInputCreateIssueObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueReq(ctx context.Context, v interface{}) (vo.CreateIssueReq, error) {
+func (ec *executionContext) unmarshalNCreateIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueReq(ctx context.Context, v interface{}) (vo.CreateIssueReq, error) {
 	return ec.unmarshalInputCreateIssueReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIssueResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueResourceReq(ctx context.Context, v interface{}) (vo.CreateIssueResourceReq, error) {
+func (ec *executionContext) unmarshalNCreateIssueResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueResourceReq(ctx context.Context, v interface{}) (vo.CreateIssueResourceReq, error) {
 	return ec.unmarshalInputCreateIssueResourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueSourceReq(ctx context.Context, v interface{}) (vo.CreateIssueSourceReq, error) {
+func (ec *executionContext) unmarshalNCreateIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIssueSourceReq(ctx context.Context, v interface{}) (vo.CreateIssueSourceReq, error) {
 	return ec.unmarshalInputCreateIssueSourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIterationReq(ctx context.Context, v interface{}) (vo.CreateIterationReq, error) {
+func (ec *executionContext) unmarshalNCreateIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateIterationReq(ctx context.Context, v interface{}) (vo.CreateIterationReq, error) {
 	return ec.unmarshalInputCreateIterationReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateOrgReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateOrgReq(ctx context.Context, v interface{}) (vo.CreateOrgReq, error) {
+func (ec *executionContext) unmarshalNCreateOrgReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateOrgReq(ctx context.Context, v interface{}) (vo.CreateOrgReq, error) {
 	return ec.unmarshalInputCreateOrgReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreatePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreatePriorityReq(ctx context.Context, v interface{}) (vo.CreatePriorityReq, error) {
+func (ec *executionContext) unmarshalNCreatePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreatePriorityReq(ctx context.Context, v interface{}) (vo.CreatePriorityReq, error) {
 	return ec.unmarshalInputCreatePriorityReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProcessStatusReq(ctx context.Context, v interface{}) (vo.CreateProcessStatusReq, error) {
+func (ec *executionContext) unmarshalNCreateProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProcessStatusReq(ctx context.Context, v interface{}) (vo.CreateProcessStatusReq, error) {
 	return ec.unmarshalInputCreateProcessStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectDetailReq(ctx context.Context, v interface{}) (vo.CreateProjectDetailReq, error) {
+func (ec *executionContext) unmarshalNCreateProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectDetailReq(ctx context.Context, v interface{}) (vo.CreateProjectDetailReq, error) {
 	return ec.unmarshalInputCreateProjectDetailReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectFolderReq(ctx context.Context, v interface{}) (vo.CreateProjectFolderReq, error) {
+func (ec *executionContext) unmarshalNCreateProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectFolderReq(ctx context.Context, v interface{}) (vo.CreateProjectFolderReq, error) {
 	return ec.unmarshalInputCreateProjectFolderReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.CreateProjectObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNCreateProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.CreateProjectObjectTypeReq, error) {
 	return ec.unmarshalInputCreateProjectObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProjectReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectReq(ctx context.Context, v interface{}) (vo.CreateProjectReq, error) {
+func (ec *executionContext) unmarshalNCreateProjectReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectReq(ctx context.Context, v interface{}) (vo.CreateProjectReq, error) {
 	return ec.unmarshalInputCreateProjectReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectResourceReq(ctx context.Context, v interface{}) (vo.CreateProjectResourceReq, error) {
+func (ec *executionContext) unmarshalNCreateProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateProjectResourceReq(ctx context.Context, v interface{}) (vo.CreateProjectResourceReq, error) {
 	return ec.unmarshalInputCreateProjectResourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateRoleReq(ctx context.Context, v interface{}) (vo.CreateRoleReq, error) {
+func (ec *executionContext) unmarshalNCreateRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateRoleReq(ctx context.Context, v interface{}) (vo.CreateRoleReq, error) {
 	return ec.unmarshalInputCreateRoleReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNCreateTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateTagReq(ctx context.Context, v interface{}) (vo.CreateTagReq, error) {
+func (ec *executionContext) unmarshalNCreateTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐCreateTagReq(ctx context.Context, v interface{}) (vo.CreateTagReq, error) {
 	return ec.unmarshalInputCreateTagReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDelRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDelRoleReq(ctx context.Context, v interface{}) (vo.DelRoleReq, error) {
+func (ec *executionContext) unmarshalNDelRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDelRoleReq(ctx context.Context, v interface{}) (vo.DelRoleReq, error) {
 	return ec.unmarshalInputDelRoleReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.DeleteIssueObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNDeleteIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.DeleteIssueObjectTypeReq, error) {
 	return ec.unmarshalInputDeleteIssueObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueReq(ctx context.Context, v interface{}) (vo.DeleteIssueReq, error) {
+func (ec *executionContext) unmarshalNDeleteIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueReq(ctx context.Context, v interface{}) (vo.DeleteIssueReq, error) {
 	return ec.unmarshalInputDeleteIssueReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteIssueResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueResourceReq(ctx context.Context, v interface{}) (vo.DeleteIssueResourceReq, error) {
+func (ec *executionContext) unmarshalNDeleteIssueResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueResourceReq(ctx context.Context, v interface{}) (vo.DeleteIssueResourceReq, error) {
 	return ec.unmarshalInputDeleteIssueResourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueSourceReq(ctx context.Context, v interface{}) (vo.DeleteIssueSourceReq, error) {
+func (ec *executionContext) unmarshalNDeleteIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIssueSourceReq(ctx context.Context, v interface{}) (vo.DeleteIssueSourceReq, error) {
 	return ec.unmarshalInputDeleteIssueSourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIterationReq(ctx context.Context, v interface{}) (vo.DeleteIterationReq, error) {
+func (ec *executionContext) unmarshalNDeleteIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteIterationReq(ctx context.Context, v interface{}) (vo.DeleteIterationReq, error) {
 	return ec.unmarshalInputDeleteIterationReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeletePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeletePriorityReq(ctx context.Context, v interface{}) (vo.DeletePriorityReq, error) {
+func (ec *executionContext) unmarshalNDeletePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeletePriorityReq(ctx context.Context, v interface{}) (vo.DeletePriorityReq, error) {
 	return ec.unmarshalInputDeletePriorityReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProcessStatusReq(ctx context.Context, v interface{}) (vo.DeleteProcessStatusReq, error) {
+func (ec *executionContext) unmarshalNDeleteProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProcessStatusReq(ctx context.Context, v interface{}) (vo.DeleteProcessStatusReq, error) {
 	return ec.unmarshalInputDeleteProcessStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProjectAttachmentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentReq(ctx context.Context, v interface{}) (vo.DeleteProjectAttachmentReq, error) {
+func (ec *executionContext) unmarshalNDeleteProjectAttachmentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentReq(ctx context.Context, v interface{}) (vo.DeleteProjectAttachmentReq, error) {
 	return ec.unmarshalInputDeleteProjectAttachmentReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectAttachmentResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectAttachmentResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectAttachmentResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectAttachmentResp) graphql.Marshaler {
 	return ec._DeleteProjectAttachmentResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectAttachmentResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectAttachmentResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectAttachmentResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectAttachmentResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectAttachmentResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72472,19 +72472,19 @@ func (ec *executionContext) marshalNDeleteProjectAttachmentResp2ᚖgiteaᚗbjx�
 	return ec._DeleteProjectAttachmentResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectDetailReq(ctx context.Context, v interface{}) (vo.DeleteProjectDetailReq, error) {
+func (ec *executionContext) unmarshalNDeleteProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectDetailReq(ctx context.Context, v interface{}) (vo.DeleteProjectDetailReq, error) {
 	return ec.unmarshalInputDeleteProjectDetailReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderReq(ctx context.Context, v interface{}) (vo.DeleteProjectFolderReq, error) {
+func (ec *executionContext) unmarshalNDeleteProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderReq(ctx context.Context, v interface{}) (vo.DeleteProjectFolderReq, error) {
 	return ec.unmarshalInputDeleteProjectFolderReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectFolderResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectFolderResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectFolderResp) graphql.Marshaler {
 	return ec._DeleteProjectFolderResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectFolderResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72494,19 +72494,19 @@ func (ec *executionContext) marshalNDeleteProjectFolderResp2ᚖgiteaᚗbjxᚗclo
 	return ec._DeleteProjectFolderResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.DeleteProjectObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNDeleteProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.DeleteProjectObjectTypeReq, error) {
 	return ec.unmarshalInputDeleteProjectObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceReq(ctx context.Context, v interface{}) (vo.DeleteProjectResourceReq, error) {
+func (ec *executionContext) unmarshalNDeleteProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceReq(ctx context.Context, v interface{}) (vo.DeleteProjectResourceReq, error) {
 	return ec.unmarshalInputDeleteProjectResourceReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectResourceResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectResourceResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectResourceResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx context.Context, sel ast.SelectionSet, v vo.DeleteProjectResourceResp) graphql.Marshaler {
 	return ec._DeleteProjectResourceResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDeleteProjectResourceResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectResourceResp) graphql.Marshaler {
+func (ec *executionContext) marshalNDeleteProjectResourceResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteProjectResourceResp(ctx context.Context, sel ast.SelectionSet, v *vo.DeleteProjectResourceResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72516,15 +72516,15 @@ func (ec *executionContext) marshalNDeleteProjectResourceResp2ᚖgiteaᚗbjxᚗc
 	return ec._DeleteProjectResourceResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNDeleteTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteTagReq(ctx context.Context, v interface{}) (vo.DeleteTagReq, error) {
+func (ec *executionContext) unmarshalNDeleteTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDeleteTagReq(ctx context.Context, v interface{}) (vo.DeleteTagReq, error) {
 	return ec.unmarshalInputDeleteTagReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNDepartment2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v vo.Department) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartment2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v vo.Department) graphql.Marshaler {
 	return ec._Department(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDepartment2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v *vo.Department) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartment2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v *vo.Department) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72534,11 +72534,11 @@ func (ec *executionContext) marshalNDepartment2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._Department(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNDepartmentList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx context.Context, sel ast.SelectionSet, v vo.DepartmentList) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartmentList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx context.Context, sel ast.SelectionSet, v vo.DepartmentList) graphql.Marshaler {
 	return ec._DepartmentList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDepartmentList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx context.Context, sel ast.SelectionSet, v *vo.DepartmentList) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartmentList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentList(ctx context.Context, sel ast.SelectionSet, v *vo.DepartmentList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72548,11 +72548,11 @@ func (ec *executionContext) marshalNDepartmentList2ᚖgiteaᚗbjxᚗcloudᚋalls
 	return ec._DepartmentList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNDepartmentMemberInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v vo.DepartmentMemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartmentMemberInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v vo.DepartmentMemberInfo) graphql.Marshaler {
 	return ec._DepartmentMemberInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNDepartmentMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.DepartmentMemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartmentMemberInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.DepartmentMemberInfo) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -72576,7 +72576,7 @@ func (ec *executionContext) marshalNDepartmentMemberInfo2ᚕᚖgiteaᚗbjxᚗclo
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNDepartmentMemberInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNDepartmentMemberInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -72589,7 +72589,7 @@ func (ec *executionContext) marshalNDepartmentMemberInfo2ᚕᚖgiteaᚗbjxᚗclo
 	return ret
 }
 
-func (ec *executionContext) marshalNDepartmentMemberInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v *vo.DepartmentMemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNDepartmentMemberInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberInfo(ctx context.Context, sel ast.SelectionSet, v *vo.DepartmentMemberInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72599,27 +72599,27 @@ func (ec *executionContext) marshalNDepartmentMemberInfo2ᚖgiteaᚗbjxᚗcloud�
 	return ec._DepartmentMemberInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNDepartmentMemberListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberListReq(ctx context.Context, v interface{}) (vo.DepartmentMemberListReq, error) {
+func (ec *executionContext) unmarshalNDepartmentMemberListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentMemberListReq(ctx context.Context, v interface{}) (vo.DepartmentMemberListReq, error) {
 	return ec.unmarshalInputDepartmentMemberListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNEveryPermission2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) (vo.EveryPermission, error) {
+func (ec *executionContext) unmarshalNEveryPermission2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) (vo.EveryPermission, error) {
 	return ec.unmarshalInputEveryPermission(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNEveryPermission2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) (*vo.EveryPermission, error) {
+func (ec *executionContext) unmarshalNEveryPermission2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) (*vo.EveryPermission, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalNEveryPermission2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, v)
+	res, err := ec.unmarshalNEveryPermission2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalNExportIssueTemplateResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx context.Context, sel ast.SelectionSet, v vo.ExportIssueTemplateResp) graphql.Marshaler {
+func (ec *executionContext) marshalNExportIssueTemplateResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx context.Context, sel ast.SelectionSet, v vo.ExportIssueTemplateResp) graphql.Marshaler {
 	return ec._ExportIssueTemplateResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNExportIssueTemplateResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx context.Context, sel ast.SelectionSet, v *vo.ExportIssueTemplateResp) graphql.Marshaler {
+func (ec *executionContext) marshalNExportIssueTemplateResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐExportIssueTemplateResp(ctx context.Context, sel ast.SelectionSet, v *vo.ExportIssueTemplateResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72629,11 +72629,11 @@ func (ec *executionContext) marshalNExportIssueTemplateResp2ᚖgiteaᚗbjxᚗclo
 	return ec._ExportIssueTemplateResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNFolder2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v vo.Folder) graphql.Marshaler {
+func (ec *executionContext) marshalNFolder2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v vo.Folder) graphql.Marshaler {
 	return ec._Folder(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNFolder2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v []*vo.Folder) graphql.Marshaler {
+func (ec *executionContext) marshalNFolder2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v []*vo.Folder) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -72657,7 +72657,7 @@ func (ec *executionContext) marshalNFolder2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNFolder2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx, sel, v[i])
+			ret[i] = ec.marshalNFolder2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -72670,7 +72670,7 @@ func (ec *executionContext) marshalNFolder2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ret
 }
 
-func (ec *executionContext) marshalNFolder2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v *vo.Folder) graphql.Marshaler {
+func (ec *executionContext) marshalNFolder2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolder(ctx context.Context, sel ast.SelectionSet, v *vo.Folder) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72680,11 +72680,11 @@ func (ec *executionContext) marshalNFolder2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpo
 	return ec._Folder(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNFolderList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx context.Context, sel ast.SelectionSet, v vo.FolderList) graphql.Marshaler {
+func (ec *executionContext) marshalNFolderList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx context.Context, sel ast.SelectionSet, v vo.FolderList) graphql.Marshaler {
 	return ec._FolderList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNFolderList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx context.Context, sel ast.SelectionSet, v *vo.FolderList) graphql.Marshaler {
+func (ec *executionContext) marshalNFolderList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐFolderList(ctx context.Context, sel ast.SelectionSet, v *vo.FolderList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72694,11 +72694,11 @@ func (ec *executionContext) marshalNFolderList2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._FolderList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNGetInviteCodeResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx context.Context, sel ast.SelectionSet, v vo.GetInviteCodeResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetInviteCodeResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx context.Context, sel ast.SelectionSet, v vo.GetInviteCodeResp) graphql.Marshaler {
 	return ec._GetInviteCodeResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNGetInviteCodeResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetInviteCodeResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetInviteCodeResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetInviteCodeResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72708,15 +72708,15 @@ func (ec *executionContext) marshalNGetInviteCodeResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._GetInviteCodeResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNGetInviteInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoReq(ctx context.Context, v interface{}) (vo.GetInviteInfoReq, error) {
+func (ec *executionContext) unmarshalNGetInviteInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoReq(ctx context.Context, v interface{}) (vo.GetInviteInfoReq, error) {
 	return ec.unmarshalInputGetInviteInfoReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNGetInviteInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.GetInviteInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetInviteInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.GetInviteInfoResp) graphql.Marshaler {
 	return ec._GetInviteInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNGetInviteInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetInviteInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetInviteInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetInviteInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72726,15 +72726,15 @@ func (ec *executionContext) marshalNGetInviteInfoResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._GetInviteInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNGetMQTTChannelKeyReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyReq(ctx context.Context, v interface{}) (vo.GetMQTTChannelKeyReq, error) {
+func (ec *executionContext) unmarshalNGetMQTTChannelKeyReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyReq(ctx context.Context, v interface{}) (vo.GetMQTTChannelKeyReq, error) {
 	return ec.unmarshalInputGetMQTTChannelKeyReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNGetMQTTChannelKeyResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx context.Context, sel ast.SelectionSet, v vo.GetMQTTChannelKeyResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetMQTTChannelKeyResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx context.Context, sel ast.SelectionSet, v vo.GetMQTTChannelKeyResp) graphql.Marshaler {
 	return ec._GetMQTTChannelKeyResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNGetMQTTChannelKeyResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetMQTTChannelKeyResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetMQTTChannelKeyResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetMQTTChannelKeyResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetMQTTChannelKeyResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72744,11 +72744,11 @@ func (ec *executionContext) marshalNGetMQTTChannelKeyResp2ᚖgiteaᚗbjxᚗcloud
 	return ec._GetMQTTChannelKeyResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNGetPersonalPermissionInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.GetPersonalPermissionInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetPersonalPermissionInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.GetPersonalPermissionInfoResp) graphql.Marshaler {
 	return ec._GetPersonalPermissionInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNGetPersonalPermissionInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetPersonalPermissionInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNGetPersonalPermissionInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetPersonalPermissionInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.GetPersonalPermissionInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72758,11 +72758,11 @@ func (ec *executionContext) marshalNGetPersonalPermissionInfoResp2ᚖgiteaᚗbjx
 	return ec._GetPersonalPermissionInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueInfo) graphql.Marshaler {
 	return ec._HomeIssueInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72772,11 +72772,11 @@ func (ec *executionContext) marshalNHomeIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._HomeIssueInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueInfoResp) graphql.Marshaler {
 	return ec._HomeIssueInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72786,11 +72786,11 @@ func (ec *executionContext) marshalNHomeIssueInfoResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._HomeIssueInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueOwnerInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueOwnerInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueOwnerInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueOwnerInfo) graphql.Marshaler {
 	return ec._HomeIssueOwnerInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueOwnerInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueOwnerInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueOwnerInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueOwnerInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueOwnerInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72800,11 +72800,11 @@ func (ec *executionContext) marshalNHomeIssueOwnerInfo2ᚖgiteaᚗbjxᚗcloudᚋ
 	return ec._HomeIssueOwnerInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssuePriorityInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssuePriorityInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssuePriorityInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssuePriorityInfo) graphql.Marshaler {
 	return ec._HomeIssuePriorityInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssuePriorityInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssuePriorityInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssuePriorityInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssuePriorityInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssuePriorityInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72814,11 +72814,11 @@ func (ec *executionContext) marshalNHomeIssuePriorityInfo2ᚖgiteaᚗbjxᚗcloud
 	return ec._HomeIssuePriorityInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueProjectInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueProjectInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueProjectInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueProjectInfo) graphql.Marshaler {
 	return ec._HomeIssueProjectInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueProjectInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueProjectInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueProjectInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72828,11 +72828,11 @@ func (ec *executionContext) marshalNHomeIssueProjectInfo2ᚖgiteaᚗbjxᚗcloud�
 	return ec._HomeIssueProjectInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueStatusInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueStatusInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueStatusInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueStatusInfo) graphql.Marshaler {
 	return ec._HomeIssueStatusInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueStatusInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueStatusInfo) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -72856,7 +72856,7 @@ func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗclou
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -72869,7 +72869,7 @@ func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗclou
 	return ret
 }
 
-func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueStatusInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueStatusInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72879,11 +72879,11 @@ func (ec *executionContext) marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloud�
 	return ec._HomeIssueStatusInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNHomeIssueTagInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueTagInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueTagInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v vo.HomeIssueTagInfo) graphql.Marshaler {
 	return ec._HomeIssueTagInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNHomeIssueTagInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueTagInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNHomeIssueTagInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v *vo.HomeIssueTagInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72893,15 +72893,15 @@ func (ec *executionContext) marshalNHomeIssueTagInfo2ᚖgiteaᚗbjxᚗcloudᚋal
 	return ec._HomeIssueTagInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNImportIssuesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐImportIssuesReq(ctx context.Context, v interface{}) (vo.ImportIssuesReq, error) {
+func (ec *executionContext) unmarshalNImportIssuesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐImportIssuesReq(ctx context.Context, v interface{}) (vo.ImportIssuesReq, error) {
 	return ec.unmarshalInputImportIssuesReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNIndustryListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx context.Context, sel ast.SelectionSet, v vo.IndustryListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIndustryListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx context.Context, sel ast.SelectionSet, v vo.IndustryListResp) graphql.Marshaler {
 	return ec._IndustryListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIndustryListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx context.Context, sel ast.SelectionSet, v *vo.IndustryListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIndustryListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryListResp(ctx context.Context, sel ast.SelectionSet, v *vo.IndustryListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72911,11 +72911,11 @@ func (ec *executionContext) marshalNIndustryListResp2ᚖgiteaᚗbjxᚗcloudᚋal
 	return ec._IndustryListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIndustryResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v vo.IndustryResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIndustryResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v vo.IndustryResp) graphql.Marshaler {
 	return ec._IndustryResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIndustryResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v *vo.IndustryResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIndustryResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v *vo.IndustryResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -72982,11 +72982,11 @@ func (ec *executionContext) marshalNInt642ᚕint64(ctx context.Context, sel ast.
 	return ret
 }
 
-func (ec *executionContext) marshalNIssue2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v vo.Issue) graphql.Marshaler {
+func (ec *executionContext) marshalNIssue2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v vo.Issue) graphql.Marshaler {
 	return ec._Issue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v []*vo.Issue) graphql.Marshaler {
+func (ec *executionContext) marshalNIssue2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v []*vo.Issue) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -73010,7 +73010,7 @@ func (ec *executionContext) marshalNIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -73023,7 +73023,7 @@ func (ec *executionContext) marshalNIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v *vo.Issue) graphql.Marshaler {
+func (ec *executionContext) marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v *vo.Issue) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73033,11 +73033,11 @@ func (ec *executionContext) marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpol
 	return ec._Issue(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueAndProjectCountStatResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueAndProjectCountStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueAndProjectCountStatResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueAndProjectCountStatResp) graphql.Marshaler {
 	return ec._IssueAndProjectCountStatResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueAndProjectCountStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueAndProjectCountStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueAndProjectCountStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAndProjectCountStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueAndProjectCountStatResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73047,11 +73047,11 @@ func (ec *executionContext) marshalNIssueAndProjectCountStatResp2ᚖgiteaᚗbjx�
 	return ec._IssueAndProjectCountStatResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueAssignRankInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueAssignRankInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueAssignRankInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueAssignRankInfo) graphql.Marshaler {
 	return ec._IssueAssignRankInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueAssignRankInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueAssignRankInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueAssignRankInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueAssignRankInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73061,15 +73061,15 @@ func (ec *executionContext) marshalNIssueAssignRankInfo2ᚖgiteaᚗbjxᚗcloud�
 	return ec._IssueAssignRankInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNIssueAssignRankReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankReq(ctx context.Context, v interface{}) (vo.IssueAssignRankReq, error) {
+func (ec *executionContext) unmarshalNIssueAssignRankReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankReq(ctx context.Context, v interface{}) (vo.IssueAssignRankReq, error) {
 	return ec.unmarshalInputIssueAssignRankReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatData2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatData2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
 	return ec._IssueDailyPersonalWorkCompletionStatData(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatData2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v *vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatData2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v *vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73079,11 +73079,11 @@ func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatData2ᚖ
 	return ec._IssueDailyPersonalWorkCompletionStatData(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueDailyPersonalWorkCompletionStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueDailyPersonalWorkCompletionStatResp) graphql.Marshaler {
 	return ec._IssueDailyPersonalWorkCompletionStatResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueDailyPersonalWorkCompletionStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueDailyPersonalWorkCompletionStatResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73093,11 +73093,11 @@ func (ec *executionContext) marshalNIssueDailyPersonalWorkCompletionStatResp2ᚖ
 	return ec._IssueDailyPersonalWorkCompletionStatResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueInfo) graphql.Marshaler {
 	return ec._IssueInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73107,11 +73107,11 @@ func (ec *executionContext) marshalNIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._IssueInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueObjectType2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueObjectType2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectType) graphql.Marshaler {
 	return ec._IssueObjectType(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectType) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73121,11 +73121,11 @@ func (ec *executionContext) marshalNIssueObjectType2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._IssueObjectType(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueObjectTypeList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectTypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueObjectTypeList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectTypeList) graphql.Marshaler {
 	return ec._IssueObjectTypeList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueObjectTypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectTypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueObjectTypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeList(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectTypeList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73135,11 +73135,11 @@ func (ec *executionContext) marshalNIssueObjectTypeList2ᚖgiteaᚗbjxᚗcloud�
 	return ec._IssueObjectTypeList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueReportResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueReportResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueReportResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueReportResp) graphql.Marshaler {
 	return ec._IssueReportResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueReportResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueReportResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueReportResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueReportResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueReportResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73149,11 +73149,11 @@ func (ec *executionContext) marshalNIssueReportResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._IssueReportResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueRestInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueRestInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueRestInfo) graphql.Marshaler {
 	return ec._IssueRestInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueRestInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueRestInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueRestInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73163,11 +73163,11 @@ func (ec *executionContext) marshalNIssueRestInfo2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._IssueRestInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueRestInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueRestInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueRestInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueRestInfoResp) graphql.Marshaler {
 	return ec._IssueRestInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueRestInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueRestInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueRestInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueRestInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73177,11 +73177,11 @@ func (ec *executionContext) marshalNIssueRestInfoResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._IssueRestInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueSource2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v vo.IssueSource) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueSource2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v vo.IssueSource) graphql.Marshaler {
 	return ec._IssueSource(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueSource2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSource) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueSource2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSource) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73191,11 +73191,11 @@ func (ec *executionContext) marshalNIssueSource2ᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ec._IssueSource(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueSourceList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx context.Context, sel ast.SelectionSet, v vo.IssueSourceList) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueSourceList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx context.Context, sel ast.SelectionSet, v vo.IssueSourceList) graphql.Marshaler {
 	return ec._IssueSourceList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueSourceList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSourceList) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueSourceList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceList(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSourceList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73205,7 +73205,7 @@ func (ec *executionContext) marshalNIssueSourceList2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._IssueSourceList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueStatByObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueStatByObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueStatByObjectType) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -73229,7 +73229,7 @@ func (ec *executionContext) marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcl
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOIssueStatByObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, sel, v[i])
+			ret[i] = ec.marshalOIssueStatByObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -73242,11 +73242,11 @@ func (ec *executionContext) marshalNIssueStatByObjectType2ᚕᚖgiteaᚗbjxᚗcl
 	return ret
 }
 
-func (ec *executionContext) marshalNIssueStatusTypeStatDetailResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatusTypeStatDetailResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueStatusTypeStatDetailResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatusTypeStatDetailResp) graphql.Marshaler {
 	return ec._IssueStatusTypeStatDetailResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueStatusTypeStatDetailResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatusTypeStatDetailResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueStatusTypeStatDetailResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatDetailResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatusTypeStatDetailResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73256,11 +73256,11 @@ func (ec *executionContext) marshalNIssueStatusTypeStatDetailResp2ᚖgiteaᚗbjx
 	return ec._IssueStatusTypeStatDetailResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIssueStatusTypeStatResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatusTypeStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueStatusTypeStatResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatusTypeStatResp) graphql.Marshaler {
 	return ec._IssueStatusTypeStatResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIssueStatusTypeStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatusTypeStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIssueStatusTypeStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatusTypeStatResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73270,23 +73270,23 @@ func (ec *executionContext) marshalNIssueStatusTypeStatResp2ᚖgiteaᚗbjxᚗclo
 	return ec._IssueStatusTypeStatResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNIssueTagReqInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) (vo.IssueTagReqInfo, error) {
+func (ec *executionContext) unmarshalNIssueTagReqInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) (vo.IssueTagReqInfo, error) {
 	return ec.unmarshalInputIssueTagReqInfo(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNIssueTagReqInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) (*vo.IssueTagReqInfo, error) {
+func (ec *executionContext) unmarshalNIssueTagReqInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) (*vo.IssueTagReqInfo, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalNIssueTagReqInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
+	res, err := ec.unmarshalNIssueTagReqInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalNIteration2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v vo.Iteration) graphql.Marshaler {
+func (ec *executionContext) marshalNIteration2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v vo.Iteration) graphql.Marshaler {
 	return ec._Iteration(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIteration2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v *vo.Iteration) graphql.Marshaler {
+func (ec *executionContext) marshalNIteration2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v *vo.Iteration) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73296,15 +73296,15 @@ func (ec *executionContext) marshalNIteration2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._Iteration(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNIterationInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoReq(ctx context.Context, v interface{}) (vo.IterationInfoReq, error) {
+func (ec *executionContext) unmarshalNIterationInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoReq(ctx context.Context, v interface{}) (vo.IterationInfoReq, error) {
 	return ec.unmarshalInputIterationInfoReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNIterationInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.IterationInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.IterationInfoResp) graphql.Marshaler {
 	return ec._IterationInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIterationInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.IterationInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.IterationInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73314,15 +73314,15 @@ func (ec *executionContext) marshalNIterationInfoResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._IterationInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNIterationIssueRealtionReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationIssueRealtionReq(ctx context.Context, v interface{}) (vo.IterationIssueRealtionReq, error) {
+func (ec *executionContext) unmarshalNIterationIssueRealtionReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationIssueRealtionReq(ctx context.Context, v interface{}) (vo.IterationIssueRealtionReq, error) {
 	return ec.unmarshalInputIterationIssueRealtionReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNIterationList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx context.Context, sel ast.SelectionSet, v vo.IterationList) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx context.Context, sel ast.SelectionSet, v vo.IterationList) graphql.Marshaler {
 	return ec._IterationList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIterationList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx context.Context, sel ast.SelectionSet, v *vo.IterationList) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationList(ctx context.Context, sel ast.SelectionSet, v *vo.IterationList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73332,11 +73332,11 @@ func (ec *executionContext) marshalNIterationList2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._IterationList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIterationStat2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v vo.IterationStat) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStat2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v vo.IterationStat) graphql.Marshaler {
 	return ec._IterationStat(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIterationStat2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStat) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStat2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStat) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73346,11 +73346,11 @@ func (ec *executionContext) marshalNIterationStat2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._IterationStat(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNIterationStatList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx context.Context, sel ast.SelectionSet, v vo.IterationStatList) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStatList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx context.Context, sel ast.SelectionSet, v vo.IterationStatList) graphql.Marshaler {
 	return ec._IterationStatList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIterationStatList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStatList) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStatList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatList(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStatList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73360,15 +73360,15 @@ func (ec *executionContext) marshalNIterationStatList2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._IterationStatList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNIterationStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatReq(ctx context.Context, v interface{}) (vo.IterationStatReq, error) {
+func (ec *executionContext) unmarshalNIterationStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatReq(ctx context.Context, v interface{}) (vo.IterationStatReq, error) {
 	return ec.unmarshalInputIterationStatReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNIterationStatusTypeStatResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IterationStatusTypeStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStatusTypeStatResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v vo.IterationStatusTypeStatResp) graphql.Marshaler {
 	return ec._IterationStatusTypeStatResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNIterationStatusTypeStatResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStatusTypeStatResp) graphql.Marshaler {
+func (ec *executionContext) marshalNIterationStatusTypeStatResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatResp(ctx context.Context, sel ast.SelectionSet, v *vo.IterationStatusTypeStatResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73401,11 +73401,11 @@ func (ec *executionContext) marshalNMap2map(ctx context.Context, sel ast.Selecti
 	return res
 }
 
-func (ec *executionContext) marshalNNotice2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v vo.Notice) graphql.Marshaler {
+func (ec *executionContext) marshalNNotice2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v vo.Notice) graphql.Marshaler {
 	return ec._Notice(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNNotice2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v *vo.Notice) graphql.Marshaler {
+func (ec *executionContext) marshalNNotice2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v *vo.Notice) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73415,11 +73415,11 @@ func (ec *executionContext) marshalNNotice2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpo
 	return ec._Notice(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNNoticeCountResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx context.Context, sel ast.SelectionSet, v vo.NoticeCountResp) graphql.Marshaler {
+func (ec *executionContext) marshalNNoticeCountResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx context.Context, sel ast.SelectionSet, v vo.NoticeCountResp) graphql.Marshaler {
 	return ec._NoticeCountResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNNoticeCountResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx context.Context, sel ast.SelectionSet, v *vo.NoticeCountResp) graphql.Marshaler {
+func (ec *executionContext) marshalNNoticeCountResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeCountResp(ctx context.Context, sel ast.SelectionSet, v *vo.NoticeCountResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73429,11 +73429,11 @@ func (ec *executionContext) marshalNNoticeCountResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._NoticeCountResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNNoticeList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx context.Context, sel ast.SelectionSet, v vo.NoticeList) graphql.Marshaler {
+func (ec *executionContext) marshalNNoticeList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx context.Context, sel ast.SelectionSet, v vo.NoticeList) graphql.Marshaler {
 	return ec._NoticeList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNNoticeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx context.Context, sel ast.SelectionSet, v *vo.NoticeList) graphql.Marshaler {
+func (ec *executionContext) marshalNNoticeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeList(ctx context.Context, sel ast.SelectionSet, v *vo.NoticeList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73443,11 +73443,11 @@ func (ec *executionContext) marshalNNoticeList2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._NoticeList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNOperateProjectResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx context.Context, sel ast.SelectionSet, v vo.OperateProjectResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOperateProjectResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx context.Context, sel ast.SelectionSet, v vo.OperateProjectResp) graphql.Marshaler {
 	return ec._OperateProjectResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOperateProjectResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx context.Context, sel ast.SelectionSet, v *vo.OperateProjectResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOperateProjectResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOperateProjectResp(ctx context.Context, sel ast.SelectionSet, v *vo.OperateProjectResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73457,11 +73457,11 @@ func (ec *executionContext) marshalNOperateProjectResp2ᚖgiteaᚗbjxᚗcloudᚋ
 	return ec._OperateProjectResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNOrgProjectMemberInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrgProjectMemberInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberInfoResp) graphql.Marshaler {
 	return ec._OrgProjectMemberInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v []*vo.OrgProjectMemberInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v []*vo.OrgProjectMemberInfoResp) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -73485,7 +73485,7 @@ func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjx�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOOrgProjectMemberInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, sel, v[i])
+			ret[i] = ec.marshalOOrgProjectMemberInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -73498,7 +73498,7 @@ func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚕᚖgiteaᚗbjx�
 	return ret
 }
 
-func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73508,15 +73508,15 @@ func (ec *executionContext) marshalNOrgProjectMemberInfoResp2ᚖgiteaᚗbjxᚗcl
 	return ec._OrgProjectMemberInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNOrgProjectMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberReq(ctx context.Context, v interface{}) (vo.OrgProjectMemberReq, error) {
+func (ec *executionContext) unmarshalNOrgProjectMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberReq(ctx context.Context, v interface{}) (vo.OrgProjectMemberReq, error) {
 	return ec.unmarshalInputOrgProjectMemberReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNOrgProjectMemberResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrgProjectMemberResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberResp) graphql.Marshaler {
 	return ec._OrgProjectMemberResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOrgProjectMemberResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrgProjectMemberResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73526,19 +73526,19 @@ func (ec *executionContext) marshalNOrgProjectMemberResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._OrgProjectMemberResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNOrgUserListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgUserListReq(ctx context.Context, v interface{}) (vo.OrgUserListReq, error) {
+func (ec *executionContext) unmarshalNOrgUserListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgUserListReq(ctx context.Context, v interface{}) (vo.OrgUserListReq, error) {
 	return ec.unmarshalInputOrgUserListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNOrganizationInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoReq(ctx context.Context, v interface{}) (vo.OrganizationInfoReq, error) {
+func (ec *executionContext) unmarshalNOrganizationInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoReq(ctx context.Context, v interface{}) (vo.OrganizationInfoReq, error) {
 	return ec.unmarshalInputOrganizationInfoReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNOrganizationInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrganizationInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrganizationInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrganizationInfoResp) graphql.Marshaler {
 	return ec._OrganizationInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOrganizationInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrganizationInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOrganizationInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrganizationInfoResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73548,11 +73548,11 @@ func (ec *executionContext) marshalNOrganizationInfoResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._OrganizationInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNOrganizationUser2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v vo.OrganizationUser) graphql.Marshaler {
+func (ec *executionContext) marshalNOrganizationUser2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v vo.OrganizationUser) graphql.Marshaler {
 	return ec._OrganizationUser(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOrganizationUser2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v *vo.OrganizationUser) graphql.Marshaler {
+func (ec *executionContext) marshalNOrganizationUser2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v *vo.OrganizationUser) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73562,15 +73562,15 @@ func (ec *executionContext) marshalNOrganizationUser2ᚖgiteaᚗbjxᚗcloudᚋal
 	return ec._OrganizationUser(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNOssApplySignUrlReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLReq(ctx context.Context, v interface{}) (vo.OssApplySignURLReq, error) {
+func (ec *executionContext) unmarshalNOssApplySignUrlReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLReq(ctx context.Context, v interface{}) (vo.OssApplySignURLReq, error) {
 	return ec.unmarshalInputOssApplySignUrlReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNOssApplySignUrlResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx context.Context, sel ast.SelectionSet, v vo.OssApplySignURLResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOssApplySignUrlResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx context.Context, sel ast.SelectionSet, v vo.OssApplySignURLResp) graphql.Marshaler {
 	return ec._OssApplySignUrlResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOssApplySignUrlResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx context.Context, sel ast.SelectionSet, v *vo.OssApplySignURLResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOssApplySignUrlResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssApplySignURLResp(ctx context.Context, sel ast.SelectionSet, v *vo.OssApplySignURLResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73580,15 +73580,15 @@ func (ec *executionContext) marshalNOssApplySignUrlResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._OssApplySignUrlResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNOssPostPolicyReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyReq(ctx context.Context, v interface{}) (vo.OssPostPolicyReq, error) {
+func (ec *executionContext) unmarshalNOssPostPolicyReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyReq(ctx context.Context, v interface{}) (vo.OssPostPolicyReq, error) {
 	return ec.unmarshalInputOssPostPolicyReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNOssPostPolicyResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx context.Context, sel ast.SelectionSet, v vo.OssPostPolicyResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOssPostPolicyResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx context.Context, sel ast.SelectionSet, v vo.OssPostPolicyResp) graphql.Marshaler {
 	return ec._OssPostPolicyResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNOssPostPolicyResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx context.Context, sel ast.SelectionSet, v *vo.OssPostPolicyResp) graphql.Marshaler {
+func (ec *executionContext) marshalNOssPostPolicyResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOssPostPolicyResp(ctx context.Context, sel ast.SelectionSet, v *vo.OssPostPolicyResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73598,11 +73598,11 @@ func (ec *executionContext) marshalNOssPostPolicyResp2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._OssPostPolicyResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPermission2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v vo.Permission) graphql.Marshaler {
+func (ec *executionContext) marshalNPermission2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v vo.Permission) graphql.Marshaler {
 	return ec._Permission(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPermission2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v *vo.Permission) graphql.Marshaler {
+func (ec *executionContext) marshalNPermission2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v *vo.Permission) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73612,11 +73612,11 @@ func (ec *executionContext) marshalNPermission2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._Permission(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPermissionOperation2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v vo.PermissionOperation) graphql.Marshaler {
+func (ec *executionContext) marshalNPermissionOperation2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v vo.PermissionOperation) graphql.Marshaler {
 	return ec._PermissionOperation(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPermissionOperation2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v *vo.PermissionOperation) graphql.Marshaler {
+func (ec *executionContext) marshalNPermissionOperation2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v *vo.PermissionOperation) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73626,11 +73626,11 @@ func (ec *executionContext) marshalNPermissionOperation2ᚖgiteaᚗbjxᚗcloud�
 	return ec._PermissionOperation(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPermissionOperationListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v vo.PermissionOperationListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNPermissionOperationListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v vo.PermissionOperationListResp) graphql.Marshaler {
 	return ec._PermissionOperationListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPermissionOperationListResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v []*vo.PermissionOperationListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNPermissionOperationListResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v []*vo.PermissionOperationListResp) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -73654,7 +73654,7 @@ func (ec *executionContext) marshalNPermissionOperationListResp2ᚕᚖgiteaᚗbj
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNPermissionOperationListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx, sel, v[i])
+			ret[i] = ec.marshalNPermissionOperationListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -73667,7 +73667,7 @@ func (ec *executionContext) marshalNPermissionOperationListResp2ᚕᚖgiteaᚗbj
 	return ret
 }
 
-func (ec *executionContext) marshalNPermissionOperationListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v *vo.PermissionOperationListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNPermissionOperationListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperationListResp(ctx context.Context, sel ast.SelectionSet, v *vo.PermissionOperationListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73677,11 +73677,11 @@ func (ec *executionContext) marshalNPermissionOperationListResp2ᚖgiteaᚗbjx�
 	return ec._PermissionOperationListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPersonalInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v vo.PersonalInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNPersonalInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v vo.PersonalInfo) graphql.Marshaler {
 	return ec._PersonalInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v *vo.PersonalInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v *vo.PersonalInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73691,11 +73691,11 @@ func (ec *executionContext) marshalNPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallsta
 	return ec._PersonalInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPriority2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v vo.Priority) graphql.Marshaler {
+func (ec *executionContext) marshalNPriority2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v vo.Priority) graphql.Marshaler {
 	return ec._Priority(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPriority2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v *vo.Priority) graphql.Marshaler {
+func (ec *executionContext) marshalNPriority2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v *vo.Priority) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73705,11 +73705,11 @@ func (ec *executionContext) marshalNPriority2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 	return ec._Priority(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNPriorityList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx context.Context, sel ast.SelectionSet, v vo.PriorityList) graphql.Marshaler {
+func (ec *executionContext) marshalNPriorityList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx context.Context, sel ast.SelectionSet, v vo.PriorityList) graphql.Marshaler {
 	return ec._PriorityList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNPriorityList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx context.Context, sel ast.SelectionSet, v *vo.PriorityList) graphql.Marshaler {
+func (ec *executionContext) marshalNPriorityList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityList(ctx context.Context, sel ast.SelectionSet, v *vo.PriorityList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73719,11 +73719,11 @@ func (ec *executionContext) marshalNPriorityList2ᚖgiteaᚗbjxᚗcloudᚋallsta
 	return ec._PriorityList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProcessStatus2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v vo.ProcessStatus) graphql.Marshaler {
+func (ec *executionContext) marshalNProcessStatus2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v vo.ProcessStatus) graphql.Marshaler {
 	return ec._ProcessStatus(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProcessStatus2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v *vo.ProcessStatus) graphql.Marshaler {
+func (ec *executionContext) marshalNProcessStatus2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v *vo.ProcessStatus) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73733,11 +73733,11 @@ func (ec *executionContext) marshalNProcessStatus2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._ProcessStatus(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProcessStatusList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx context.Context, sel ast.SelectionSet, v vo.ProcessStatusList) graphql.Marshaler {
+func (ec *executionContext) marshalNProcessStatusList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx context.Context, sel ast.SelectionSet, v vo.ProcessStatusList) graphql.Marshaler {
 	return ec._ProcessStatusList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProcessStatusList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx context.Context, sel ast.SelectionSet, v *vo.ProcessStatusList) graphql.Marshaler {
+func (ec *executionContext) marshalNProcessStatusList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatusList(ctx context.Context, sel ast.SelectionSet, v *vo.ProcessStatusList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73747,11 +73747,11 @@ func (ec *executionContext) marshalNProcessStatusList2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._ProcessStatusList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProject2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v vo.Project) graphql.Marshaler {
+func (ec *executionContext) marshalNProject2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v vo.Project) graphql.Marshaler {
 	return ec._Project(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProject2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v *vo.Project) graphql.Marshaler {
+func (ec *executionContext) marshalNProject2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v *vo.Project) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73761,15 +73761,15 @@ func (ec *executionContext) marshalNProject2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋp
 	return ec._Project(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectAttachmentReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectAttachmentReq(ctx context.Context, v interface{}) (vo.ProjectAttachmentReq, error) {
+func (ec *executionContext) unmarshalNProjectAttachmentReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectAttachmentReq(ctx context.Context, v interface{}) (vo.ProjectAttachmentReq, error) {
 	return ec.unmarshalInputProjectAttachmentReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectDayStat2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDayStat) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDayStat2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDayStat) graphql.Marshaler {
 	return ec._ProjectDayStat(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectDayStat2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDayStat) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDayStat2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDayStat) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73779,11 +73779,11 @@ func (ec *executionContext) marshalNProjectDayStat2ᚖgiteaᚗbjxᚗcloudᚋalls
 	return ec._ProjectDayStat(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectDayStatList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDayStatList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDayStatList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDayStatList) graphql.Marshaler {
 	return ec._ProjectDayStatList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectDayStatList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDayStatList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDayStatList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDayStatList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73793,11 +73793,11 @@ func (ec *executionContext) marshalNProjectDayStatList2ᚖgiteaᚗbjxᚗcloudᚋ
 	return ec._ProjectDayStatList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectDetail2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDetail) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDetail2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v vo.ProjectDetail) graphql.Marshaler {
 	return ec._ProjectDetail(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectDetail2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDetail) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectDetail2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectDetail) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73807,15 +73807,15 @@ func (ec *executionContext) marshalNProjectDetail2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._ProjectDetail(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectFolderReq(ctx context.Context, v interface{}) (vo.ProjectFolderReq, error) {
+func (ec *executionContext) unmarshalNProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectFolderReq(ctx context.Context, v interface{}) (vo.ProjectFolderReq, error) {
 	return ec.unmarshalInputProjectFolderReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx context.Context, sel ast.SelectionSet, v vo.ProjectInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx context.Context, sel ast.SelectionSet, v vo.ProjectInfo) graphql.Marshaler {
 	return ec._ProjectInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73825,19 +73825,19 @@ func (ec *executionContext) marshalNProjectInfo2ᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ec._ProjectInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfoReq(ctx context.Context, v interface{}) (vo.ProjectInfoReq, error) {
+func (ec *executionContext) unmarshalNProjectInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectInfoReq(ctx context.Context, v interface{}) (vo.ProjectInfoReq, error) {
 	return ec.unmarshalInputProjectInfoReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNProjectIssueRelatedStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectIssueRelatedStatusReq(ctx context.Context, v interface{}) (vo.ProjectIssueRelatedStatusReq, error) {
+func (ec *executionContext) unmarshalNProjectIssueRelatedStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectIssueRelatedStatusReq(ctx context.Context, v interface{}) (vo.ProjectIssueRelatedStatusReq, error) {
 	return ec.unmarshalInputProjectIssueRelatedStatusReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectList) graphql.Marshaler {
 	return ec._ProjectList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73847,11 +73847,11 @@ func (ec *executionContext) marshalNProjectList2ᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ec._ProjectList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectObjectType2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectType2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectType) graphql.Marshaler {
 	return ec._ProjectObjectType(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectType) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73861,11 +73861,11 @@ func (ec *executionContext) marshalNProjectObjectType2ᚖgiteaᚗbjxᚗcloudᚋa
 	return ec._ProjectObjectType(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeList) graphql.Marshaler {
 	return ec._ProjectObjectTypeList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73875,11 +73875,11 @@ func (ec *executionContext) marshalNProjectObjectTypeList2ᚖgiteaᚗbjxᚗcloud
 	return ec._ProjectObjectTypeList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeRestInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeRestInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
 	return ec._ProjectObjectTypeRestInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeRestInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeRestInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73889,11 +73889,11 @@ func (ec *executionContext) marshalNProjectObjectTypeRestInfo2ᚖgiteaᚗbjxᚗc
 	return ec._ProjectObjectTypeRestInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeWithProjectList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeWithProjectList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeWithProjectList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx context.Context, sel ast.SelectionSet, v vo.ProjectObjectTypeWithProjectList) graphql.Marshaler {
 	return ec._ProjectObjectTypeWithProjectList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectObjectTypeWithProjectList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeWithProjectList) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectObjectTypeWithProjectList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeWithProjectList(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectObjectTypeWithProjectList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73903,15 +73903,15 @@ func (ec *executionContext) marshalNProjectObjectTypeWithProjectList2ᚖgiteaᚗ
 	return ec._ProjectObjectTypeWithProjectList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectResourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectResourceReq(ctx context.Context, v interface{}) (vo.ProjectResourceReq, error) {
+func (ec *executionContext) unmarshalNProjectResourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectResourceReq(ctx context.Context, v interface{}) (vo.ProjectResourceReq, error) {
 	return ec.unmarshalInputProjectResourceReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectStatisticsResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectStatisticsResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectStatisticsResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectStatisticsResp) graphql.Marshaler {
 	return ec._ProjectStatisticsResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectStatisticsResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectStatisticsResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectStatisticsResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectStatisticsResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectStatisticsResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73921,15 +73921,15 @@ func (ec *executionContext) marshalNProjectStatisticsResp2ᚖgiteaᚗbjxᚗcloud
 	return ec._ProjectStatisticsResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectSupportObjectTypeListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListReq(ctx context.Context, v interface{}) (vo.ProjectSupportObjectTypeListReq, error) {
+func (ec *executionContext) unmarshalNProjectSupportObjectTypeListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListReq(ctx context.Context, v interface{}) (vo.ProjectSupportObjectTypeListReq, error) {
 	return ec.unmarshalInputProjectSupportObjectTypeListReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectSupportObjectTypeListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectSupportObjectTypeListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectSupportObjectTypeListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectSupportObjectTypeListResp) graphql.Marshaler {
 	return ec._ProjectSupportObjectTypeListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectSupportObjectTypeListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectSupportObjectTypeListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectSupportObjectTypeListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectSupportObjectTypeListResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectSupportObjectTypeListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73939,11 +73939,11 @@ func (ec *executionContext) marshalNProjectSupportObjectTypeListResp2ᚖgiteaᚗ
 	return ec._ProjectSupportObjectTypeListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNProjectType2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v vo.ProjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectType2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v vo.ProjectType) graphql.Marshaler {
 	return ec._ProjectType(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectType) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectType) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73953,15 +73953,15 @@ func (ec *executionContext) marshalNProjectType2ᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ec._ProjectType(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNProjectUserListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListReq(ctx context.Context, v interface{}) (vo.ProjectUserListReq, error) {
+func (ec *executionContext) unmarshalNProjectUserListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListReq(ctx context.Context, v interface{}) (vo.ProjectUserListReq, error) {
 	return ec.unmarshalInputProjectUserListReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNProjectUserListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectUserListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectUserListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx context.Context, sel ast.SelectionSet, v vo.ProjectUserListResp) graphql.Marshaler {
 	return ec._ProjectUserListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNProjectUserListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectUserListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNProjectUserListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUserListResp(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectUserListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73971,11 +73971,11 @@ func (ec *executionContext) marshalNProjectUserListResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._ProjectUserListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNQuitResult2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx context.Context, sel ast.SelectionSet, v vo.QuitResult) graphql.Marshaler {
+func (ec *executionContext) marshalNQuitResult2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx context.Context, sel ast.SelectionSet, v vo.QuitResult) graphql.Marshaler {
 	return ec._QuitResult(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNQuitResult2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx context.Context, sel ast.SelectionSet, v *vo.QuitResult) graphql.Marshaler {
+func (ec *executionContext) marshalNQuitResult2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐQuitResult(ctx context.Context, sel ast.SelectionSet, v *vo.QuitResult) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -73985,31 +73985,31 @@ func (ec *executionContext) marshalNQuitResult2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._QuitResult(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNRegisterWebSiteContactReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRegisterWebSiteContactReq(ctx context.Context, v interface{}) (vo.RegisterWebSiteContactReq, error) {
+func (ec *executionContext) unmarshalNRegisterWebSiteContactReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRegisterWebSiteContactReq(ctx context.Context, v interface{}) (vo.RegisterWebSiteContactReq, error) {
 	return ec.unmarshalInputRegisterWebSiteContactReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNRelatedIssueListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelatedIssueListReq(ctx context.Context, v interface{}) (vo.RelatedIssueListReq, error) {
+func (ec *executionContext) unmarshalNRelatedIssueListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelatedIssueListReq(ctx context.Context, v interface{}) (vo.RelatedIssueListReq, error) {
 	return ec.unmarshalInputRelatedIssueListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNRemoveOrgMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveOrgMemberReq(ctx context.Context, v interface{}) (vo.RemoveOrgMemberReq, error) {
+func (ec *executionContext) unmarshalNRemoveOrgMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveOrgMemberReq(ctx context.Context, v interface{}) (vo.RemoveOrgMemberReq, error) {
 	return ec.unmarshalInputRemoveOrgMemberReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNRemoveProjectMemberReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx context.Context, v interface{}) (vo.RemoveProjectMemberReq, error) {
+func (ec *executionContext) unmarshalNRemoveProjectMemberReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRemoveProjectMemberReq(ctx context.Context, v interface{}) (vo.RemoveProjectMemberReq, error) {
 	return ec.unmarshalInputRemoveProjectMemberReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNResetPasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResetPasswordReq(ctx context.Context, v interface{}) (vo.ResetPasswordReq, error) {
+func (ec *executionContext) unmarshalNResetPasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResetPasswordReq(ctx context.Context, v interface{}) (vo.ResetPasswordReq, error) {
 	return ec.unmarshalInputResetPasswordReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNResource2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v vo.Resource) graphql.Marshaler {
+func (ec *executionContext) marshalNResource2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v vo.Resource) graphql.Marshaler {
 	return ec._Resource(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNResource2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v *vo.Resource) graphql.Marshaler {
+func (ec *executionContext) marshalNResource2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v *vo.Resource) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74019,11 +74019,11 @@ func (ec *executionContext) marshalNResource2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 	return ec._Resource(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNResourceList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx context.Context, sel ast.SelectionSet, v vo.ResourceList) graphql.Marshaler {
+func (ec *executionContext) marshalNResourceList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx context.Context, sel ast.SelectionSet, v vo.ResourceList) graphql.Marshaler {
 	return ec._ResourceList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNResourceList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx context.Context, sel ast.SelectionSet, v *vo.ResourceList) graphql.Marshaler {
+func (ec *executionContext) marshalNResourceList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceList(ctx context.Context, sel ast.SelectionSet, v *vo.ResourceList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74033,15 +74033,15 @@ func (ec *executionContext) marshalNResourceList2ᚖgiteaᚗbjxᚗcloudᚋallsta
 	return ec._ResourceList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNRetrievePasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRetrievePasswordReq(ctx context.Context, v interface{}) (vo.RetrievePasswordReq, error) {
+func (ec *executionContext) unmarshalNRetrievePasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRetrievePasswordReq(ctx context.Context, v interface{}) (vo.RetrievePasswordReq, error) {
 	return ec.unmarshalInputRetrievePasswordReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNRole2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v vo.Role) graphql.Marshaler {
+func (ec *executionContext) marshalNRole2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v vo.Role) graphql.Marshaler {
 	return ec._Role(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNRole2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v []*vo.Role) graphql.Marshaler {
+func (ec *executionContext) marshalNRole2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v []*vo.Role) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -74065,7 +74065,7 @@ func (ec *executionContext) marshalNRole2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋp
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNRole2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, sel, v[i])
+			ret[i] = ec.marshalNRole2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -74078,7 +74078,7 @@ func (ec *executionContext) marshalNRole2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋp
 	return ret
 }
 
-func (ec *executionContext) marshalNRole2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v *vo.Role) graphql.Marshaler {
+func (ec *executionContext) marshalNRole2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRole(ctx context.Context, sel ast.SelectionSet, v *vo.Role) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74088,23 +74088,23 @@ func (ec *executionContext) marshalNRole2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpola
 	return ec._Role(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNSendAuthCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendAuthCodeReq(ctx context.Context, v interface{}) (vo.SendAuthCodeReq, error) {
+func (ec *executionContext) unmarshalNSendAuthCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendAuthCodeReq(ctx context.Context, v interface{}) (vo.SendAuthCodeReq, error) {
 	return ec.unmarshalInputSendAuthCodeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNSendSmsLoginCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendSmsLoginCodeReq(ctx context.Context, v interface{}) (vo.SendSmsLoginCodeReq, error) {
+func (ec *executionContext) unmarshalNSendSmsLoginCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSendSmsLoginCodeReq(ctx context.Context, v interface{}) (vo.SendSmsLoginCodeReq, error) {
 	return ec.unmarshalInputSendSmsLoginCodeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNSetPasswordReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSetPasswordReq(ctx context.Context, v interface{}) (vo.SetPasswordReq, error) {
+func (ec *executionContext) unmarshalNSetPasswordReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSetPasswordReq(ctx context.Context, v interface{}) (vo.SetPasswordReq, error) {
 	return ec.unmarshalInputSetPasswordReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNStatCommon2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v vo.StatCommon) graphql.Marshaler {
+func (ec *executionContext) marshalNStatCommon2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v vo.StatCommon) graphql.Marshaler {
 	return ec._StatCommon(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNStatCommon2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v *vo.StatCommon) graphql.Marshaler {
+func (ec *executionContext) marshalNStatCommon2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v *vo.StatCommon) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74114,11 +74114,11 @@ func (ec *executionContext) marshalNStatCommon2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._StatCommon(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNStatIssueExt2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx context.Context, sel ast.SelectionSet, v vo.StatIssueExt) graphql.Marshaler {
+func (ec *executionContext) marshalNStatIssueExt2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx context.Context, sel ast.SelectionSet, v vo.StatIssueExt) graphql.Marshaler {
 	return ec._StatIssueExt(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNStatIssueExt2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx context.Context, sel ast.SelectionSet, v *vo.StatIssueExt) graphql.Marshaler {
+func (ec *executionContext) marshalNStatIssueExt2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatIssueExt(ctx context.Context, sel ast.SelectionSet, v *vo.StatIssueExt) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74171,11 +74171,11 @@ func (ec *executionContext) marshalNString2ᚕstring(ctx context.Context, sel as
 	return ret
 }
 
-func (ec *executionContext) marshalNStypeList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx context.Context, sel ast.SelectionSet, v vo.StypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNStypeList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx context.Context, sel ast.SelectionSet, v vo.StypeList) graphql.Marshaler {
 	return ec._StypeList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNStypeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx context.Context, sel ast.SelectionSet, v *vo.StypeList) graphql.Marshaler {
+func (ec *executionContext) marshalNStypeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStypeList(ctx context.Context, sel ast.SelectionSet, v *vo.StypeList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74185,15 +74185,15 @@ func (ec *executionContext) marshalNStypeList2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._StypeList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNSwitchUserOrganizationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSwitchUserOrganizationReq(ctx context.Context, v interface{}) (vo.SwitchUserOrganizationReq, error) {
+func (ec *executionContext) unmarshalNSwitchUserOrganizationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐSwitchUserOrganizationReq(ctx context.Context, v interface{}) (vo.SwitchUserOrganizationReq, error) {
 	return ec.unmarshalInputSwitchUserOrganizationReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNTag2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v vo.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalNTag2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v vo.Tag) graphql.Marshaler {
 	return ec._Tag(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNTag2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v *vo.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalNTag2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v *vo.Tag) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74203,11 +74203,11 @@ func (ec *executionContext) marshalNTag2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolar
 	return ec._Tag(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNTagList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx context.Context, sel ast.SelectionSet, v vo.TagList) graphql.Marshaler {
+func (ec *executionContext) marshalNTagList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx context.Context, sel ast.SelectionSet, v vo.TagList) graphql.Marshaler {
 	return ec._TagList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNTagList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx context.Context, sel ast.SelectionSet, v *vo.TagList) graphql.Marshaler {
+func (ec *executionContext) marshalNTagList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagList(ctx context.Context, sel ast.SelectionSet, v *vo.TagList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74217,24 +74217,24 @@ func (ec *executionContext) marshalNTagList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋp
 	return ec._TagList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNTagListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagListReq(ctx context.Context, v interface{}) (vo.TagListReq, error) {
+func (ec *executionContext) unmarshalNTagListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTagListReq(ctx context.Context, v interface{}) (vo.TagListReq, error) {
 	return ec.unmarshalInputTagListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (types.Time, error) {
+func (ec *executionContext) unmarshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (types.Time, error) {
 	var res types.Time
 	return res, res.UnmarshalGQL(v)
 }
 
-func (ec *executionContext) marshalNTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v types.Time) graphql.Marshaler {
+func (ec *executionContext) marshalNTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v types.Time) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) marshalNTrendsList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx context.Context, sel ast.SelectionSet, v vo.TrendsList) graphql.Marshaler {
+func (ec *executionContext) marshalNTrendsList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx context.Context, sel ast.SelectionSet, v vo.TrendsList) graphql.Marshaler {
 	return ec._TrendsList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNTrendsList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx context.Context, sel ast.SelectionSet, v *vo.TrendsList) graphql.Marshaler {
+func (ec *executionContext) marshalNTrendsList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendsList(ctx context.Context, sel ast.SelectionSet, v *vo.TrendsList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74244,31 +74244,31 @@ func (ec *executionContext) marshalNTrendsList2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._TrendsList(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUnbindLoginNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUnbindLoginNameReq(ctx context.Context, v interface{}) (vo.UnbindLoginNameReq, error) {
+func (ec *executionContext) unmarshalNUnbindLoginNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUnbindLoginNameReq(ctx context.Context, v interface{}) (vo.UnbindLoginNameReq, error) {
 	return ec.unmarshalInputUnbindLoginNameReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueAndIssueRelateReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueAndIssueRelateReq(ctx context.Context, v interface{}) (vo.UpdateIssueAndIssueRelateReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueAndIssueRelateReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueAndIssueRelateReq(ctx context.Context, v interface{}) (vo.UpdateIssueAndIssueRelateReq, error) {
 	return ec.unmarshalInputUpdateIssueAndIssueRelateReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateIssueObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateIssueObjectTypeReq, error) {
 	return ec.unmarshalInputUpdateIssueObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateIssueProjectObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateIssueProjectObjectTypeReq, error) {
 	return ec.unmarshalInputUpdateIssueProjectObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueReq(ctx context.Context, v interface{}) (vo.UpdateIssueReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueReq(ctx context.Context, v interface{}) (vo.UpdateIssueReq, error) {
 	return ec.unmarshalInputUpdateIssueReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUpdateIssueResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateIssueResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateIssueResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateIssueResp) graphql.Marshaler {
 	return ec._UpdateIssueResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUpdateIssueResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateIssueResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateIssueResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateIssueResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74278,63 +74278,63 @@ func (ec *executionContext) marshalNUpdateIssueResp2ᚖgiteaᚗbjxᚗcloudᚋall
 	return ec._UpdateIssueResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueSortReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSortReq(ctx context.Context, v interface{}) (vo.UpdateIssueSortReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueSortReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSortReq(ctx context.Context, v interface{}) (vo.UpdateIssueSortReq, error) {
 	return ec.unmarshalInputUpdateIssueSortReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueSourceReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSourceReq(ctx context.Context, v interface{}) (vo.UpdateIssueSourceReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueSourceReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueSourceReq(ctx context.Context, v interface{}) (vo.UpdateIssueSourceReq, error) {
 	return ec.unmarshalInputUpdateIssueSourceReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueStatusReq(ctx context.Context, v interface{}) (vo.UpdateIssueStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueStatusReq(ctx context.Context, v interface{}) (vo.UpdateIssueStatusReq, error) {
 	return ec.unmarshalInputUpdateIssueStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIssueTagsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueTagsReq(ctx context.Context, v interface{}) (vo.UpdateIssueTagsReq, error) {
+func (ec *executionContext) unmarshalNUpdateIssueTagsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIssueTagsReq(ctx context.Context, v interface{}) (vo.UpdateIssueTagsReq, error) {
 	return ec.unmarshalInputUpdateIssueTagsReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIterationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationReq(ctx context.Context, v interface{}) (vo.UpdateIterationReq, error) {
+func (ec *executionContext) unmarshalNUpdateIterationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationReq(ctx context.Context, v interface{}) (vo.UpdateIterationReq, error) {
 	return ec.unmarshalInputUpdateIterationReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateIterationStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationStatusReq(ctx context.Context, v interface{}) (vo.UpdateIterationStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateIterationStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateIterationStatusReq(ctx context.Context, v interface{}) (vo.UpdateIterationStatusReq, error) {
 	return ec.unmarshalInputUpdateIterationStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateOrgMemberCheckStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberCheckStatusReq(ctx context.Context, v interface{}) (vo.UpdateOrgMemberCheckStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateOrgMemberCheckStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberCheckStatusReq(ctx context.Context, v interface{}) (vo.UpdateOrgMemberCheckStatusReq, error) {
 	return ec.unmarshalInputUpdateOrgMemberCheckStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateOrgMemberStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberStatusReq(ctx context.Context, v interface{}) (vo.UpdateOrgMemberStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateOrgMemberStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrgMemberStatusReq(ctx context.Context, v interface{}) (vo.UpdateOrgMemberStatusReq, error) {
 	return ec.unmarshalInputUpdateOrgMemberStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateOrganizationSettingsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrganizationSettingsReq(ctx context.Context, v interface{}) (vo.UpdateOrganizationSettingsReq, error) {
+func (ec *executionContext) unmarshalNUpdateOrganizationSettingsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateOrganizationSettingsReq(ctx context.Context, v interface{}) (vo.UpdateOrganizationSettingsReq, error) {
 	return ec.unmarshalInputUpdateOrganizationSettingsReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdatePriorityReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdatePriorityReq(ctx context.Context, v interface{}) (vo.UpdatePriorityReq, error) {
+func (ec *executionContext) unmarshalNUpdatePriorityReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdatePriorityReq(ctx context.Context, v interface{}) (vo.UpdatePriorityReq, error) {
 	return ec.unmarshalInputUpdatePriorityReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProcessStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProcessStatusReq(ctx context.Context, v interface{}) (vo.UpdateProcessStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateProcessStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProcessStatusReq(ctx context.Context, v interface{}) (vo.UpdateProcessStatusReq, error) {
 	return ec.unmarshalInputUpdateProcessStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectDetailReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectDetailReq(ctx context.Context, v interface{}) (vo.UpdateProjectDetailReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectDetailReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectDetailReq(ctx context.Context, v interface{}) (vo.UpdateProjectDetailReq, error) {
 	return ec.unmarshalInputUpdateProjectDetailReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderReq(ctx context.Context, v interface{}) (vo.UpdateProjectFolderReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderReq(ctx context.Context, v interface{}) (vo.UpdateProjectFolderReq, error) {
 	return ec.unmarshalInputUpdateProjectFolderReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUpdateProjectFolderResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateProjectFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateProjectFolderResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateProjectFolderResp) graphql.Marshaler {
 	return ec._UpdateProjectFolderResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUpdateProjectFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateProjectFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateProjectFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateProjectFolderResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74344,23 +74344,23 @@ func (ec *executionContext) marshalNUpdateProjectFolderResp2ᚖgiteaᚗbjxᚗclo
 	return ec._UpdateProjectFolderResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectObjectTypeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateProjectObjectTypeReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectObjectTypeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectObjectTypeReq(ctx context.Context, v interface{}) (vo.UpdateProjectObjectTypeReq, error) {
 	return ec.unmarshalInputUpdateProjectObjectTypeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectReq(ctx context.Context, v interface{}) (vo.UpdateProjectReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectReq(ctx context.Context, v interface{}) (vo.UpdateProjectReq, error) {
 	return ec.unmarshalInputUpdateProjectReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectResourceFolderReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderReq(ctx context.Context, v interface{}) (vo.UpdateProjectResourceFolderReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectResourceFolderReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderReq(ctx context.Context, v interface{}) (vo.UpdateProjectResourceFolderReq, error) {
 	return ec.unmarshalInputUpdateProjectResourceFolderReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUpdateProjectResourceFolderResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateProjectResourceFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateProjectResourceFolderResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateProjectResourceFolderResp) graphql.Marshaler {
 	return ec._UpdateProjectResourceFolderResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUpdateProjectResourceFolderResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateProjectResourceFolderResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateProjectResourceFolderResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceFolderResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateProjectResourceFolderResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74370,35 +74370,35 @@ func (ec *executionContext) marshalNUpdateProjectResourceFolderResp2ᚖgiteaᚗb
 	return ec._UpdateProjectResourceFolderResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectResourceNameReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceNameReq(ctx context.Context, v interface{}) (vo.UpdateProjectResourceNameReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectResourceNameReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectResourceNameReq(ctx context.Context, v interface{}) (vo.UpdateProjectResourceNameReq, error) {
 	return ec.unmarshalInputUpdateProjectResourceNameReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateProjectStatusReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectStatusReq(ctx context.Context, v interface{}) (vo.UpdateProjectStatusReq, error) {
+func (ec *executionContext) unmarshalNUpdateProjectStatusReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateProjectStatusReq(ctx context.Context, v interface{}) (vo.UpdateProjectStatusReq, error) {
 	return ec.unmarshalInputUpdateProjectStatusReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateRolePermissionOperationReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRolePermissionOperationReq(ctx context.Context, v interface{}) (vo.UpdateRolePermissionOperationReq, error) {
+func (ec *executionContext) unmarshalNUpdateRolePermissionOperationReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRolePermissionOperationReq(ctx context.Context, v interface{}) (vo.UpdateRolePermissionOperationReq, error) {
 	return ec.unmarshalInputUpdateRolePermissionOperationReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRoleReq(ctx context.Context, v interface{}) (vo.UpdateRoleReq, error) {
+func (ec *executionContext) unmarshalNUpdateRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateRoleReq(ctx context.Context, v interface{}) (vo.UpdateRoleReq, error) {
 	return ec.unmarshalInputUpdateRoleReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateTagReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateTagReq(ctx context.Context, v interface{}) (vo.UpdateTagReq, error) {
+func (ec *executionContext) unmarshalNUpdateTagReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateTagReq(ctx context.Context, v interface{}) (vo.UpdateTagReq, error) {
 	return ec.unmarshalInputUpdateTagReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserConfigReq, error) {
+func (ec *executionContext) unmarshalNUpdateUserConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserConfigReq, error) {
 	return ec.unmarshalInputUpdateUserConfigReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUpdateUserConfigResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateUserConfigResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateUserConfigResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx context.Context, sel ast.SelectionSet, v vo.UpdateUserConfigResp) graphql.Marshaler {
 	return ec._UpdateUserConfigResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUpdateUserConfigResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateUserConfigResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUpdateUserConfigResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserConfigResp(ctx context.Context, sel ast.SelectionSet, v *vo.UpdateUserConfigResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74408,27 +74408,27 @@ func (ec *executionContext) marshalNUpdateUserConfigResp2ᚖgiteaᚗbjxᚗcloud�
 	return ec._UpdateUserConfigResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserDefaultProjectConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserDefaultProjectConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserDefaultProjectConfigReq, error) {
+func (ec *executionContext) unmarshalNUpdateUserDefaultProjectConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserDefaultProjectConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserDefaultProjectConfigReq, error) {
 	return ec.unmarshalInputUpdateUserDefaultProjectConfigReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserInfoReq(ctx context.Context, v interface{}) (vo.UpdateUserInfoReq, error) {
+func (ec *executionContext) unmarshalNUpdateUserInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserInfoReq(ctx context.Context, v interface{}) (vo.UpdateUserInfoReq, error) {
 	return ec.unmarshalInputUpdateUserInfoReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserOrgRoleReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserOrgRoleReq(ctx context.Context, v interface{}) (vo.UpdateUserOrgRoleReq, error) {
+func (ec *executionContext) unmarshalNUpdateUserOrgRoleReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserOrgRoleReq(ctx context.Context, v interface{}) (vo.UpdateUserOrgRoleReq, error) {
 	return ec.unmarshalInputUpdateUserOrgRoleReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalNUpdateUserPcConfigReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserPcConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserPcConfigReq, error) {
+func (ec *executionContext) unmarshalNUpdateUserPcConfigReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUpdateUserPcConfigReq(ctx context.Context, v interface{}) (vo.UpdateUserPcConfigReq, error) {
 	return ec.unmarshalInputUpdateUserPcConfigReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUserConfig2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx context.Context, sel ast.SelectionSet, v vo.UserConfig) graphql.Marshaler {
+func (ec *executionContext) marshalNUserConfig2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx context.Context, sel ast.SelectionSet, v vo.UserConfig) graphql.Marshaler {
 	return ec._UserConfig(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserConfig2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx context.Context, sel ast.SelectionSet, v *vo.UserConfig) graphql.Marshaler {
+func (ec *executionContext) marshalNUserConfig2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserConfig(ctx context.Context, sel ast.SelectionSet, v *vo.UserConfig) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74438,11 +74438,11 @@ func (ec *executionContext) marshalNUserConfig2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._UserConfig(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNUserIdInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNUserIdInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserIDInfo) graphql.Marshaler {
 	return ec._UserIdInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.UserIDInfo) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -74466,7 +74466,7 @@ func (ec *executionContext) marshalNUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -74479,7 +74479,7 @@ func (ec *executionContext) marshalNUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalNUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserIDInfo) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74489,15 +74489,15 @@ func (ec *executionContext) marshalNUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ec._UserIdInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUserLoginReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginReq(ctx context.Context, v interface{}) (vo.UserLoginReq, error) {
+func (ec *executionContext) unmarshalNUserLoginReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginReq(ctx context.Context, v interface{}) (vo.UserLoginReq, error) {
 	return ec.unmarshalInputUserLoginReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUserLoginResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx context.Context, sel ast.SelectionSet, v vo.UserLoginResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserLoginResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx context.Context, sel ast.SelectionSet, v vo.UserLoginResp) graphql.Marshaler {
 	return ec._UserLoginResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserLoginResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserLoginResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserLoginResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserLoginResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserLoginResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74507,11 +74507,11 @@ func (ec *executionContext) marshalNUserLoginResp2ᚖgiteaᚗbjxᚗcloudᚋallst
 	return ec._UserLoginResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNUserOrganization2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganization) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganization2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganization) graphql.Marshaler {
 	return ec._UserOrganization(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserOrganization2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganization) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganization2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganization) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74521,11 +74521,11 @@ func (ec *executionContext) marshalNUserOrganization2ᚖgiteaᚗbjxᚗcloudᚋal
 	return ec._UserOrganization(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNUserOrganizationList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganizationList) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganizationList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganizationList) graphql.Marshaler {
 	return ec._UserOrganizationList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserOrganizationList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganizationList) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganizationList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationList(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganizationList) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74535,11 +74535,11 @@ func (ec *executionContext) marshalNUserOrganizationList2ᚖgiteaᚗbjxᚗcloud�
 	return ec._UserOrganizationList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNUserOrganizationListResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganizationListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganizationListResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx context.Context, sel ast.SelectionSet, v vo.UserOrganizationListResp) graphql.Marshaler {
 	return ec._UserOrganizationListResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserOrganizationListResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganizationListResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserOrganizationListResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganizationListResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserOrganizationListResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74549,15 +74549,15 @@ func (ec *executionContext) marshalNUserOrganizationListResp2ᚖgiteaᚗbjxᚗcl
 	return ec._UserOrganizationListResp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNUserRegisterReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterReq(ctx context.Context, v interface{}) (vo.UserRegisterReq, error) {
+func (ec *executionContext) unmarshalNUserRegisterReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterReq(ctx context.Context, v interface{}) (vo.UserRegisterReq, error) {
 	return ec.unmarshalInputUserRegisterReq(ctx, v)
 }
 
-func (ec *executionContext) marshalNUserRegisterResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx context.Context, sel ast.SelectionSet, v vo.UserRegisterResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserRegisterResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx context.Context, sel ast.SelectionSet, v vo.UserRegisterResp) graphql.Marshaler {
 	return ec._UserRegisterResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNUserRegisterResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserRegisterResp) graphql.Marshaler {
+func (ec *executionContext) marshalNUserRegisterResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRegisterResp(ctx context.Context, sel ast.SelectionSet, v *vo.UserRegisterResp) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74567,11 +74567,11 @@ func (ec *executionContext) marshalNUserRegisterResp2ᚖgiteaᚗbjxᚗcloudᚋal
 	return ec._UserRegisterResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNVoid2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx context.Context, sel ast.SelectionSet, v vo.Void) graphql.Marshaler {
+func (ec *executionContext) marshalNVoid2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx context.Context, sel ast.SelectionSet, v vo.Void) graphql.Marshaler {
 	return ec._Void(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNVoid2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx context.Context, sel ast.SelectionSet, v *vo.Void) graphql.Marshaler {
+func (ec *executionContext) marshalNVoid2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐVoid(ctx context.Context, sel ast.SelectionSet, v *vo.Void) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74807,11 +74807,11 @@ func (ec *executionContext) marshalN__TypeKind2string(ctx context.Context, sel a
 	return res
 }
 
-func (ec *executionContext) marshalNprojectUser2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v vo.ProjectUser) graphql.Marshaler {
+func (ec *executionContext) marshalNprojectUser2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v vo.ProjectUser) graphql.Marshaler {
 	return ec._projectUser(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNprojectUser2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectUser) graphql.Marshaler {
+func (ec *executionContext) marshalNprojectUser2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v *vo.ProjectUser) graphql.Marshaler {
 	if v == nil {
 		if !ec.HasError(graphql.GetResolverContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -74850,7 +74850,7 @@ func (ec *executionContext) marshalOAny2ᚖinterface(ctx context.Context, sel as
 	return ec.marshalOAny2interface(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOAppInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.AppInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOAppInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.AppInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -74877,7 +74877,7 @@ func (ec *executionContext) marshalOAppInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNAppInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNAppInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAppInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -74890,7 +74890,7 @@ func (ec *executionContext) marshalOAppInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ret
 }
 
-func (ec *executionContext) marshalOAreaLinkageResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v []*vo.AreaLinkageResp) graphql.Marshaler {
+func (ec *executionContext) marshalOAreaLinkageResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx context.Context, sel ast.SelectionSet, v []*vo.AreaLinkageResp) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -74917,7 +74917,7 @@ func (ec *executionContext) marshalOAreaLinkageResp2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNAreaLinkageResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx, sel, v[i])
+			ret[i] = ec.marshalNAreaLinkageResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAreaLinkageResp(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -74930,7 +74930,7 @@ func (ec *executionContext) marshalOAreaLinkageResp2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalOAttachment2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v []*vo.Attachment) graphql.Marshaler {
+func (ec *executionContext) marshalOAttachment2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx context.Context, sel ast.SelectionSet, v []*vo.Attachment) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -74957,7 +74957,7 @@ func (ec *executionContext) marshalOAttachment2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNAttachment2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx, sel, v[i])
+			ret[i] = ec.marshalNAttachment2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐAttachment(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -74993,11 +74993,11 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return ec.marshalOBoolean2bool(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOChangeList2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v vo.ChangeList) graphql.Marshaler {
+func (ec *executionContext) marshalOChangeList2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v vo.ChangeList) graphql.Marshaler {
 	return ec._ChangeList(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOChangeList2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v []*vo.ChangeList) graphql.Marshaler {
+func (ec *executionContext) marshalOChangeList2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v []*vo.ChangeList) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75024,7 +75024,7 @@ func (ec *executionContext) marshalOChangeList2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOChangeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx, sel, v[i])
+			ret[i] = ec.marshalOChangeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75037,14 +75037,14 @@ func (ec *executionContext) marshalOChangeList2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) marshalOChangeList2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v *vo.ChangeList) graphql.Marshaler {
+func (ec *executionContext) marshalOChangeList2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐChangeList(ctx context.Context, sel ast.SelectionSet, v *vo.ChangeList) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ChangeList(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalODepartment2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v []*vo.Department) graphql.Marshaler {
+func (ec *executionContext) marshalODepartment2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx context.Context, sel ast.SelectionSet, v []*vo.Department) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75071,7 +75071,7 @@ func (ec *executionContext) marshalODepartment2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNDepartment2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx, sel, v[i])
+			ret[i] = ec.marshalNDepartment2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartment(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75084,19 +75084,19 @@ func (ec *executionContext) marshalODepartment2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) unmarshalODepartmentListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx context.Context, v interface{}) (vo.DepartmentListReq, error) {
+func (ec *executionContext) unmarshalODepartmentListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx context.Context, v interface{}) (vo.DepartmentListReq, error) {
 	return ec.unmarshalInputDepartmentListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalODepartmentListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx context.Context, v interface{}) (*vo.DepartmentListReq, error) {
+func (ec *executionContext) unmarshalODepartmentListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx context.Context, v interface{}) (*vo.DepartmentListReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalODepartmentListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx, v)
+	res, err := ec.unmarshalODepartmentListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐDepartmentListReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) unmarshalOEveryPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) ([]*vo.EveryPermission, error) {
+func (ec *executionContext) unmarshalOEveryPermission2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx context.Context, v interface{}) ([]*vo.EveryPermission, error) {
 	var vSlice []interface{}
 	if v != nil {
 		if tmp1, ok := v.([]interface{}); ok {
@@ -75108,7 +75108,7 @@ func (ec *executionContext) unmarshalOEveryPermission2ᚕᚖgiteaᚗbjxᚗcloud�
 	var err error
 	res := make([]*vo.EveryPermission, len(vSlice))
 	for i := range vSlice {
-		res[i], err = ec.unmarshalNEveryPermission2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNEveryPermission2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐEveryPermission(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -75116,31 +75116,31 @@ func (ec *executionContext) unmarshalOEveryPermission2ᚕᚖgiteaᚗbjxᚗcloud�
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOGetInviteCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx context.Context, v interface{}) (vo.GetInviteCodeReq, error) {
+func (ec *executionContext) unmarshalOGetInviteCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx context.Context, v interface{}) (vo.GetInviteCodeReq, error) {
 	return ec.unmarshalInputGetInviteCodeReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOGetInviteCodeReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx context.Context, v interface{}) (*vo.GetInviteCodeReq, error) {
+func (ec *executionContext) unmarshalOGetInviteCodeReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx context.Context, v interface{}) (*vo.GetInviteCodeReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOGetInviteCodeReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx, v)
+	res, err := ec.unmarshalOGetInviteCodeReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetInviteCodeReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) unmarshalOGetIssueResourcesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx context.Context, v interface{}) (vo.GetIssueResourcesReq, error) {
+func (ec *executionContext) unmarshalOGetIssueResourcesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx context.Context, v interface{}) (vo.GetIssueResourcesReq, error) {
 	return ec.unmarshalInputGetIssueResourcesReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOGetIssueResourcesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx context.Context, v interface{}) (*vo.GetIssueResourcesReq, error) {
+func (ec *executionContext) unmarshalOGetIssueResourcesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx context.Context, v interface{}) (*vo.GetIssueResourcesReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOGetIssueResourcesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx, v)
+	res, err := ec.unmarshalOGetIssueResourcesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐGetIssueResourcesReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOHomeIssueInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOHomeIssueInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75167,7 +75167,7 @@ func (ec *executionContext) marshalOHomeIssueInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNHomeIssueInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNHomeIssueInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75180,19 +75180,19 @@ func (ec *executionContext) marshalOHomeIssueInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 	return ret
 }
 
-func (ec *executionContext) unmarshalOHomeIssueInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx context.Context, v interface{}) (vo.HomeIssueInfoReq, error) {
+func (ec *executionContext) unmarshalOHomeIssueInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx context.Context, v interface{}) (vo.HomeIssueInfoReq, error) {
 	return ec.unmarshalInputHomeIssueInfoReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOHomeIssueInfoReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx context.Context, v interface{}) (*vo.HomeIssueInfoReq, error) {
+func (ec *executionContext) unmarshalOHomeIssueInfoReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx context.Context, v interface{}) (*vo.HomeIssueInfoReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOHomeIssueInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx, v)
+	res, err := ec.unmarshalOHomeIssueInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueInfoReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueStatusInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOHomeIssueStatusInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueStatusInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75219,7 +75219,7 @@ func (ec *executionContext) marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗclou
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNHomeIssueStatusInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNHomeIssueStatusInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueStatusInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75232,7 +75232,7 @@ func (ec *executionContext) marshalOHomeIssueStatusInfo2ᚕᚖgiteaᚗbjxᚗclou
 	return ret
 }
 
-func (ec *executionContext) marshalOHomeIssueTagInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueTagInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOHomeIssueTagInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.HomeIssueTagInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75259,7 +75259,7 @@ func (ec *executionContext) marshalOHomeIssueTagInfo2ᚕᚖgiteaᚗbjxᚗcloud�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNHomeIssueTagInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNHomeIssueTagInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐHomeIssueTagInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75272,7 +75272,7 @@ func (ec *executionContext) marshalOHomeIssueTagInfo2ᚕᚖgiteaᚗbjxᚗcloud�
 	return ret
 }
 
-func (ec *executionContext) marshalOIndustryResp2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v []*vo.IndustryResp) graphql.Marshaler {
+func (ec *executionContext) marshalOIndustryResp2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx context.Context, sel ast.SelectionSet, v []*vo.IndustryResp) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75299,7 +75299,7 @@ func (ec *executionContext) marshalOIndustryResp2ᚕᚖgiteaᚗbjxᚗcloudᚋall
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIndustryResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx, sel, v[i])
+			ret[i] = ec.marshalNIndustryResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIndustryResp(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75454,7 +75454,7 @@ func (ec *executionContext) marshalOInt642ᚖint64(ctx context.Context, sel ast.
 	return ec.marshalOInt642int64(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v []*vo.Issue) graphql.Marshaler {
+func (ec *executionContext) marshalOIssue2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx context.Context, sel ast.SelectionSet, v []*vo.Issue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75481,7 +75481,7 @@ func (ec *executionContext) marshalOIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssue(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75494,7 +75494,7 @@ func (ec *executionContext) marshalOIssue2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalOIssueAssignRankInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueAssignRankInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueAssignRankInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueAssignRankInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75521,7 +75521,7 @@ func (ec *executionContext) marshalOIssueAssignRankInfo2ᚕᚖgiteaᚗbjxᚗclou
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssueAssignRankInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssueAssignRankInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueAssignRankInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75534,11 +75534,11 @@ func (ec *executionContext) marshalOIssueAssignRankInfo2ᚕᚖgiteaᚗbjxᚗclou
 	return ret
 }
 
-func (ec *executionContext) unmarshalOIssueChildren2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) (vo.IssueChildren, error) {
+func (ec *executionContext) unmarshalOIssueChildren2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) (vo.IssueChildren, error) {
 	return ec.unmarshalInputIssueChildren(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueChildren2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) ([]*vo.IssueChildren, error) {
+func (ec *executionContext) unmarshalOIssueChildren2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) ([]*vo.IssueChildren, error) {
 	var vSlice []interface{}
 	if v != nil {
 		if tmp1, ok := v.([]interface{}); ok {
@@ -75550,7 +75550,7 @@ func (ec *executionContext) unmarshalOIssueChildren2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 	var err error
 	res := make([]*vo.IssueChildren, len(vSlice))
 	for i := range vSlice {
-		res[i], err = ec.unmarshalOIssueChildren2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, vSlice[i])
+		res[i], err = ec.unmarshalOIssueChildren2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -75558,15 +75558,15 @@ func (ec *executionContext) unmarshalOIssueChildren2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOIssueChildren2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) (*vo.IssueChildren, error) {
+func (ec *executionContext) unmarshalOIssueChildren2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx context.Context, v interface{}) (*vo.IssueChildren, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueChildren2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, v)
+	res, err := ec.unmarshalOIssueChildren2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueChildren(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIssueDailyPersonalWorkCompletionStatData2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueDailyPersonalWorkCompletionStatData2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueDailyPersonalWorkCompletionStatData) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75593,7 +75593,7 @@ func (ec *executionContext) marshalOIssueDailyPersonalWorkCompletionStatData2ᚕ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssueDailyPersonalWorkCompletionStatData2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssueDailyPersonalWorkCompletionStatData2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatData(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75606,19 +75606,19 @@ func (ec *executionContext) marshalOIssueDailyPersonalWorkCompletionStatData2ᚕ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOIssueDailyPersonalWorkCompletionStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx context.Context, v interface{}) (vo.IssueDailyPersonalWorkCompletionStatReq, error) {
+func (ec *executionContext) unmarshalOIssueDailyPersonalWorkCompletionStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx context.Context, v interface{}) (vo.IssueDailyPersonalWorkCompletionStatReq, error) {
 	return ec.unmarshalInputIssueDailyPersonalWorkCompletionStatReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueDailyPersonalWorkCompletionStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx context.Context, v interface{}) (*vo.IssueDailyPersonalWorkCompletionStatReq, error) {
+func (ec *executionContext) unmarshalOIssueDailyPersonalWorkCompletionStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx context.Context, v interface{}) (*vo.IssueDailyPersonalWorkCompletionStatReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueDailyPersonalWorkCompletionStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx, v)
+	res, err := ec.unmarshalOIssueDailyPersonalWorkCompletionStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueDailyPersonalWorkCompletionStatReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIssueObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueObjectType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75645,7 +75645,7 @@ func (ec *executionContext) marshalOIssueObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssueObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssueObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75658,30 +75658,30 @@ func (ec *executionContext) marshalOIssueObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalOIssueObjectTypeInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectTypeInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueObjectTypeInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueObjectTypeInfo) graphql.Marshaler {
 	return ec._IssueObjectTypeInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOIssueObjectTypeInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectTypeInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueObjectTypeInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypeInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueObjectTypeInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._IssueObjectTypeInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOIssueObjectTypesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx context.Context, v interface{}) (vo.IssueObjectTypesReq, error) {
+func (ec *executionContext) unmarshalOIssueObjectTypesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx context.Context, v interface{}) (vo.IssueObjectTypesReq, error) {
 	return ec.unmarshalInputIssueObjectTypesReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueObjectTypesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx context.Context, v interface{}) (*vo.IssueObjectTypesReq, error) {
+func (ec *executionContext) unmarshalOIssueObjectTypesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx context.Context, v interface{}) (*vo.IssueObjectTypesReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueObjectTypesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx, v)
+	res, err := ec.unmarshalOIssueObjectTypesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueObjectTypesReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIssueRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueRestInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueRestInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75708,7 +75708,7 @@ func (ec *executionContext) marshalOIssueRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssueRestInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssueRestInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75721,19 +75721,19 @@ func (ec *executionContext) marshalOIssueRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 	return ret
 }
 
-func (ec *executionContext) unmarshalOIssueRestInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx context.Context, v interface{}) (vo.IssueRestInfoReq, error) {
+func (ec *executionContext) unmarshalOIssueRestInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx context.Context, v interface{}) (vo.IssueRestInfoReq, error) {
 	return ec.unmarshalInputIssueRestInfoReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueRestInfoReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx context.Context, v interface{}) (*vo.IssueRestInfoReq, error) {
+func (ec *executionContext) unmarshalOIssueRestInfoReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx context.Context, v interface{}) (*vo.IssueRestInfoReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueRestInfoReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx, v)
+	res, err := ec.unmarshalOIssueRestInfoReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueRestInfoReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIssueSource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueSource) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueSource2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx context.Context, sel ast.SelectionSet, v []*vo.IssueSource) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75760,7 +75760,7 @@ func (ec *executionContext) marshalOIssueSource2ᚕᚖgiteaᚗbjxᚗcloudᚋalls
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIssueSource2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx, sel, v[i])
+			ret[i] = ec.marshalNIssueSource2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSource(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75773,53 +75773,53 @@ func (ec *executionContext) marshalOIssueSource2ᚕᚖgiteaᚗbjxᚗcloudᚋalls
 	return ret
 }
 
-func (ec *executionContext) marshalOIssueSourceInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueSourceInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueSourceInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx context.Context, sel ast.SelectionSet, v vo.IssueSourceInfo) graphql.Marshaler {
 	return ec._IssueSourceInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOIssueSourceInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSourceInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueSourceInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourceInfo(ctx context.Context, sel ast.SelectionSet, v *vo.IssueSourceInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._IssueSourceInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOIssueSourcesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx context.Context, v interface{}) (vo.IssueSourcesReq, error) {
+func (ec *executionContext) unmarshalOIssueSourcesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx context.Context, v interface{}) (vo.IssueSourcesReq, error) {
 	return ec.unmarshalInputIssueSourcesReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueSourcesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx context.Context, v interface{}) (*vo.IssueSourcesReq, error) {
+func (ec *executionContext) unmarshalOIssueSourcesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx context.Context, v interface{}) (*vo.IssueSourcesReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueSourcesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx, v)
+	res, err := ec.unmarshalOIssueSourcesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueSourcesReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIssueStatByObjectType2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatByObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueStatByObjectType2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v vo.IssueStatByObjectType) graphql.Marshaler {
 	return ec._IssueStatByObjectType(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOIssueStatByObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatByObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalOIssueStatByObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatByObjectType(ctx context.Context, sel ast.SelectionSet, v *vo.IssueStatByObjectType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._IssueStatByObjectType(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOIssueStatusTypeStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx context.Context, v interface{}) (vo.IssueStatusTypeStatReq, error) {
+func (ec *executionContext) unmarshalOIssueStatusTypeStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx context.Context, v interface{}) (vo.IssueStatusTypeStatReq, error) {
 	return ec.unmarshalInputIssueStatusTypeStatReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIssueStatusTypeStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx context.Context, v interface{}) (*vo.IssueStatusTypeStatReq, error) {
+func (ec *executionContext) unmarshalOIssueStatusTypeStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx context.Context, v interface{}) (*vo.IssueStatusTypeStatReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIssueStatusTypeStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, v)
+	res, err := ec.unmarshalOIssueStatusTypeStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueStatusTypeStatReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) ([]*vo.IssueTagReqInfo, error) {
+func (ec *executionContext) unmarshalOIssueTagReqInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx context.Context, v interface{}) ([]*vo.IssueTagReqInfo, error) {
 	var vSlice []interface{}
 	if v != nil {
 		if tmp1, ok := v.([]interface{}); ok {
@@ -75831,7 +75831,7 @@ func (ec *executionContext) unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloud�
 	var err error
 	res := make([]*vo.IssueTagReqInfo, len(vSlice))
 	for i := range vSlice {
-		res[i], err = ec.unmarshalNIssueTagReqInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNIssueTagReqInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIssueTagReqInfo(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -75839,7 +75839,7 @@ func (ec *executionContext) unmarshalOIssueTagReqInfo2ᚕᚖgiteaᚗbjxᚗcloud�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOIteration2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v []*vo.Iteration) graphql.Marshaler {
+func (ec *executionContext) marshalOIteration2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx context.Context, sel ast.SelectionSet, v []*vo.Iteration) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75866,7 +75866,7 @@ func (ec *executionContext) marshalOIteration2ᚕᚖgiteaᚗbjxᚗcloudᚋallsta
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIteration2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, sel, v[i])
+			ret[i] = ec.marshalNIteration2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIteration(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75879,19 +75879,19 @@ func (ec *executionContext) marshalOIteration2ᚕᚖgiteaᚗbjxᚗcloudᚋallsta
 	return ret
 }
 
-func (ec *executionContext) unmarshalOIterationListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx context.Context, v interface{}) (vo.IterationListReq, error) {
+func (ec *executionContext) unmarshalOIterationListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx context.Context, v interface{}) (vo.IterationListReq, error) {
 	return ec.unmarshalInputIterationListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIterationListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx context.Context, v interface{}) (*vo.IterationListReq, error) {
+func (ec *executionContext) unmarshalOIterationListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx context.Context, v interface{}) (*vo.IterationListReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIterationListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx, v)
+	res, err := ec.unmarshalOIterationListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationListReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOIterationStat2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v []*vo.IterationStat) graphql.Marshaler {
+func (ec *executionContext) marshalOIterationStat2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx context.Context, sel ast.SelectionSet, v []*vo.IterationStat) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75918,7 +75918,7 @@ func (ec *executionContext) marshalOIterationStat2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNIterationStat2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx, sel, v[i])
+			ret[i] = ec.marshalNIterationStat2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStat(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75931,23 +75931,23 @@ func (ec *executionContext) marshalOIterationStat2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 	return ret
 }
 
-func (ec *executionContext) unmarshalOIterationStatusTypeStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx context.Context, v interface{}) (vo.IterationStatusTypeStatReq, error) {
+func (ec *executionContext) unmarshalOIterationStatusTypeStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx context.Context, v interface{}) (vo.IterationStatusTypeStatReq, error) {
 	return ec.unmarshalInputIterationStatusTypeStatReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOIterationStatusTypeStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx context.Context, v interface{}) (*vo.IterationStatusTypeStatReq, error) {
+func (ec *executionContext) unmarshalOIterationStatusTypeStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx context.Context, v interface{}) (*vo.IterationStatusTypeStatReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOIterationStatusTypeStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx, v)
+	res, err := ec.unmarshalOIterationStatusTypeStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐIterationStatusTypeStatReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOMemberInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v vo.MemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOMemberInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v vo.MemberInfo) graphql.Marshaler {
 	return ec._MemberInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.MemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOMemberInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.MemberInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -75974,7 +75974,7 @@ func (ec *executionContext) marshalOMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOMemberInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalOMemberInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -75987,14 +75987,14 @@ func (ec *executionContext) marshalOMemberInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) marshalOMemberInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v *vo.MemberInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOMemberInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐMemberInfo(ctx context.Context, sel ast.SelectionSet, v *vo.MemberInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._MemberInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalONotice2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v []*vo.Notice) graphql.Marshaler {
+func (ec *executionContext) marshalONotice2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx context.Context, sel ast.SelectionSet, v []*vo.Notice) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76021,7 +76021,7 @@ func (ec *executionContext) marshalONotice2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNNotice2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx, sel, v[i])
+			ret[i] = ec.marshalNNotice2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNotice(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76034,30 +76034,30 @@ func (ec *executionContext) marshalONotice2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ret
 }
 
-func (ec *executionContext) unmarshalONoticeListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx context.Context, v interface{}) (vo.NoticeListReq, error) {
+func (ec *executionContext) unmarshalONoticeListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx context.Context, v interface{}) (vo.NoticeListReq, error) {
 	return ec.unmarshalInputNoticeListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalONoticeListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx context.Context, v interface{}) (*vo.NoticeListReq, error) {
+func (ec *executionContext) unmarshalONoticeListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx context.Context, v interface{}) (*vo.NoticeListReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalONoticeListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx, v)
+	res, err := ec.unmarshalONoticeListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐNoticeListReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOOrgProjectMemberInfoResp2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalOOrgProjectMemberInfoResp2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v vo.OrgProjectMemberInfoResp) graphql.Marshaler {
 	return ec._OrgProjectMemberInfoResp(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOOrgProjectMemberInfoResp2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberInfoResp) graphql.Marshaler {
+func (ec *executionContext) marshalOOrgProjectMemberInfoResp2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrgProjectMemberInfoResp(ctx context.Context, sel ast.SelectionSet, v *vo.OrgProjectMemberInfoResp) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._OrgProjectMemberInfoResp(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOOrganizationUser2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v []*vo.OrganizationUser) graphql.Marshaler {
+func (ec *executionContext) marshalOOrganizationUser2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx context.Context, sel ast.SelectionSet, v []*vo.OrganizationUser) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76084,7 +76084,7 @@ func (ec *executionContext) marshalOOrganizationUser2ᚕᚖgiteaᚗbjxᚗcloud�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNOrganizationUser2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx, sel, v[i])
+			ret[i] = ec.marshalNOrganizationUser2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐOrganizationUser(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76097,7 +76097,7 @@ func (ec *executionContext) marshalOOrganizationUser2ᚕᚖgiteaᚗbjxᚗcloud�
 	return ret
 }
 
-func (ec *executionContext) marshalOPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v []*vo.Permission) graphql.Marshaler {
+func (ec *executionContext) marshalOPermission2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx context.Context, sel ast.SelectionSet, v []*vo.Permission) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76124,7 +76124,7 @@ func (ec *executionContext) marshalOPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNPermission2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, sel, v[i])
+			ret[i] = ec.marshalNPermission2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermission(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76137,7 +76137,7 @@ func (ec *executionContext) marshalOPermission2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) marshalOPermissionOperation2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v []*vo.PermissionOperation) graphql.Marshaler {
+func (ec *executionContext) marshalOPermissionOperation2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx context.Context, sel ast.SelectionSet, v []*vo.PermissionOperation) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76164,7 +76164,7 @@ func (ec *executionContext) marshalOPermissionOperation2ᚕᚖgiteaᚗbjxᚗclou
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNPermissionOperation2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, sel, v[i])
+			ret[i] = ec.marshalNPermissionOperation2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPermissionOperation(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76177,18 +76177,18 @@ func (ec *executionContext) marshalOPermissionOperation2ᚕᚖgiteaᚗbjxᚗclou
 	return ret
 }
 
-func (ec *executionContext) marshalOPersonalInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v vo.PersonalInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOPersonalInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v vo.PersonalInfo) graphql.Marshaler {
 	return ec._PersonalInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOPersonalInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v *vo.PersonalInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOPersonalInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPersonalInfo(ctx context.Context, sel ast.SelectionSet, v *vo.PersonalInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._PersonalInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPriority2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v []*vo.Priority) graphql.Marshaler {
+func (ec *executionContext) marshalOPriority2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx context.Context, sel ast.SelectionSet, v []*vo.Priority) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76215,7 +76215,7 @@ func (ec *executionContext) marshalOPriority2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNPriority2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx, sel, v[i])
+			ret[i] = ec.marshalNPriority2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriority(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76228,19 +76228,19 @@ func (ec *executionContext) marshalOPriority2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ret
 }
 
-func (ec *executionContext) unmarshalOPriorityListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx context.Context, v interface{}) (vo.PriorityListReq, error) {
+func (ec *executionContext) unmarshalOPriorityListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx context.Context, v interface{}) (vo.PriorityListReq, error) {
 	return ec.unmarshalInputPriorityListReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOPriorityListReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx context.Context, v interface{}) (*vo.PriorityListReq, error) {
+func (ec *executionContext) unmarshalOPriorityListReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx context.Context, v interface{}) (*vo.PriorityListReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOPriorityListReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx, v)
+	res, err := ec.unmarshalOPriorityListReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐPriorityListReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOProcessStatus2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v []*vo.ProcessStatus) graphql.Marshaler {
+func (ec *executionContext) marshalOProcessStatus2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx context.Context, sel ast.SelectionSet, v []*vo.ProcessStatus) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76267,7 +76267,7 @@ func (ec *executionContext) marshalOProcessStatus2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProcessStatus2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx, sel, v[i])
+			ret[i] = ec.marshalNProcessStatus2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProcessStatus(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76280,7 +76280,7 @@ func (ec *executionContext) marshalOProcessStatus2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 	return ret
 }
 
-func (ec *executionContext) marshalOProject2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v []*vo.Project) graphql.Marshaler {
+func (ec *executionContext) marshalOProject2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx context.Context, sel ast.SelectionSet, v []*vo.Project) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76307,7 +76307,7 @@ func (ec *executionContext) marshalOProject2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProject2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, sel, v[i])
+			ret[i] = ec.marshalNProject2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProject(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76320,7 +76320,7 @@ func (ec *executionContext) marshalOProject2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar�
 	return ret
 }
 
-func (ec *executionContext) marshalOProjectDayStat2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectDayStat) graphql.Marshaler {
+func (ec *executionContext) marshalOProjectDayStat2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectDayStat) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76347,7 +76347,7 @@ func (ec *executionContext) marshalOProjectDayStat2ᚕᚖgiteaᚗbjxᚗcloudᚋa
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProjectDayStat2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx, sel, v[i])
+			ret[i] = ec.marshalNProjectDayStat2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStat(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76360,19 +76360,19 @@ func (ec *executionContext) marshalOProjectDayStat2ᚕᚖgiteaᚗbjxᚗcloudᚋa
 	return ret
 }
 
-func (ec *executionContext) unmarshalOProjectDayStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx context.Context, v interface{}) (vo.ProjectDayStatReq, error) {
+func (ec *executionContext) unmarshalOProjectDayStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx context.Context, v interface{}) (vo.ProjectDayStatReq, error) {
 	return ec.unmarshalInputProjectDayStatReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOProjectDayStatReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx context.Context, v interface{}) (*vo.ProjectDayStatReq, error) {
+func (ec *executionContext) unmarshalOProjectDayStatReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx context.Context, v interface{}) (*vo.ProjectDayStatReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOProjectDayStatReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx, v)
+	res, err := ec.unmarshalOProjectDayStatReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDayStatReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOProjectDetail2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectDetail) graphql.Marshaler {
+func (ec *executionContext) marshalOProjectDetail2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectDetail) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76399,7 +76399,7 @@ func (ec *executionContext) marshalOProjectDetail2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProjectDetail2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, sel, v[i])
+			ret[i] = ec.marshalNProjectDetail2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectDetail(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76412,7 +76412,7 @@ func (ec *executionContext) marshalOProjectDetail2ᚕᚖgiteaᚗbjxᚗcloudᚋal
 	return ret
 }
 
-func (ec *executionContext) marshalOProjectObjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectObjectType) graphql.Marshaler {
+func (ec *executionContext) marshalOProjectObjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectObjectType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76439,7 +76439,7 @@ func (ec *executionContext) marshalOProjectObjectType2ᚕᚖgiteaᚗbjxᚗcloud�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProjectObjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, sel, v[i])
+			ret[i] = ec.marshalNProjectObjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76452,7 +76452,7 @@ func (ec *executionContext) marshalOProjectObjectType2ᚕᚖgiteaᚗbjxᚗcloud�
 	return ret
 }
 
-func (ec *executionContext) marshalOProjectObjectTypeRestInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOProjectObjectTypeRestInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectObjectTypeRestInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76479,7 +76479,7 @@ func (ec *executionContext) marshalOProjectObjectTypeRestInfo2ᚕᚖgiteaᚗbjx�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProjectObjectTypeRestInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalNProjectObjectTypeRestInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypeRestInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76492,7 +76492,7 @@ func (ec *executionContext) marshalOProjectObjectTypeRestInfo2ᚕᚖgiteaᚗbjx�
 	return ret
 }
 
-func (ec *executionContext) marshalOProjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectType) graphql.Marshaler {
+func (ec *executionContext) marshalOProjectType2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectType) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76519,7 +76519,7 @@ func (ec *executionContext) marshalOProjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋalls
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNProjectType2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, sel, v[i])
+			ret[i] = ec.marshalNProjectType2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectType(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76532,30 +76532,30 @@ func (ec *executionContext) marshalOProjectType2ᚕᚖgiteaᚗbjxᚗcloudᚋalls
 	return ret
 }
 
-func (ec *executionContext) unmarshalOProjectsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx context.Context, v interface{}) (vo.ProjectsReq, error) {
+func (ec *executionContext) unmarshalOProjectsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx context.Context, v interface{}) (vo.ProjectsReq, error) {
 	return ec.unmarshalInputProjectsReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOProjectsReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx context.Context, v interface{}) (*vo.ProjectsReq, error) {
+func (ec *executionContext) unmarshalOProjectsReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx context.Context, v interface{}) (*vo.ProjectsReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOProjectsReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx, v)
+	res, err := ec.unmarshalOProjectsReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectsReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalORelationIssue2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx context.Context, sel ast.SelectionSet, v vo.RelationIssue) graphql.Marshaler {
+func (ec *executionContext) marshalORelationIssue2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx context.Context, sel ast.SelectionSet, v vo.RelationIssue) graphql.Marshaler {
 	return ec._RelationIssue(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalORelationIssue2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx context.Context, sel ast.SelectionSet, v *vo.RelationIssue) graphql.Marshaler {
+func (ec *executionContext) marshalORelationIssue2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐRelationIssue(ctx context.Context, sel ast.SelectionSet, v *vo.RelationIssue) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._RelationIssue(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOResource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v []*vo.Resource) graphql.Marshaler {
+func (ec *executionContext) marshalOResource2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx context.Context, sel ast.SelectionSet, v []*vo.Resource) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76582,7 +76582,7 @@ func (ec *executionContext) marshalOResource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNResource2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx, sel, v[i])
+			ret[i] = ec.marshalNResource2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResource(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76595,11 +76595,11 @@ func (ec *executionContext) marshalOResource2ᚕᚖgiteaᚗbjxᚗcloudᚋallstar
 	return ret
 }
 
-func (ec *executionContext) marshalOResourceInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v vo.ResourceInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOResourceInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v vo.ResourceInfo) graphql.Marshaler {
 	return ec._ResourceInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOResourceInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.ResourceInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOResourceInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.ResourceInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76626,7 +76626,7 @@ func (ec *executionContext) marshalOResourceInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋall
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOResourceInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalOResourceInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76639,14 +76639,14 @@ func (ec *executionContext) marshalOResourceInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋall
 	return ret
 }
 
-func (ec *executionContext) marshalOResourceInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ResourceInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOResourceInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐResourceInfo(ctx context.Context, sel ast.SelectionSet, v *vo.ResourceInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._ResourceInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOStatCommon2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v []*vo.StatCommon) graphql.Marshaler {
+func (ec *executionContext) marshalOStatCommon2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx context.Context, sel ast.SelectionSet, v []*vo.StatCommon) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76673,7 +76673,7 @@ func (ec *executionContext) marshalOStatCommon2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNStatCommon2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx, sel, v[i])
+			ret[i] = ec.marshalNStatCommon2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐStatCommon(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76773,7 +76773,7 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return ec.marshalOString2string(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOTag2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v []*vo.Tag) graphql.Marshaler {
+func (ec *executionContext) marshalOTag2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx context.Context, sel ast.SelectionSet, v []*vo.Tag) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76800,7 +76800,7 @@ func (ec *executionContext) marshalOTag2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpo
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNTag2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx, sel, v[i])
+			ret[i] = ec.marshalNTag2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTag(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76813,35 +76813,35 @@ func (ec *executionContext) marshalOTag2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpo
 	return ret
 }
 
-func (ec *executionContext) unmarshalOTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (types.Time, error) {
+func (ec *executionContext) unmarshalOTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (types.Time, error) {
 	var res types.Time
 	return res, res.UnmarshalGQL(v)
 }
 
-func (ec *executionContext) marshalOTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v types.Time) graphql.Marshaler {
+func (ec *executionContext) marshalOTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v types.Time) graphql.Marshaler {
 	return v
 }
 
-func (ec *executionContext) unmarshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (*types.Time, error) {
+func (ec *executionContext) unmarshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, v interface{}) (*types.Time, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOTime2giteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
+	res, err := ec.unmarshalOTime2githubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOTime2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v *types.Time) graphql.Marshaler {
+func (ec *executionContext) marshalOTime2ᚖgithubᚗcomᚋgalaxyᚑbookᚋcommonᚋcoreᚋtypesᚐTime(ctx context.Context, sel ast.SelectionSet, v *types.Time) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return v
 }
 
-func (ec *executionContext) marshalOTrend2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v vo.Trend) graphql.Marshaler {
+func (ec *executionContext) marshalOTrend2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v vo.Trend) graphql.Marshaler {
 	return ec._Trend(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOTrend2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v []*vo.Trend) graphql.Marshaler {
+func (ec *executionContext) marshalOTrend2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v []*vo.Trend) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76868,7 +76868,7 @@ func (ec *executionContext) marshalOTrend2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOTrend2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx, sel, v[i])
+			ret[i] = ec.marshalOTrend2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76881,41 +76881,41 @@ func (ec *executionContext) marshalOTrend2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋ
 	return ret
 }
 
-func (ec *executionContext) marshalOTrend2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v *vo.Trend) graphql.Marshaler {
+func (ec *executionContext) marshalOTrend2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrend(ctx context.Context, sel ast.SelectionSet, v *vo.Trend) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Trend(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOTrendExtension2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx context.Context, sel ast.SelectionSet, v vo.TrendExtension) graphql.Marshaler {
+func (ec *executionContext) marshalOTrendExtension2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx context.Context, sel ast.SelectionSet, v vo.TrendExtension) graphql.Marshaler {
 	return ec._TrendExtension(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOTrendExtension2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx context.Context, sel ast.SelectionSet, v *vo.TrendExtension) graphql.Marshaler {
+func (ec *executionContext) marshalOTrendExtension2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendExtension(ctx context.Context, sel ast.SelectionSet, v *vo.TrendExtension) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._TrendExtension(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOTrendReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx context.Context, v interface{}) (vo.TrendReq, error) {
+func (ec *executionContext) unmarshalOTrendReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx context.Context, v interface{}) (vo.TrendReq, error) {
 	return ec.unmarshalInputTrendReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOTrendReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx context.Context, v interface{}) (*vo.TrendReq, error) {
+func (ec *executionContext) unmarshalOTrendReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx context.Context, v interface{}) (*vo.TrendReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOTrendReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx, v)
+	res, err := ec.unmarshalOTrendReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐTrendReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOUserIdInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOUserIdInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserIDInfo) graphql.Marshaler {
 	return ec._UserIdInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOUserIdInfo2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v []*vo.UserIDInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76942,7 +76942,7 @@ func (ec *executionContext) marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, sel, v[i])
+			ret[i] = ec.marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -76955,14 +76955,14 @@ func (ec *executionContext) marshalOUserIdInfo2ᚕᚖgiteaᚗbjxᚗcloudᚋallst
 	return ret
 }
 
-func (ec *executionContext) marshalOUserIdInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserIDInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOUserIdInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserIDInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserIDInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._UserIdInfo(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOUserOrganization2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v []*vo.UserOrganization) graphql.Marshaler {
+func (ec *executionContext) marshalOUserOrganization2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx context.Context, sel ast.SelectionSet, v []*vo.UserOrganization) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -76989,7 +76989,7 @@ func (ec *executionContext) marshalOUserOrganization2ᚕᚖgiteaᚗbjxᚗcloud�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNUserOrganization2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx, sel, v[i])
+			ret[i] = ec.marshalNUserOrganization2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserOrganization(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -77002,11 +77002,11 @@ func (ec *executionContext) marshalOUserOrganization2ᚕᚖgiteaᚗbjxᚗcloud�
 	return ret
 }
 
-func (ec *executionContext) marshalOUserRoleInfo2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserRoleInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOUserRoleInfo2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx context.Context, sel ast.SelectionSet, v vo.UserRoleInfo) graphql.Marshaler {
 	return ec._UserRoleInfo(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOUserRoleInfo2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserRoleInfo) graphql.Marshaler {
+func (ec *executionContext) marshalOUserRoleInfo2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐUserRoleInfo(ctx context.Context, sel ast.SelectionSet, v *vo.UserRoleInfo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -77195,19 +77195,19 @@ func (ec *executionContext) marshalO__Type2ᚖgithubᚗcomᚋ99designsᚋgqlgen�
 	return ec.___Type(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOprojectObjectTypesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx context.Context, v interface{}) (vo.ProjectObjectTypesReq, error) {
+func (ec *executionContext) unmarshalOprojectObjectTypesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx context.Context, v interface{}) (vo.ProjectObjectTypesReq, error) {
 	return ec.unmarshalInputprojectObjectTypesReq(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOprojectObjectTypesReq2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx context.Context, v interface{}) (*vo.ProjectObjectTypesReq, error) {
+func (ec *executionContext) unmarshalOprojectObjectTypesReq2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx context.Context, v interface{}) (*vo.ProjectObjectTypesReq, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOprojectObjectTypesReq2giteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx, v)
+	res, err := ec.unmarshalOprojectObjectTypesReq2githubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectObjectTypesReq(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOprojectUser2ᚕᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectUser) graphql.Marshaler {
+func (ec *executionContext) marshalOprojectUser2ᚕᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx context.Context, sel ast.SelectionSet, v []*vo.ProjectUser) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -77234,7 +77234,7 @@ func (ec *executionContext) marshalOprojectUser2ᚕᚖgiteaᚗbjxᚗcloudᚋalls
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNprojectUser2ᚖgiteaᚗbjxᚗcloudᚋallstarᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx, sel, v[i])
+			ret[i] = ec.marshalNprojectUser2ᚖgithubᚗcomᚋgalaxyᚑbookᚋpolarisᚑbackendᚋcommonᚋmodelᚋvoᚐProjectUser(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
